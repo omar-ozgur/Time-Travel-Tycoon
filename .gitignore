@@ -1,1 +1,3 @@
 Assets/*.pak
+*.log
+user/testresults/bp_boot.xml
