@@ -1,0 +1,188 @@
+{
+	"system": {
+		"document": {
+			"playbackOptions": {
+				"loopAnimation": true,
+				"restartOnAnimationSelection": true,
+				"playFromTheStart": false,
+				"firstFrameAtEndOfTimeline": false,
+				"wrapTimelineSlider": false,
+				"smoothTimelineSlider": false,
+				"playbackSpeed": 1.0
+			},
+			"displayOptions": {
+				"attachmentAndPoseModifierGizmos": true,
+				"animation": {
+					"movement": "inplace",
+					"compressionPreview": "compressed",
+					"animationEventGizmos": true,
+					"showTrail": true,
+					"showLocator": false,
+					"showDccToolOrigin": false
+				},
+				"showEdges": false,
+				"wireframe": false,
+				"fps": true,
+				"skeleton": {
+					"jointFilter": "",
+					"showJoints": false,
+					"showJointNames": false,
+					"showSkeletonBoundingBox": false
+				},
+				"showViewportOrientation": true,
+				"fov": 60.0,
+				"nearClip": 0.01,
+				"moveSpeed": 0.7,
+				"transformRestraint": 0,
+				"rotationSpeed": 2.0,
+				"smoothPos": 0.07,
+				"smoothRot": 0.05,
+				"followJoint": {
+					"jointName": "",
+					"lockAlign": false,
+					"usePosition": true,
+					"useRotation": false
+				},
+				"secondaryAnimation": {
+					"showDynamicProxies": false,
+					"showAuxiliaryProxies": false,
+					"showClothProxies": false
+				},
+				"physics": {
+					"showPhysicalProxies": false,
+					"showRagdollJointLimits": false
+				},
+				"grid": {
+					"showGrid": true,
+					"circular": true,
+					"mainColor": [ 255, 255, 255, 50 ],
+					"middleColor": [ 255, 255, 255, 10 ],
+					"alphaFalloff": 100,
+					"spacing": 1.0,
+					"count": 10,
+					"interCount": 10,
+					"origin": false,
+					"originColor": [ 10, 10, 10, 255 ]
+				},
+				"lighting": {
+					"brightness": 1.0,
+					"ambientColor": [ 128, 128, 128, 255 ],
+					"rotatelight": false,
+					"lightMultiplier": 3.0,
+					"lightSpecMultiplier": 2.0,
+					"directionalLightColor": [ 255, 255, 255, 255 ]
+				},
+				"background": {
+					"useGradient": true,
+					"topColor": [ 128, 128, 128, 255 ],
+					"bottomColor": [ 32, 32, 32, 255 ]
+				}
+			},
+			"playbackTime": 0.0
+		}
+	},
+	"dockWidgetManager": {
+		"openWidgets": [
+			{
+				"name": "ExplorerPanel-0",
+				"type": "ExplorerPanel",
+				"dockArea": 1,
+				"widget": {
+					"explorerRootIndex": 0,
+					"filterMode": false,
+					"filterOptions": {
+						"Infolder": true,
+						"Inpak": true,
+						"Infolderpak": true,
+						"Noaudio": true,
+						"Hasaudio": true,
+						"no": true,
+						"yes": true
+					},
+					"filter": "",
+					"treeView": {
+						"expandedItems": [ ],
+						"selectedItems": [ ],
+						"currentItem": "",
+						"sectionsHidden": [ 1, 2, 3, 4, 5 ],
+						"sectionsVisible": [ 0 ]
+					}
+				}
+			},
+			{
+				"name": "PropertiesPanel-0",
+				"type": "PropertiesPanel",
+				"dockArea": 2,
+				"widget": {
+					"propertyTree": {
+						"focusedRow": [ 0, 0 ],
+						"selection": [ [ 0, 0 ] ],
+						"expanded": [
+							1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0
+						]
+					},
+					"followMode": "selection",
+					"outlineMode": "oneTree",
+					"location": {
+						"entries": [
+							{
+								"subtree": 1,
+								"path": "animations/human/male/loadoutavatar.chrparams"
+							}
+						]
+					},
+					"previousLocations": [
+						{
+							"entries": [
+								{
+									"subtree": 1,
+									"path": "animations/human/male/loadoutavatar.chrparams"
+								}
+							]
+						}
+					],
+					"nextLocations": [ ]
+				}
+			}
+		]
+	},
+	"windowState": [
+		0, 0, 0, 255, 0, 0, 0, 0, 253, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 178, 0, 0, 1, 121, 252, 2, 0, 0, 0, 1, 251,
+		0, 0, 0, 30, 0, 69, 0, 120, 0, 112, 0, 108, 0, 111, 0, 114, 0, 101, 0, 114, 0, 80, 0, 97, 0, 110, 0, 101, 0, 108, 0, 45,
+		0, 48, 1, 0, 0, 0, 19, 0, 0, 1, 121, 0, 0, 0, 116, 0, 255, 255, 255, 0, 0, 0, 1, 0, 0, 0, 168, 0, 0, 1, 121, 252,
+		2, 0, 0, 0, 4, 251, 0, 0, 0, 32, 0, 115, 0, 99, 0, 101, 0, 110, 0, 101, 0, 95, 0, 112, 0, 97, 0, 114, 0, 97, 0, 109,
+		0, 101, 0, 116, 0, 101, 0, 114, 0, 115, 1, 0, 0, 0, 19, 0, 0, 0, 77, 0, 0, 0, 23, 0, 255, 255, 255, 251, 0, 0, 0, 38,
+		0, 98, 0, 108, 0, 101, 0, 110, 0, 100, 0, 95, 0, 115, 0, 112, 0, 97, 0, 99, 0, 101, 0, 95, 0, 112, 0, 114, 0, 101, 0, 118,
+		0, 105, 0, 101, 0, 119, 0, 0, 0, 0, 0, 255, 255, 255, 255, 0, 0, 0, 219, 0, 255, 255, 255, 251, 0, 0, 0, 36, 0, 97, 0, 110,
+		0, 105, 0, 109, 0, 95, 0, 101, 0, 118, 0, 101, 0, 110, 0, 116, 0, 95, 0, 112, 0, 114, 0, 101, 0, 115, 0, 101, 0, 116, 0, 115,
+		0, 0, 0, 0, 0, 255, 255, 255, 255, 0, 0, 0, 91, 0, 255, 255, 255, 251, 0, 0, 0, 34, 0, 80, 0, 114, 0, 111, 0, 112, 0, 101,
+		0, 114, 0, 116, 0, 105, 0, 101, 0, 115, 0, 80, 0, 97, 0, 110, 0, 101, 0, 108, 0, 45, 0, 48, 1, 0, 0, 0, 103, 0, 0, 1,
+		37, 0, 0, 0, 97, 0, 255, 255, 255, 0, 0, 0, 3, 0, 0, 3, 32, 0, 0, 0, 97, 252, 1, 0, 0, 0, 1, 251, 0, 0, 0, 16,
+		0, 112, 0, 108, 0, 97, 0, 121, 0, 98, 0, 97, 0, 99, 0, 107, 1, 0, 0, 0, 0, 0, 0, 3, 32, 0, 0, 1, 181, 0, 255, 255,
+		255, 0, 0, 1, 185, 0, 0, 1, 121, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0, 8, 0, 0, 0, 8, 252, 0, 0, 0, 0
+	],
+	"displayPanel": {
+		"propertyTree": {
+			"focusedRow": [ ],
+			"selection": [ ],
+			"expanded": [ 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+		}
+	},
+	"displayParameterSplittersWidths": [ 400, 200 ],
+	"displayOptionsVisible": false,
+	"playbackPanel": { "timeUnits": "seconds" },
+	"blendSpacePreview": {
+		"viewport": {
+			"cameraTarget": {
+				"q": [ 0.02034, -0.1018, 0.97532, -0.19487 ],
+				"t": [ -0.88123, 2.19696, 1.58522 ]
+			}
+		},
+		"characterScale": 0.5,
+		"showGrid": true
+	},
+	"animEventPresetPanel": {
+		"palette": { "addWithSingleClick": false, "hotkeys": [ ] }
+	},
+	"recentCharacters": [ ]
+}

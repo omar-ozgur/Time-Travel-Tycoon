@@ -1,0 +1,5 @@
+<ObjectLayer>
+ <Layer Name="Sky" GUID="{8CA60922-C522-499C-B059-5AC457486C98}" FullName="Sky" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="1" ID="0">
+  <LayerObjects />
+ </Layer>
+</ObjectLayer>

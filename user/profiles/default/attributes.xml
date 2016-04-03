@@ -1,0 +1,14 @@
+<Attributes Version="31">
+ <Attr name="Fullscreen" value="0"/>
+ <Attr name="Resolution" value="4"/>
+ <Attr name="SFXVolume" value="1"/>
+ <Attr name="StereoDevice" value="0"/>
+ <Attr name="SysSpec" value="4"/>
+ <Attr name="SysSpecGameEffects" value="4"/>
+ <Attr name="SysSpecObjectDetail" value="4"/>
+ <Attr name="SysSpecParticles" value="4"/>
+ <Attr name="SysSpecPostProcessing" value="4"/>
+ <Attr name="SysSpecShading" value="4"/>
+ <Attr name="SysSpecShadows" value="4"/>
+ <Attr name="SysSpecWater" value="4"/>
+</Attributes>

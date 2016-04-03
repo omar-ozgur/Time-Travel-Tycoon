@@ -1,0 +1,35 @@
+<ObjectLayer>
+ <Layer Name="Main" GUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
+  <LayerObjects>
+   <Object Type="Entity" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{9713E70A-B2F8-4E4F-BDBF-847207C8DEC3}" Name="SpawnPoint1" Pos="512,512,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="SpawnPoint" HasEntity="1">
+    <Properties bDoVisTest="1" bEnabled="1" groupName="" bInitialSpawn="0" teamName=""/>
+    <FlowGraph Description="" Group="Spawn" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="1" Class="Game:Start" pos="-180,-100,0" flags="1">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="3" Class="entity:SpawnPoint" pos="50,-100,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Spawn="0"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="3" nodeOut="1" portIn="Spawn" portOut="output" enabled="1"/>
+     </Edges>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{9D0B9C0E-2FF3-4DB0-8AFC-16A0504DC835}" Name="mh60_a1" Pos="506.92355,536.09125,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Assets/objects/vehicles/mh60_blackhawk/mh60_a.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{6C00C4D5-5E94-4F36-846F-CA65AE396CC5}" Name="rocket_launcher_fp1" Pos="509.81055,525.53021,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Assets/objects/weapons/rocket_launcher/rocket_launcher_fp.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>
