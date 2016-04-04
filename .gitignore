@@ -1,5 +1,4 @@
 Assets/*.pak
-editor.log
-gc.log
+*.log
 user/testresults/bp_boot.xml
 logbackups
