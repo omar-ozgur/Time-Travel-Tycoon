@@ -1,1 +1,5 @@
 Assets/*.pak
+editor.log
+gc.log
+user/testresults/bp_boot.xml
+logbackups
