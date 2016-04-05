@@ -1,0 +1,7 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="20400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/generic/concrete/plaster_white_a_diff.tif"/>
+  <Texture Map="Bumpmap" File="textures/generic/concrete/plaster_white_a_ddna.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0.050000001"/>
+</Material>

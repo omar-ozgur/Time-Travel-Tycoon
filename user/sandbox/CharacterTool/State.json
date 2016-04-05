@@ -101,9 +101,24 @@
 					},
 					"filter": "",
 					"treeView": {
-						"expandedItems": [ ],
-						"selectedItems": [ ],
-						"currentItem": "",
+						"expandedItems": [
+							"Characters",
+							"Skeletons",
+							"Compression (Animations/)",
+							"Skeletons|animations",
+							"Skeletons|objects",
+							"Skeletons|animations|human",
+							"Skeletons|animations|human|male",
+							"Characters|objects",
+							"Characters|objects|characters",
+							"Characters|objects|characters|animals",
+							"Characters|objects|characters|animals|reptiles",
+							"Characters|objects|characters|animals|reptiles|alligator"
+						],
+						"selectedItems": [
+							"Characters|objects|characters|animals|reptiles|alligator|alligator.cdf"
+						],
+						"currentItem": "Skeletons|animations|human|male|loadoutavatar.chrparams",
 						"sectionsHidden": [ 1, 2, 3, 4, 5 ],
 						"sectionsVisible": [ 0 ]
 					}
@@ -115,23 +130,50 @@
 				"dockArea": 2,
 				"widget": {
 					"propertyTree": {
-						"focusedRow": [ 0, 0 ],
-						"selection": [ [ 0, 0 ] ],
-						"expanded": [
-							1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0
-						]
+						"focusedRow": [ ],
+						"selection": [ ],
+						"expanded": [ 1, 1, 1, 1, 1, 0, 1 ]
 					},
 					"followMode": "selection",
 					"outlineMode": "oneTree",
 					"location": {
 						"entries": [
 							{
-								"subtree": 1,
-								"path": "animations/human/male/loadoutavatar.chrparams"
+								"subtree": 0,
+								"path": "objects/characters/animals/reptiles/alligator/alligator.cdf"
 							}
 						]
 					},
 					"previousLocations": [
+						{ "entries": [ { "subtree": 1, "path": "" } ] },
+						{ "entries": [ { "subtree": 1, "path": "" } ] },
+						{
+							"entries": [
+								{
+									"subtree": 1,
+									"path": "animations/human/male/loadoutavatar.chrparams"
+								}
+							]
+						},
+						{
+							"entries": [
+								{
+									"subtree": 1,
+									"path": "animations/human/male/male.chrparams"
+								}
+							]
+						},
+						{
+							"entries": [
+								{
+									"subtree": 1,
+									"path": "animations/human/male/player.chrparams"
+								}
+							]
+						},
+						{
+							"entries": [ { "subtree": 3, "path": "Animations/SkeletonList.xml" } ]
+						},
 						{
 							"entries": [
 								{
@@ -184,5 +226,7 @@
 	"animEventPresetPanel": {
 		"palette": { "addWithSingleClick": false, "hotkeys": [ ] }
 	},
-	"recentCharacters": [ ]
+	"recentCharacters": [
+		"objects/characters/animals/reptiles/alligator/alligator.cdf"
+	]
 }
