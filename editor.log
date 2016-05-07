@@ -1,5 +1,5 @@
-BackupNameAttachment=" Build(191) 07 May 16 (13 11 09)"  -- used by backup system
-Log Started at Sat May  7 13:11:09 2016
+BackupNameAttachment=" Build(191) 07 May 16 (13 31 33)"  -- used by backup system
+Log Started at Sat May  7 13:31:33 2016
 Built on Mar 18 2016 10:51:44
 Running 64 bit Windows version
 Executable: C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.0\bin\win_x64\Sandbox.exe
@@ -37,683 +37,1766 @@ Processor 1:
  
 [Error] [CVARS]: [DUPLICATE] CXConsole::AddCommand(): console command [hmd_recenter_pose] is already registered
 Loading Config file system.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\system.cfg)
-<13:11:09> OnSysSpecChange(4)
-<13:11:09> [Warning] Config file VeryHighSpec.cfg not found!
-<13:11:09> Loading Config file %ENGINEROOT%/editor.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\editor.cfg)
-<13:11:09> [Warning] Config file game.cfg not found!
-<13:11:09> Loading Config file project.cfg (project.cfg)
-<13:11:09> GameDir: Assets
-<13:11:09> Loading Config file game.cfg (assets\game.cfg)
-<13:11:09> creating CVarGroups from directory 'assets/Config/CVarGroups' ...
-<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_full.cfg (assets\config\cvargroups\sys_spec_full.cfg)
-<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_gameeffects.cfg (assets\config\cvargroups\sys_spec_gameeffects.cfg)
-<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_light.cfg (assets\config\cvargroups\sys_spec_light.cfg)
-<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_objectdetail.cfg (assets\config\cvargroups\sys_spec_objectdetail.cfg)
-<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_particles.cfg (assets\config\cvargroups\sys_spec_particles.cfg)
-<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_physics.cfg (assets\config\cvargroups\sys_spec_physics.cfg)
-<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_postprocessing.cfg (assets\config\cvargroups\sys_spec_postprocessing.cfg)
-<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_quality.cfg (assets\config\cvargroups\sys_spec_quality.cfg)
-<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_shading.cfg (assets\config\cvargroups\sys_spec_shading.cfg)
-<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_shadows.cfg (assets\config\cvargroups\sys_spec_shadows.cfg)
-<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_sound.cfg (assets\config\cvargroups\sys_spec_sound.cfg)
-<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_texture.cfg (assets\config\cvargroups\sys_spec_texture.cfg)
-<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_textureresolution.cfg (assets\config\cvargroups\sys_spec_textureresolution.cfg)
-<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_volumetriceffects.cfg (assets\config\cvargroups\sys_spec_volumetriceffects.cfg)
-<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_water.cfg (assets\config\cvargroups\sys_spec_water.cfg)
-<13:11:09> creating CVarGroups from directory 'Engine/Config/CVarGroups' ...
-<13:11:09> [Warning] <ThreadConfigInfo>: Active platform identifier string "pc" not found in config "config/engine_core.thread_config".
-<13:11:09> [Warning] <ThreadConfigInfo>: Active platform identifier string "pc" not found in config "config/engine_sandbox.thread_config".
-<13:11:09> Windows 10 64 bit (build 10.0.10586)
-<13:11:09> User name: "Omar"
-<13:11:09> System language: English
-<13:11:09> Windows Directory: "C:\Windows"
-<13:11:09> Local time is 13:11:09 05/07/16, system running for 10 minutes
-<13:11:09> 8095MB physical memory installed, 4985MB available, 134217727MB virtual memory installed, 38 percent of memory in use
-<13:11:09> PageFile usage: 48MB, Working Set: 56MB, Peak PageFile usage: 48MB,
-<13:11:09> Current display mode is 1280x800x32, (Unknown graphics card)
-<13:11:09> IBM enhanced (101/102-key) keyboard and 3+ button mouse installed
-<13:11:09> --------------------------------------------------------------------------------
-<13:11:09> Loading Config file %USER%/game.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\gamesdk_5.0\gamesdk\user\game.cfg)
-<13:11:09> Loading Config file system.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\system.cfg)
-<13:11:09> OnSysSpecChange(4)
-<13:11:09> Loading Config file VeryHighSpec.cfg (assets\config\veryhighspec.cfg)
-<13:11:09> Loading Config file %ENGINEROOT%/editor.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\editor.cfg)
-<13:11:09> Loading Config file game.cfg (assets\game.cfg)
-<13:11:09> Loading Config file project.cfg (project.cfg)
-<13:11:09> [Warning] Config file user.cfg not found!
-<13:11:09> Stream Engine Initialization
-<13:11:09> GameName: CRYENGINE SDK
-<13:11:09> BuildTime: Mar 18 2016 10:51:44
-<13:11:09> Physics initialization
-<13:11:09> Initializing CryPhysics...
-<13:11:09> Initializing CryPhysics done, MemUsage=968Kb
-<13:11:09> <Audio>: AudioSystem initialization
-<13:11:09> Initializing CryAudioSystem...
-<13:11:09> Initializing CryAudioImplWwise...
-<13:11:09> <Audio> <0.438>: CryAudioImplWwise loaded
-<13:11:09> Initializing CryAudioImplWwise done, MemUsage=4732Kb
-<13:11:10> Initializing CryAudioSystem done, MemUsage=38152Kb
-<13:11:10> Renderer initialization
-<13:11:10> Initializing CryRenderD3D11...
-<13:11:10> CRenderer sizeof(Vec2f16)=4 sizeof(Vec3f16)=8
-<13:11:10> Initializing CryRenderD3D11 done, MemUsage=3816Kb
-<13:11:10> Initializing Direct3D and creating game window:
-<13:11:10> D3DX_SDK_VERSION = <UNDEFINED>
-<13:11:10> Direct3D driver is creating...
-<13:11:10> Crytek Direct3D driver version 2.00 (Mar 18 2016 <10:51:35>)
-<13:11:10> Creating window called 'CRYENGINE SDK' (1280x720)
-<13:11:10> D3D Adapter: Description: Intel(R) Iris(TM) Graphics 6100
-<13:11:10> D3D Adapter: Driver version (UMD): 20.19.15.4331
-<13:11:10> D3D Adapter: VendorId = 0x8086
-<13:11:10> D3D Adapter: DeviceId = 0x162B
-<13:11:10> D3D Adapter: SubSysId = 0x013F106B
-<13:11:10> D3D Adapter: Revision = 9
-<13:11:10> Active GPUs: 1
-<13:11:10> Using pixel texture formats:
-<13:11:10>   R8G8B8A8S, mips (autogen), blend, RT (multi-sampled), gather
-<13:11:10>   R8G8B8A8, mips (autogen), sRGB, blend, RT (multi-sampled), gather
-<13:11:10>   A8, mips (autogen), blend, RT (multi-sampled), gather
-<13:11:10>   R8, mips (autogen), blend, RT (multi-sampled), gather
-<13:11:10>   R8S, mips (autogen), blend, RT (multi-sampled), gather
-<13:11:10>   R16, mips (autogen), blend, RT (multi-sampled), gather (comparable)
-<13:11:10>   R16F, mips (autogen), blend, RT (multi-sampled), gather
-<13:11:10>   R32F, mips (autogen), blend, RT (multi-sampled), gather (comparable)
-<13:11:10>   R8G8, mips (autogen), blend, RT (multi-sampled), gather
-<13:11:10>   R8G8S, mips (autogen), blend, RT (multi-sampled), gather
-<13:11:10>   R16G16, mips (autogen), blend, RT (multi-sampled), gather
-<13:11:10>   R16G16S, mips (autogen), blend, RT (multi-sampled), gather
-<13:11:10>   R16G16F, mips (autogen), blend, RT (multi-sampled), gather
-<13:11:10>   R11G11B10F, mips (autogen), blend, RT (multi-sampled), gather
-<13:11:10>   R10G10B10A2, mips (autogen), blend, RT (multi-sampled), gather
-<13:11:10>   R16G16B16A16, mips (autogen), blend, RT (multi-sampled), gather
-<13:11:10>   R16G16B16A16S, mips (autogen), blend, RT (multi-sampled), gather
-<13:11:10>   R16G16B16A16F, mips (autogen), blend, RT (multi-sampled), gather
-<13:11:10>   R32G32B32A32F, mips (autogen), blend, RT (multi-sampled), gather
-<13:11:10>   BC1, mips, sRGB, gather
-<13:11:10>   BC2, mips, sRGB, gather
-<13:11:10>   BC3, mips, sRGB, gather
-<13:11:10>   BC4, mips, gather
-<13:11:10>   BC4S, mips, gather
-<13:11:10>   BC5, mips, gather
-<13:11:10>   BC5S, mips, gather
-<13:11:10>   BC6UH, mips, gather
-<13:11:10>   BC6SH, mips, gather
-<13:11:10>   BC7, mips, sRGB, gather
-<13:11:10>   R9G9B9E5, mips, gather
-<13:11:10>   R32FX8T, mips, gather (comparable)
-<13:11:10>   R32T, mips
-<13:11:10>   R24G8T, mips
-<13:11:10>   R16T, mips
-<13:11:10>   B5G6R5, mips (autogen), blend, RT (multi-sampled), gather
-<13:11:10>   B5G5R5, mips (autogen), blend, RT (multi-sampled), gather
-<13:11:10>   B8G8R8A8, mips (autogen), sRGB, blend, RT (multi-sampled), gather
-<13:11:10>   B8G8R8X8, mips (autogen), sRGB, blend, RT (multi-sampled), gather
-<13:11:10>  Renderer HDR_Scalar: R32F
-<13:11:10>  ****** D3D11 CryRender Stats ******
-<13:11:10>  Driver description: Intel(R) Iris(TM) Graphics 6100
-<13:11:10>  Feature level: DirectX 11.0
-<13:11:10>  Full stats: 
-<13:11:10>  Rasterizer: Hardware
-<13:11:10>  Current Resolution: 1280x720x32 Windowed
-<13:11:10>  HDR Rendering: FP16
-<13:11:10>  Occlusion queries: Supported
-<13:11:10>  Geometry instancing: Supported
-<13:11:10>  NormalMaps compression : Supported
-<13:11:10>  Gamma control: Hardware
-<13:11:10>  Vertex Shaders version 4.0
-<13:11:10>  Pixel Shaders version 4.0
-<13:11:10>  Used GeomInstancingThreshold is 7
-<13:11:10>  Shader model usage: 'SM.5.0'
-<13:11:10>  *****************************************
-<13:11:10>  
-<13:11:10> Init Shaders
-<13:11:10> Flushing pended shaders...
-<13:11:10> Finished flushing pended shaders...
-<13:11:10> Flushing pended shaders...
-<13:11:10> Finished flushing pended shaders...
-<13:11:10>  General shader quality: VeryHigh
-<13:11:10>  Metal shader quality: VeryHigh
-<13:11:10>  Glass shader quality: VeryHigh
-<13:11:10>  Vegetation shader quality: VeryHigh
-<13:11:10>  Ice shader quality: VeryHigh
-<13:11:10>  Terrain shader quality: VeryHigh
-<13:11:10>  Shadow shader quality: VeryHigh
-<13:11:10>  Water shader quality: High
-<13:11:10>  FX shader quality: VeryHigh
-<13:11:10>  PostProcess shader quality: VeryHigh
-<13:11:10>  HDR shader quality: VeryHigh
-<13:11:10>  Sky shader quality: VeryHigh
-<13:11:10> Render quality: VeryHigh
-<13:11:10> Allocate render buffer for particles (16384 verts, 49152 tris)...
-<13:11:10> Init textures management (128 Mb of video memory is available)...
-<13:11:10>   Enabling of textures streaming...
-<13:11:10>   Using 512 Mb of textures pool for streaming...
-<13:11:10>   Video textures: Atlas clouds max size: 24 Mb
-<13:11:10>   Video textures: Atlas sprites max size: 32 Mb
-<13:11:10>   Video textures: Dynamic managed max size: 80 Mb
-<13:11:10>   Reloading all textures...
-<13:11:10>   Finished reloading textures...
-<13:11:10>   Finished initializing textures streaming...
-<13:11:11> Initialized hardware mouse (game is allowed to confine mouse to window)
-<13:11:11> Using Scaleform GFx 3.3.94
-<13:11:11>   Using dynamic pool
-<13:11:11> Font initialization
-<13:11:11> Initializing CryFont...
-<13:11:11> Using FreeType 2.5.5
-<13:11:11> Initializing CryFont done, MemUsage=260Kb
-<13:11:11> *** Init system render resources ***
-<13:11:11> Allocate render buffer for particles (16384 verts, 49152 tris)...
-<13:11:11> Allocating shadow map cache 4214 x 4214: 33.87 MB
-<13:11:11> Network initialization
-<13:11:11> Initializing CryNetwork...
-<13:11:11> [LagProfiles] Could not load "". 6 default profiles activated.
-<13:11:11> [net] Socket IO management: External [iocp], Internal [iocp]
-<13:11:11> network hostname: DESKTOP-GM0D50Q
-<13:11:11>   ip:192.168.1.24
-<13:11:11> [Network Version]: PROFILE DEVELOPMENT BUILD
-<13:11:11> Initializing CryNetwork done, MemUsage=2568Kb
-<13:11:11> Online initialization
-<13:11:11> Initializing CryOnline...
-<13:11:11> DLL Failed to load, error code: 7E
-<13:11:11> Lobby initialization
-<13:11:11> Initializing CryLobby...
-<13:11:11> Initializing CryLobby done, MemUsage=420Kb
-<13:11:11> MovieSystem initialization
-<13:11:11> Initializing CryMovie...
-<13:11:12> Initializing CryMovie done, MemUsage=552Kb
-<13:11:12> Console initialization
-<13:11:12> Time initialization
-<13:11:12> Input initialization
-<13:11:12> Initializing CryInput...
-<13:11:12> Initializing DirectInput
-<13:11:12> Initializing Keyboard
-<13:11:12> Initializing mouse
-<13:11:12> Initializing CryInput done, MemUsage=1248Kb
-<13:11:12> AI initialization
-<13:11:12> Initializing CryAISystem...
-<13:11:12> Initializing CryAISystem done, MemUsage=1256Kb
-<13:11:12>  
-<13:11:12> con_debug=0 [  ]
-<13:11:12> con_display_last_messages=0 [  ]
-<13:11:12> con_line_buffer_size=1000 [  ]
-<13:11:12> con_restricted=0 [ RESTRICTEDMODE ]
-<13:11:12> con_showonload=0 [  ]
-<13:11:12>  
-<13:11:12> con_debug=0 [  ]
-<13:11:12> con_display_last_messages=0 [  ]
-<13:11:12> con_line_buffer_size=1000 [  ]
-<13:11:12> con_restricted=0 [ RESTRICTEDMODE ]
-<13:11:12> con_showonload=0 [  ]
-<13:11:12>  
-<13:11:12> con_debug=0 [  ]
-<13:11:12>  
-<13:11:12> con_debug=0 [  ]
-<13:11:12> Initializing Animation System
-<13:11:12> Initializing CryAnimation...
-<13:11:12> Initializing CryAnimation done, MemUsage=2156Kb
-<13:11:12> Initializing 3D Engine
-<13:11:12> Initializing Cry3DEngine...
-<13:11:12> Sky light: Optical lookup tables loaded off disc.
-<13:11:12> Initializing Cry3DEngine done, MemUsage=15108Kb
-<13:11:12> Script System Initialization
-<13:11:12> Initializing CryScriptSystem...
-<13:11:12> Initializing CryScriptSystem done, MemUsage=1052Kb
-<13:11:12> Entity system initialization
-<13:11:12> Initializing CryEntitySystem...
-<13:11:12> Initializing CryEntitySystem done, MemUsage=2472Kb
-<13:11:12> LiveCreate initialization
-<13:11:12> LiveCreateHost not created, using NULL implementation.
-<13:11:12> CryMonoBridge initialization
-<13:11:12> Initializing CryMonoBridge...
-<13:11:12> Initializing CryMonoBridge done, MemUsage=892Kb
-<13:11:12> Initializing AI System
-<13:11:12> AI: [AISYSTEM] Initialization started.
-<13:11:13> AI: Loaded 54 AI Behaviors in 0.24s...
-<13:11:13> Registering CentralInterestManager with EntitySystem
-<13:11:13> AI: [AISYSTEM] Initialization finished.
-<13:11:13> Initializing additional systems
-<13:11:13> Dynamic Response System initialization
-<13:11:13> Initializing CryDynamicResponseSystem.dll...
-<13:11:13> Initializing CryDynamicResponseSystem.dll done, MemUsage=488Kb
-<13:11:13> OnSysSpecChange(4)
-<13:11:13> Loading Config file VeryHighSpec.cfg (assets\config\veryhighspec.cfg)
-<13:11:13> Loading Config file %ENGINEROOT%/editor.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\editor.cfg)
-<13:11:13> Loading Config file game.cfg (assets\game.cfg)
-<13:11:13> Current Language: English 
-<13:11:13> Windows 10 10.0 (C:\Windows)
-<13:11:13> Local time is 13:11:13 05/07/16, system running for 10 minutes
-<13:11:13> 8095MB phys. memory installed, 5251MB paging available
-<13:11:13> Current display mode is 1280x800x32, (Unknown graphics card)
-<13:11:13> IBM enhanced (101/102-key) keyboard and 3+ button mouse installed
-<13:11:13> --------------------------------------------------------------------------------
-<13:11:13> sys_dll_game = Game
-<13:11:13> sys_game_folder = Assets
-<13:11:13> sys_localization_folder = localization
-<13:11:13> <ThreadConfigInfo>: [XML Parsing] Thread with name "NetworkStallTicker" already loaded. Overriding with new configuration
-<13:11:13> <ThreadConfigInfo>: [XML Parsing] Thread with name "ZLibCompressor" already loaded. Overriding with new configuration
-<13:11:13> [Warning] <ThreadConfigInfo>: Active platform identifier string "pc" not found in config "config/game.thread_config".
-<13:11:13> [Invite] SetInviteAcceptedState 0 to 0
-<13:11:13> [Invite] InvalidateInviteData
-<13:11:13> CGameLocalizationManager::LoadLocalizationData() is loading localization file=Libs/Localization/localization.xml
-<13:11:14> Finished loading item XML definitions from 'scripts/entities/items/XML'!
-<13:11:14> Finished loading ammo XML definitions from 'scripts/entities/items/XML'!
-<13:11:14> [PlayerProfiles] Login of user 'Omar' successful.
-<13:11:14> [PlayerProfiles] Found 1 profiles.
-<13:11:14>    Profile 0 : 'default'
-<13:11:14> [Error] [CVARS]: [MISSING] [e_TerrainAO] is not a registered console variable; referenced when testing console variable group [sys_spec_shading] = [4]
-<13:11:14> [Error] [CVARS]: [MISSING] [e_ShadowsOnAlphaBlend] is not a registered console variable; referenced when testing console variable group [sys_spec_shadows] = [4]
-<13:11:14> CGame: Loading singleplayer difficulty config 'difficulty/easy.cfg'
-<13:11:14> Loading Config file difficulty/easy.cfg (assets\difficulty\easy.cfg)
-<13:11:14> [Error] [CVARS]: [MISSING] [e_TerrainAO] is not a registered console variable; referenced when testing console variable group [sys_spec_shading] = [4]
-<13:11:14> [Error] [CVARS]: [MISSING] [e_ShadowsOnAlphaBlend] is not a registered console variable; referenced when testing console variable group [sys_spec_shadows] = [4]
-<13:11:14> [GameProfiles]: Successfully activated profile 'default' for user 'Omar'
-<13:11:14> username Omar signedIn 1 userIndex 0
-<13:11:14> ActivateProfile profileName default
-<13:11:14> [Warning] CActionMap::LoadRebindingDataFromXML: Action: xi_v_rotateyaw, doesn't exist, can't rebind
-<13:11:14> [Warning] CActionMap::LoadRebindingDataFromXML: Action: xi_v_rotatepitch, doesn't exist, can't rebind
-<13:11:14> CGame: Loading singleplayer difficulty config 'difficulty/easy.cfg'
-<13:11:14> Loading Config file difficulty/easy.cfg (assets\difficulty\easy.cfg)
-<13:11:14> CPlayerProgression::Constructor
-<13:11:14> CPlayerProgression::Init() Done
-<13:11:14> PersistantStats profile version mismatch, got 0, expected 3, so ignoring
-<13:11:14> CGame::LoadPatchLocalizationData() is loading localization file=localization_english.xml
-<13:11:14> CGame::InitGameType() multiplayer=false, fromInit=true
-<13:11:14> hostName = 'DESKTOP-GM0D50Q'
-<13:11:14> SetGlobalState 1->2 'INIT'->'RUNNING' 5.0 seconds
-<13:11:14> Loading singleplayer configuration...
-<13:11:14> Loading Config file singleplayer.cfg (assets\config\singleplayer.cfg)
-<13:11:14> Changing "ai_CompatibilityMode" cvar from '' to 'crysis2' (now got 1 cvar to revert when switching game type)
-<13:11:14> Changing "ai_BurstWhileMovingDestinationRange" cvar from '2' to '9999.0' (now got 2 cvars to revert when switching game type)
-<13:11:14> Changing "g_telemetryConfig" cvar from 'none' to 'SP' (now got 3 cvars to revert when switching game type)
-<13:11:14> Changing "net_inactivitytimeout" cvar from '30' to '3600' (now got 4 cvars to revert when switching game type)
-<13:11:14> Changing "net_inactivitytimeoutDevmode" cvar from '30' to '3600' (now got 5 cvars to revert when switching game type)
-<13:11:14> Changing "pl_movement.nonCombat_heavy_weapon_speed_scale" cvar from '0.75' to '1.0' (now got 6 cvars to revert when switching game type)
-<13:11:14> No need to change "sv_gamerules" to 'SinglePlayer' as that's also its current value
-<13:11:14> No need to change "ca_StreamCHR" to '1' as that's also its current value
-<13:11:14> Finished loading singleplayer configuration, used 192/5120 bytes storing old cvar values
-<13:11:14> [Lobby] Terminate service 1 error 4
-<13:11:14> CGame: Singleplayer game type initialised
-<13:11:14> CGame: Loading singleplayer difficulty config 'difficulty/easy.cfg'
-<13:11:14> Loading Config file difficulty/easy.cfg (assets\difficulty\easy.cfg)
-<13:11:14> Registering TPS Extensions...
-<13:11:14> <Lua> PipeManager: Creating goal pipes
-<13:11:14> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesShared.xml...
-<13:11:14> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesCoordination.xml...
-<13:11:14> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesHuman.xml...
-<13:11:14> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesHeli.xml...
-<13:11:14> <Lua> PipeManager: Finished creating goal pipes!
-<13:11:14> [FEATURETESTER] (No instance) Creating feature tester instance
-<13:11:14> Ending game context...
-<13:11:14> <Lua> Loading AIAlertness.lua
-<13:11:15> [Warning] No game rules active, can not precache resources
-<13:11:15> Initializing default materials...
-<13:11:15> [MFX] Loading FXLib 'breakables' ...
-<13:11:15> [MFX] Loading FXLib 'collisions' ...
-<13:11:15> [MFX] Loading FXLib 'foley' ...
-<13:11:15> [MFX] Loading FXLib 'foley_grunt' ...
-<13:11:15> [MFX] Loading FXLib 'foley_player' ...
-<13:11:15> [MFX] Loading FXLib 'footstep_grunt' ...
-<13:11:15> [MFX] Loading FXLib 'footstep_player' ...
-<13:11:15> [MFX] Loading FXLib 'footsteps' ...
-<13:11:15> [MFX] Loading FXLib 'grenade' ...
-<13:11:15> [MFX] Loading FXLib 'melee' ...
-<13:11:15> [MFX] Loading FXLib 'player_fx' ...
-<13:11:15> [MFX] Loading FXLib 'projectiles' ...
-<13:11:15> [MFX] Loading FXLib 'tornado' ...
-<13:11:15> [MFX] Loading FXLib 'vegetation' ...
-<13:11:16> [MFX] Loading FXLib 'vehicles' ...
-<13:11:16> -- FAIL (strcmpi( src.wrapped.c_str(), dst.wrapped.c_str()) == 0): [CryAction]:SCRCRef_Serialization_StoreString_Empty (d:\jk\mastercd13_gamesdk_release\bintemp\uber_files\cryaction\..\..\..\Code\CryEngine\CryAction\Mannequin\Tests\Test_CRCRef.cpp:59)
-<13:11:16> UnitTesting Finished Tests: 69 Succeeded: 68, Failed: 1, Time: 25.39 ms
-<13:11:16> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
-<13:11:16> Loading Config file singleplayer.cfg (assets\config\singleplayer.cfg)
-<13:11:16> Finished loading ammo XML definitions from 'scripts/entities/items/XML'!
-<13:11:16> [Warning] No game rules active, can not precache resources
-<13:11:16> AI: [AISYSTEM] Initializing AI Actions.
-<13:11:16> [Warning] [flow] Trying to link an invalid node
-<13:11:16> [Warning] [flow] Trying to link an invalid node
-<13:11:16> [Warning] [flow] Trying to link an invalid node
-<13:11:16> [Error] [flow] guy_eat_food : Can't link edge <43,Result> to <20,Destination> - FLOWGRAPH DISCARDED
-<13:11:16> [Error] [flow] guy_eat_food : Did not load all edges (21/29 edges) - FLOWGRAPH DISCARDED
-<13:11:16> [Warning] [flow] Trying to link an invalid node
-<13:11:16> [Warning] [flow] Trying to link an invalid node
-<13:11:16> [Warning] [flow] Trying to link an invalid node
-<13:11:16> [Warning] [flow] Trying to link an invalid node
-<13:11:16> [Error] [flow] guy_look_random : Can't link edge <4,Done> to <2,end> - FLOWGRAPH DISCARDED
-<13:11:16> [Error] [flow] guy_look_random : Did not load all edges (2/8 edges) - FLOWGRAPH DISCARDED
-<13:11:16> AI: [AISYSTEM] Initializing Smart Objects.
-<13:11:16> CFlowGraph::Migrate: FG 'Libs/ActionGraphs/guy_eat_food': NodeID 20: Remapped attribute 'Value' to 'Speed' value='5' 
-<13:11:16> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
-<13:11:16> [Warning] [flow] Trying to link an invalid node
-<13:11:16> [Warning] [flow] Trying to link an invalid node
-<13:11:16> [Warning] The hypergraph has been changed during serialization. Please see the log for details on replaced nodes and reconnected links.
-<13:11:16> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
-<13:11:16> [Warning] [flow] Trying to link an invalid node
-<13:11:16> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
-<13:11:16> [Warning] [flow] Trying to link an invalid node
-<13:11:16> [Warning] [flow] Trying to link an invalid node
-<13:11:16> OnSysSpecChange(2)
-<13:11:16> Loading Config file MedSpec.cfg (assets\config\medspec.cfg)
-<13:11:16> Flushing pended shaders...
-<13:11:16> Finished flushing pended shaders...
-<13:11:17> Flushing pended shaders...
-<13:11:17> Finished flushing pended shaders...
-<13:11:17> Allocating shadow map cache 2810 x 2810: 15.06 MB
-<13:11:17> Allocating shadow map cache 6324 x 6324: 76.28 MB
-<13:11:17> Allocating shadow map cache 4214 x 4214: 33.87 MB
-<13:11:17> Loading Config file %ENGINEROOT%/editor.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\editor.cfg)
-<13:11:17> Loading Config file game.cfg (assets\game.cfg)
-<13:11:17> Unloading all previous plugins
-<13:11:17> Loading plugins...
-<13:11:17> Successfully loaded plugin 'CryDesigner', version '1' (GUID: )
-<13:11:17> Successfully loaded plugin 'EditorPhysics', version '1' (GUID: (null))
-<13:11:17> Successfully loaded plugin 'AudioControlsEditor', version '1' (GUID: {DFA4AFF7-2C70-4B29-B736-GRH00040314})
-<13:11:17> Successfully loaded plugin 'QtConsole', version '1' (GUID: {B0E9DE33-C2E3-4506-8B63-B023327156BB})
-<13:11:17> Cannot query plugin DLL 'C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.0\bin\win_x64\EditorPlugins\EditorCryAudioImplFmod.dll' factory pointer (is it a Sandbox plugin?)
-<13:11:17> Cannot query plugin DLL 'C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.0\bin\win_x64\EditorPlugins\EditorCryAudioImplSDLMixer.dll' factory pointer (is it a Sandbox plugin?)
-<13:11:17> Cannot query plugin DLL 'C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.0\bin\win_x64\EditorPlugins\EditorCryAudioImplWwise.dll' factory pointer (is it a Sandbox plugin?)
-<13:11:18> Successfully loaded plugin 'DynamicResponseSystemEditor', version '1' (GUID: {DFA4AFF7-2C70-4B29-B736-GRH00290515})
-<13:11:18> Successfully loaded plugin 'EditorEnvironment', version '1' (GUID: {800BBFA9-9895-4E81-AB02-7425FD4F5554})
-<13:11:18> Successfully loaded plugin 'ParticleLibrary', version '1' (GUID: (null))
-<13:11:18> Successfully loaded plugin 'TrackView', version '1' (GUID: {7C4EB160-30AC-44C1-92D6-6D4B74B2E96B})
-<13:11:18> FBX plugin: CreatePluginInstance
-<13:11:18> Successfully loaded plugin 'FBX Exporter', version '1' (GUID: {6CD02F95-362C-4ADF-8BAE-87C6342A8027})
-<13:11:18> Successfully loaded plugin 'MeshImporter', version '1' (GUID: {4F68F679-39AD-4BB4-B5E2-8A8DD3020DC1})
-<13:11:18> Started game resource files indexing...
-<13:11:18> Loading Localization File localization\english_xml\text_ui_ingame.xml
-<13:11:18> Loading Localization File localization\english_xml\text_ui_items.xml
-<13:11:18> Loading Localization File localization\english_xml\text_ui_levels.xml
-<13:11:18> Loading Localization File localization\english_xml\text_ui_menus.xml
-<13:11:18> Loading Localization File localization\english_xml\text_ui_warnings.xml
-<13:11:18> Loading Localization File localization\english_xml\ai_dialog_recording_list.xml
-<13:11:18> Loading Localization File localization\english_xml\dialog_recording_list.xml
-<13:11:18> [CONSOLE] Executing console command 'exec autoexec.cfg'
-<13:11:18> Executing console batch file (try game,config,root): "autoexec.cfg" not found!
-<13:11:18> [CONSOLE] Executing console command 'exec editor.cfg'
-<13:11:18> Executing console batch file (try game,config,root): "editor.cfg" found in editor.cfg ...
-<13:11:18> ed_MissingAssetResolver=0 [  ]
-<13:11:18> ca_UseIMG_CAF=0 [  ]
-<13:11:18> drs_dialogSubtitles=1 [  ]
-<13:11:18> [CONSOLE] Executing console command 'exec user.cfg'
-<13:11:18> Executing console batch file (try game,config,root): "user.cfg" not found!
-<13:11:18> Loading editor preferences from: C:/Users/Omar/AppData/Roaming/Crytek/CRYENGINE/Settings.ini
-<13:11:18> [Warning] Command 'ui_action.actionSelection_Mask' is not registered.
-<13:11:18> [Warning] Command 'ui_action.actionAIPoint_Pick_Link' is not registered.
-<13:11:18> [Warning] Command 'ui_action.actionAIPoint_Pick_Impass_Link' is not registered.
-<13:11:18> [Warning] Command 'general.fullscreen' is not registered.
-<13:11:18> [Warning] Command 'ui_action.actionTerrain_Flatten' is not registered.
-<13:11:18> [Warning] Command 'ui_action.actionTerrain_Smooth' is not registered.
-<13:11:18> [Warning] Command 'ui_action.actionEnable_file_change_monitoring' is not registered.
-<13:11:18> [Warning] Command 'general.set_config_spec 4' is not registered.
-<13:11:18> [Warning] Command 'general.set_config_spec 3' is not registered.
-<13:11:18> [Warning] Command 'general.set_config_spec 2' is not registered.
-<13:11:18> [Warning] Command 'general.set_config_spec 1' is not registered.
-<13:11:18> [Warning] Command 'general.set_config_spec 5' is not registered.
-<13:11:18> [Warning] Command 'general.set_config_spec 6' is not registered.
-<13:11:18> [Warning] Command 'general.set_config_spec 0' is not registered.
-<13:11:18> [Warning] XML reader: Can't open file (assets\audio\wwise\SoundbanksInfo.xml)
-<13:11:18> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\textures\cursor_green.tif", to "assets\engineassets\textures\cursor_green_tmp.dds"
-<13:11:18> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\replacemecm.tif", to "assets\engineassets\texturemsg\replacemecm_tmp.dds"
-<13:11:18> Adding for file change notifications: 'assets\'
-<13:11:18> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\textures\white.tif", to "assets\engineassets\textures\white_tmp.dds"
-<13:11:18> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\textures\black.tif", to "assets\engineassets\textures\black_tmp.dds"
-<13:11:18> Adding for file change notifications: '.\assets\'
-<13:11:18> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\textures\blackalpha.tif", to "assets\engineassets\textures\blackalpha_tmp.dds"
-<13:11:18> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\textures\blackcm.tif", to "assets\engineassets\textures\blackcm_tmp.dds"
-<13:11:22> Task Completed: Clean up compiled animations
-<13:11:22> Flushing pended shaders...
-<13:11:22> Finished flushing pended shaders...
-<13:11:22> Flushing pended shaders...
-<13:11:22> Finished flushing pended shaders...
-<13:11:22> Flushing pended shaders...
-<13:11:22> Finished flushing pended shaders...
-<13:11:22> Flushing pended shaders...
-<13:11:22> Finished flushing pended shaders...
-<13:11:23> Remote console listening on: 4600
-<13:11:25> Task Completed: Update Local Animations
-<13:11:25> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\shading\defaultprobe_cm.tif", to "assets\engineassets\shading\defaultprobe_cm_tmp.dds"
-<13:11:26> general.open
-<13:11:27> general.open_level_no_prompt 'Assets/levels/CS188/CS188.cry'
-<13:11:27> Opening document Assets/levels/CS188/CS188.cry
-<13:11:27> CGame::OnSystemEvent(ESYSTEM_EVENT_LEVEL_LOAD_START) while in single player mode
-<13:11:27> Loading subADB Animations/Mannequin/ADB/pistolAnims1P.adb
-<13:11:27> Loading subADB Animations/Mannequin/ADB/rifleAnims1P.adb
-<13:11:27> Loading subADB Animations/Mannequin/ADB/shotgunAnims1P.adb
-<13:11:27> Loading subADB Animations/Mannequin/ADB/grenadeAnims1P.adb
-<13:11:27> Loading subADB Animations/Mannequin/ADB/rocketlauncherAnims1P.adb
-<13:11:27> Loading subADB Animations/Mannequin/ADB/hmgAnims1P.adb
-<13:11:27> Loading subADB Animations/Mannequin/ADB/c4Anims1P.adb
-<13:11:27> Loading subADB Animations/Mannequin/ADB/humanSlaveAnims1P.adb
-<13:11:27> Loading subADB Animations/Mannequin/ADB/ladderAnims1P.adb
-<13:11:27> Loading subADB Animations/Mannequin/ADB/swimAnims1P.adb
-<13:11:27> Loading subADB Animations/Mannequin/ADB/interactAnims1P.adb
-<13:11:27> Loading subADB Animations/Mannequin/ADB/animcontrolAnims1P.adb
-<13:11:28> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
-<13:11:28> [Warning] [flow] Trying to link an invalid node
-<13:11:28> [Warning] [flow] Trying to link an invalid node
-<13:11:28> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
-<13:11:28> [Warning] [flow] Trying to link an invalid node
-<13:11:28> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
-<13:11:28> [Warning] [flow] Trying to link an invalid node
-<13:11:28> [Warning] [flow] Trying to link an invalid node
-<13:11:28> [Warning] No game rules active, can not precache resources
-<13:11:28> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
-<13:11:28> [Warning] [flow] Trying to link an invalid node
-<13:11:28> [Warning] [flow] Trying to link an invalid node
-<13:11:28> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
-<13:11:28> [Warning] [flow] Trying to link an invalid node
-<13:11:28> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
-<13:11:28> [Warning] [flow] Trying to link an invalid node
-<13:11:28> [Warning] [flow] Trying to link an invalid node
-<13:11:29> [Warning] No game rules active, can not precache resources
-<13:11:29> [Warning] No game rules active, can not precache resources
-<13:11:29> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
-<13:11:29> [Warning] [flow] Trying to link an invalid node
-<13:11:29> [Warning] [flow] Trying to link an invalid node
-<13:11:29> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
-<13:11:29> [Warning] [flow] Trying to link an invalid node
-<13:11:29> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
-<13:11:29> [Warning] [flow] Trying to link an invalid node
-<13:11:29> [Warning] [flow] Trying to link an invalid node
-<13:11:29> [Warning] No game rules active, can not precache resources
-<13:11:29> sp_coop_mp set to 0.000000
-<13:11:29> Loading from Assets/levels/CS188/CS188.cry...
-<13:11:29> Ending game context...
-<13:11:29> Destroying CActionGame instance 000001B3415B91E0 (level="")
-<13:11:29> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
-<13:11:29> Loading Config file singleplayer.cfg (assets\config\singleplayer.cfg)
-<13:11:29> Loading game rules class='SinglePlayer' xml='Scripts/GameRules/SinglePlayer.xml'
-<13:11:29> GameRulesCommonDamageHandling::GameRulesCommonDamageHandling()
-<13:11:29> CGameRulesCommonDamageHandling::PostInit()
-<13:11:29> CGame::OnSystemEvent(ESYSTEM_EVENT_LEVEL_LOAD_START) while in single player mode
-<13:11:30> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
-<13:11:30> [Warning] [flow] Trying to link an invalid node
-<13:11:30> [Warning] [flow] Trying to link an invalid node
-<13:11:30> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
-<13:11:30> [Warning] [flow] Trying to link an invalid node
-<13:11:30> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
-<13:11:30> [Warning] [flow] Trying to link an invalid node
-<13:11:30> [Warning] [flow] Trying to link an invalid node
-<13:11:30> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
-<13:11:30> [Warning] [flow] Trying to link an invalid node
-<13:11:31> [Warning] [flow] Trying to link an invalid node
-<13:11:31> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
-<13:11:31> [Warning] [flow] Trying to link an invalid node
-<13:11:31> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
-<13:11:31> [Warning] [flow] Trying to link an invalid node
-<13:11:31> [Warning] [flow] Trying to link an invalid node
-<13:11:31> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
-<13:11:31> [Warning] [flow] Trying to link an invalid node
-<13:11:31> [Warning] [flow] Trying to link an invalid node
-<13:11:31> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
-<13:11:31> [Warning] [flow] Trying to link an invalid node
-<13:11:31> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
-<13:11:31> [Warning] [flow] Trying to link an invalid node
-<13:11:31> [Warning] [flow] Trying to link an invalid node
-<13:11:31> sp_coop_mp set to 0.000000
-<13:11:31> Loading missions...
-<13:11:31> ---- Start: Load Terrain
-<13:11:31> CRGBLayer::AllocateTiles 1x1 tiles 512 => 512x512 texture
-<13:11:31> allocating editor height map (1024x1024)*4
-<13:11:31> ---- Start: Loading Surface Types
-<13:11:31> ---- End: Loading Surface Types (0 seconds)
-<13:11:31> ---- Start: Loading Terrain Layers Info
-<13:11:31> Loading layer settings...
-<13:11:31> Loading layer texture (engineassets/textures/grey.dds)...
-<13:11:31>   loaded editor layer 0  name='Default' LayerID=0
-<13:11:31> ---- End: Loading Terrain Layers Info (0 seconds)
-<13:11:31> ---- Start: Load Terrain
-<13:11:31> Constructing 1365 terrain nodes (0.6 MB) <13:11:31>  done in 0.01 sec
-<13:11:31> ===== Loading 0 vegetation models =====
-<13:11:31> ===== Loading 4 brush models ===== 
-<13:11:31> ===== Initializing terrain nodes ===== 
-<13:11:31> ===== Loading outdoor instances ===== 
-<13:11:31> ---- End: Load Terrain (0 seconds)
-<13:11:31> ---- Start: Process RGB Terrain Layers
-<13:11:31> ---- End: Process RGB Terrain Layers (0 seconds)
-<13:11:31> CRGBLayer::AllocateTiles 1x1 tiles 512 => 512x512 texture
-<13:11:31> Loading terrain layers for segment 0 ...
-<13:11:32> ---- End: Load Terrain (0 seconds)
-<13:11:32> ---- Start: Game Engine level load
-<13:11:32> Loading map 'assets/levels/cs188' into engine...
-<13:11:32> ===== Loading Particle Effects =====
-<13:11:32> ---- End: Game Engine level load (0 seconds)
-<13:11:32> ---- Start: Load MaterialManager
-<13:11:32> ---- End: Load MaterialManager (0 seconds)
-<13:11:32> ---- Start: Load Particles
-<13:11:32> ---- End: Load Particles (0 seconds)
-<13:11:32> ---- Start: Load Flares
-<13:11:32> ---- End: Load Flares (0 seconds)
-<13:11:32> ---- Start: Load GameTokens
-<13:11:32> ---- End: Load GameTokens (0 seconds)
-<13:11:32> Loading View settings...
-<13:11:32> ---- Start: Load Vegetation
-<13:11:32> Loading Vegetation Map...
-<13:11:32> ---- End: Load Vegetation (0 seconds)
-<13:11:32> ---- Start: Reposition Vegetation
-<13:11:32> ---- End: Reposition Vegetation (0 seconds)
-<13:11:32> ---- Start: Updating Surface Types
-<13:11:32> Loading terrain layers for segment 0 ...
-<13:11:32> ---- End: Updating Surface Types (0 seconds)
-<13:11:32> Loading Fog settings...
-<13:11:32> ---- Start: Load Entity Archetypes Database
-<13:11:32> ---- End: Load Entity Archetypes Database (0 seconds)
-<13:11:32> ---- Start: Load Prefabs Database
-<13:11:32> ---- End: Load Prefabs Database (0 seconds)
-<13:11:32> ---- Start: Activating Mission Mission0
-<13:11:32> Loading AI data assets/levels/cs188, Mission0
-<13:11:32> --- AI: Navigation Data Loaded in  0.00 sec
-<13:11:32> Finished Loading AI data in  0.011 secs
-<13:11:32> ---- End: Activating Mission Mission0 (0 seconds)
-<13:11:32> ---- Start: Load Level Shader Cache
-<13:11:32> ---- End: Load Level Shader Cache (0 seconds)
-<13:11:32> ---- Start: Post Load
-<13:11:32> ---- End: Post Load (0 seconds)
-<13:11:32> [LevelLoadTime] Level assets/levels/cs188 loaded in 0 seconds
-<13:11:32> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
-<13:11:32> Loading subADB Animations/Mannequin/ADB/aimAnims3P.adb
-<13:11:32> Loading subADB Animations/Mannequin/ADB/pistolAnims3P.adb
-<13:11:32> Loading subADB Animations/Mannequin/ADB/rifleAnims3P.adb
-<13:11:32> Loading subADB Animations/Mannequin/ADB/shotgunAnims3P.adb
-<13:11:32> Loading subADB Animations/Mannequin/ADB/grenadeAnims3P.adb
-<13:11:32> Loading subADB Animations/Mannequin/ADB/rocketlauncherAnims3P.adb
-<13:11:32> Loading subADB Animations/Mannequin/ADB/hmgAnims3P.adb
-<13:11:32> Loading subADB Animations/Mannequin/ADB/humanSlaveAnims3P.adb
-<13:11:32> Loading subADB Animations/Mannequin/ADB/pistolSounds.adb
-<13:11:32> Loading subADB Animations/Mannequin/ADB/rifleSounds.adb
-<13:11:32> Loading subADB Animations/Mannequin/ADB/shotgunSounds.adb
-<13:11:32> Loading subADB Animations/Mannequin/ADB/grenadeSounds.adb
-<13:11:33>   1690 animation-assets loaded (total assets: 1514)
-<13:11:34> [PLAYER PLUG-IN] Player 'Dude' attempting to enter plug-in 'CPlayerPlugin_Interaction'
-<13:11:34> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
-<13:11:34> Player 'Dude' (0 0 0) can't change stance from -1 'Null' to 0 'Stand' [Attempt 1]
-<13:11:34> [PLAYER PLUG-IN] Player 'Dude' attempting to enter plug-in 'CPlayerPlugin_CurrentlyTargetting'
-<13:11:34>   11 animation-assets loaded (total assets: 1524)
-<13:11:34> Loading subADB Animations/Mannequin/ADB/pistolFFEvents.adb
-<13:11:34>   12 animation-assets loaded (total assets: 1535)
-<13:11:34> Loading subADB Animations/Mannequin/ADB/rifleFFEvents.adb
-<13:11:34>   8 animation-assets loaded (total assets: 1542)
-<13:11:34> Loading subADB Animations/Mannequin/ADB/shotgunFFEvents.adb
-<13:11:34>   6 animation-assets loaded (total assets: 1547)
-<13:11:34> Player 'Dude' is becoming local actor
-<13:11:34> SetGlobalState 2->11 'RUNNING'->'LEVEL_LOAD_TEXTURES' 20.3 seconds
-<13:11:34> -- Presort shaders by states...
-<13:11:34> --- 117 Resources, 27 Resource groups.
-<13:11:34> Requesting textures precache ...
-<13:11:34> -- Precaching textures...
-<13:11:34> Precaching progress: 1
-<13:11:34> Precaching progress: 2
-<13:11:34> Precaching progress: 3
-<13:11:34> Precaching progress: 4
-<13:11:34> Precaching progress: 5
-<13:11:34> Precaching progress: 6
-<13:11:34> Precaching progress: 7
-<13:11:34> Precaching progress: 8
-<13:11:34> Precaching progress: 9
-<13:11:35> Precaching textures done in 0.48 seconds
-<13:11:35> Textures precache done.
-<13:11:35> File access time during level loading: 1.05 seconds
-<13:11:35> -----------------------------------------------------------
-<13:11:35> Successfully opened document Assets/levels/CS188/
-<13:11:35> Level loading time: 7.28 seconds
-<13:11:35> -----------------------------------------------------------
-<13:11:35> Returned: 
-<13:11:35> Returned: 
-<13:11:35> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\textures\white_ddn.tif", to "assets\engineassets\textures\white_ddn_tmp.dds"
-<13:11:35> Opening terrain\cover.ctc ...
-<13:11:35>   TerrainLayer 0: TexFormat: BC3, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
-<13:11:35>   TerrainLayer 1: TexFormat: BC3, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
-<13:11:35>   RGB multiplier: 8, Texture indices: 21
-<13:11:35> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\textures\texelspermetergrad.tif", to "assets\engineassets\textures\texelspermetergrad_tmp.dds"
-<13:11:35> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\icons\shadercompiling.tif", to "assets\engineassets\icons\shadercompiling_tmp.dds"
-<13:11:36> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\icons\streaming.tif", to "assets\engineassets\icons\streaming_tmp.dds"
-<13:11:37> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\icons\streamingterrain.tif", to "assets\engineassets\icons\streamingterrain_tmp.dds"
-<13:11:38> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\icons\navigationprocessing.tif", to "assets\engineassets\icons\navigationprocessing_tmp.dds"
-<13:11:38> ui_action.actionSwitch_to_Game
-<13:11:38> general.enter_game_mode
-<13:11:38> Returned: 
-<13:11:38> Returned: 
-<13:11:39> CActor::NetReviveAt: Dude
-<13:11:39> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
-<13:11:39> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\shading\environmentbrdf.tif", to "assets\engineassets\shading\environmentbrdf_tmp.dds"
-<13:11:39> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\textures\noise.tif", to "assets\engineassets\textures\noise_tmp.dds"
-<13:11:39> Player 'Dude' (511.627 506.684 36.4125) has finally changed stance from -1 'Null' to 0 'Stand'
-<13:11:39> Pre-caching render meshes for camera position
-<13:11:39> Updating level streaming priorities for 1 cameras (LevelFrameId = 1)
-<13:11:39> -- 512.500000 510.000000 33.650002
-<13:11:39> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\screenspace\grain_bayer_mul.tif", to "assets\engineassets\screenspace\grain_bayer_mul_tmp.dds"
-<13:11:39> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\shading\vignetting.tif", to "assets\engineassets\shading\vignetting_tmp.dds"
-<13:11:40> SetGlobalState 11->2 'LEVEL_LOAD_TEXTURES'->'RUNNING' 5.5 seconds
-<13:11:40> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\screenspace\pointsonsphere4x4.tif", to "assets\engineassets\screenspace\pointsonsphere4x4_tmp.dds"
-<13:11:40> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\screenspace\pointsonspherevo4x4.tif", to "assets\engineassets\screenspace\pointsonspherevo4x4_tmp.dds"
-<13:11:41> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\replaceme.tif", to "assets\engineassets\texturemsg\replaceme_tmp.dds"
-<13:11:42> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\textures\greyalpha.tif", to "assets\engineassets\textures\greyalpha_tmp.dds"
-<13:11:43> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\mipmapdebug.tif", to "assets\engineassets\texturemsg\mipmapdebug_tmp.dds"
-<13:11:44> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\color_blue.tif", to "assets\engineassets\texturemsg\color_blue_tmp.dds"
-<13:11:44> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\color_cyan.tif", to "assets\engineassets\texturemsg\color_cyan_tmp.dds"
-<13:11:45> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\color_green.tif", to "assets\engineassets\texturemsg\color_green_tmp.dds"
-<13:11:46> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\color_purple.tif", to "assets\engineassets\texturemsg\color_purple_tmp.dds"
-<13:11:46> general.exit_game_mode
-<13:11:46> Returned: 
-<13:11:46> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
-<13:11:46> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\color_red.tif", to "assets\engineassets\texturemsg\color_red_tmp.dds"
-<13:11:47> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\color_white.tif", to "assets\engineassets\texturemsg\color_white_tmp.dds"
-<13:11:48> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\color_yellow.tif", to "assets\engineassets\texturemsg\color_yellow_tmp.dds"
-<13:11:50> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\color_orange.tif", to "assets\engineassets\texturemsg\color_orange_tmp.dds"
-<13:11:50> CDefaultSkeleton Release: objects/weapons/rifle/rifle_fp.chr
-<13:11:50> CDefaultSkeleton Release: objects/weapons/shotgun/shotgun.chr
-<13:11:50> CDefaultSkeleton Release: objects/weapons/pistol/pistol_fp.chr
-<13:11:50> CDefaultSkeleton Release: objects/weapons/frag_grenade/frag_grenade.chr
-<13:11:50> [GameRules] destructing 000001B3424D3030
-<13:11:50> CGameRulesCommonDamageHandling::~GameRulesCommonDamageHandling()
-<13:11:50> CDefaultSkeleton Release: _objects/characters/human/generic/skeleton_player_generic.chr
-<13:11:51> CSystem::Quit invoked from thread 6612 (main is 6612)
-<13:11:51> BaseInput - Shutting down all force feedback
-<13:11:51> ActionGame - Shutting down all force feedback
-<13:11:51> [Lobby] Terminate service 0 error 4
-<13:11:51> [Lobby] Terminate service 1 error 4
-<13:11:51> Ending game context...
-<13:11:51> Destroying CActionGame instance 000001B3415B91E0 (level="")
-<13:11:51> [FEATURETESTER] Unloading all feature test data
-<13:11:51> Flushing pended shaders...
-<13:11:51> Finished flushing pended shaders...
-<13:11:51> System:Quit
+<13:31:33> OnSysSpecChange(4)
+<13:31:33> [Warning] Config file VeryHighSpec.cfg not found!
+<13:31:33> Loading Config file %ENGINEROOT%/editor.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\editor.cfg)
+<13:31:33> [Warning] Config file game.cfg not found!
+<13:31:33> Loading Config file project.cfg (project.cfg)
+<13:31:33> GameDir: Assets
+<13:31:33> Loading Config file game.cfg (assets\game.cfg)
+<13:31:33> creating CVarGroups from directory 'assets/Config/CVarGroups' ...
+<13:31:33> Loading Config file assets/Config/CVarGroups/sys_spec_full.cfg (assets\config\cvargroups\sys_spec_full.cfg)
+<13:31:33> Loading Config file assets/Config/CVarGroups/sys_spec_gameeffects.cfg (assets\config\cvargroups\sys_spec_gameeffects.cfg)
+<13:31:33> Loading Config file assets/Config/CVarGroups/sys_spec_light.cfg (assets\config\cvargroups\sys_spec_light.cfg)
+<13:31:33> Loading Config file assets/Config/CVarGroups/sys_spec_objectdetail.cfg (assets\config\cvargroups\sys_spec_objectdetail.cfg)
+<13:31:33> Loading Config file assets/Config/CVarGroups/sys_spec_particles.cfg (assets\config\cvargroups\sys_spec_particles.cfg)
+<13:31:33> Loading Config file assets/Config/CVarGroups/sys_spec_physics.cfg (assets\config\cvargroups\sys_spec_physics.cfg)
+<13:31:33> Loading Config file assets/Config/CVarGroups/sys_spec_postprocessing.cfg (assets\config\cvargroups\sys_spec_postprocessing.cfg)
+<13:31:33> Loading Config file assets/Config/CVarGroups/sys_spec_quality.cfg (assets\config\cvargroups\sys_spec_quality.cfg)
+<13:31:33> Loading Config file assets/Config/CVarGroups/sys_spec_shading.cfg (assets\config\cvargroups\sys_spec_shading.cfg)
+<13:31:33> Loading Config file assets/Config/CVarGroups/sys_spec_shadows.cfg (assets\config\cvargroups\sys_spec_shadows.cfg)
+<13:31:33> Loading Config file assets/Config/CVarGroups/sys_spec_sound.cfg (assets\config\cvargroups\sys_spec_sound.cfg)
+<13:31:33> Loading Config file assets/Config/CVarGroups/sys_spec_texture.cfg (assets\config\cvargroups\sys_spec_texture.cfg)
+<13:31:33> Loading Config file assets/Config/CVarGroups/sys_spec_textureresolution.cfg (assets\config\cvargroups\sys_spec_textureresolution.cfg)
+<13:31:33> Loading Config file assets/Config/CVarGroups/sys_spec_volumetriceffects.cfg (assets\config\cvargroups\sys_spec_volumetriceffects.cfg)
+<13:31:33> Loading Config file assets/Config/CVarGroups/sys_spec_water.cfg (assets\config\cvargroups\sys_spec_water.cfg)
+<13:31:33> creating CVarGroups from directory 'Engine/Config/CVarGroups' ...
+<13:31:33> [Warning] <ThreadConfigInfo>: Active platform identifier string "pc" not found in config "config/engine_core.thread_config".
+<13:31:33> [Warning] <ThreadConfigInfo>: Active platform identifier string "pc" not found in config "config/engine_sandbox.thread_config".
+<13:31:33> Windows 10 64 bit (build 10.0.10586)
+<13:31:33> User name: "Omar"
+<13:31:33> System language: English
+<13:31:33> Windows Directory: "C:\Windows"
+<13:31:33> Local time is 13:31:33 05/07/16, system running for 30 minutes
+<13:31:33> 8095MB physical memory installed, 5039MB available, 134217727MB virtual memory installed, 37 percent of memory in use
+<13:31:33> PageFile usage: 48MB, Working Set: 56MB, Peak PageFile usage: 48MB,
+<13:31:33> Current display mode is 1280x800x32, (Unknown graphics card)
+<13:31:33> IBM enhanced (101/102-key) keyboard and 3+ button mouse installed
+<13:31:33> --------------------------------------------------------------------------------
+<13:31:33> Loading Config file %USER%/game.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\gamesdk_5.0\gamesdk\user\game.cfg)
+<13:31:33> Loading Config file system.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\system.cfg)
+<13:31:33> OnSysSpecChange(4)
+<13:31:33> Loading Config file VeryHighSpec.cfg (assets\config\veryhighspec.cfg)
+<13:31:33> Loading Config file %ENGINEROOT%/editor.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\editor.cfg)
+<13:31:33> Loading Config file game.cfg (assets\game.cfg)
+<13:31:33> Loading Config file project.cfg (project.cfg)
+<13:31:33> [Warning] Config file user.cfg not found!
+<13:31:33> Stream Engine Initialization
+<13:31:33> GameName: CRYENGINE SDK
+<13:31:33> BuildTime: Mar 18 2016 10:51:44
+<13:31:33> Physics initialization
+<13:31:33> Initializing CryPhysics...
+<13:31:33> Initializing CryPhysics done, MemUsage=976Kb
+<13:31:33> <Audio>: AudioSystem initialization
+<13:31:33> Initializing CryAudioSystem...
+<13:31:33> Initializing CryAudioImplWwise...
+<13:31:33> <Audio> <0.294>: CryAudioImplWwise loaded
+<13:31:33> Initializing CryAudioImplWwise done, MemUsage=4788Kb
+<13:31:34> Initializing CryAudioSystem done, MemUsage=38124Kb
+<13:31:34> Renderer initialization
+<13:31:34> Initializing CryRenderD3D11...
+<13:31:34> CRenderer sizeof(Vec2f16)=4 sizeof(Vec3f16)=8
+<13:31:34> Initializing CryRenderD3D11 done, MemUsage=3840Kb
+<13:31:34> Initializing Direct3D and creating game window:
+<13:31:34> D3DX_SDK_VERSION = <UNDEFINED>
+<13:31:34> Direct3D driver is creating...
+<13:31:34> Crytek Direct3D driver version 2.00 (Mar 18 2016 <10:51:35>)
+<13:31:34> Creating window called 'CRYENGINE SDK' (1280x720)
+<13:31:34> D3D Adapter: Description: Intel(R) Iris(TM) Graphics 6100
+<13:31:34> D3D Adapter: Driver version (UMD): 20.19.15.4331
+<13:31:34> D3D Adapter: VendorId = 0x8086
+<13:31:34> D3D Adapter: DeviceId = 0x162B
+<13:31:34> D3D Adapter: SubSysId = 0x013F106B
+<13:31:34> D3D Adapter: Revision = 9
+<13:31:34> Active GPUs: 1
+<13:31:34> Using pixel texture formats:
+<13:31:34>   R8G8B8A8S, mips (autogen), blend, RT (multi-sampled), gather
+<13:31:34>   R8G8B8A8, mips (autogen), sRGB, blend, RT (multi-sampled), gather
+<13:31:34>   A8, mips (autogen), blend, RT (multi-sampled), gather
+<13:31:34>   R8, mips (autogen), blend, RT (multi-sampled), gather
+<13:31:34>   R8S, mips (autogen), blend, RT (multi-sampled), gather
+<13:31:34>   R16, mips (autogen), blend, RT (multi-sampled), gather (comparable)
+<13:31:34>   R16F, mips (autogen), blend, RT (multi-sampled), gather
+<13:31:34>   R32F, mips (autogen), blend, RT (multi-sampled), gather (comparable)
+<13:31:34>   R8G8, mips (autogen), blend, RT (multi-sampled), gather
+<13:31:34>   R8G8S, mips (autogen), blend, RT (multi-sampled), gather
+<13:31:34>   R16G16, mips (autogen), blend, RT (multi-sampled), gather
+<13:31:34>   R16G16S, mips (autogen), blend, RT (multi-sampled), gather
+<13:31:34>   R16G16F, mips (autogen), blend, RT (multi-sampled), gather
+<13:31:34>   R11G11B10F, mips (autogen), blend, RT (multi-sampled), gather
+<13:31:34>   R10G10B10A2, mips (autogen), blend, RT (multi-sampled), gather
+<13:31:34>   R16G16B16A16, mips (autogen), blend, RT (multi-sampled), gather
+<13:31:34>   R16G16B16A16S, mips (autogen), blend, RT (multi-sampled), gather
+<13:31:34>   R16G16B16A16F, mips (autogen), blend, RT (multi-sampled), gather
+<13:31:34>   R32G32B32A32F, mips (autogen), blend, RT (multi-sampled), gather
+<13:31:34>   BC1, mips, sRGB, gather
+<13:31:34>   BC2, mips, sRGB, gather
+<13:31:34>   BC3, mips, sRGB, gather
+<13:31:34>   BC4, mips, gather
+<13:31:34>   BC4S, mips, gather
+<13:31:34>   BC5, mips, gather
+<13:31:34>   BC5S, mips, gather
+<13:31:34>   BC6UH, mips, gather
+<13:31:34>   BC6SH, mips, gather
+<13:31:34>   BC7, mips, sRGB, gather
+<13:31:34>   R9G9B9E5, mips, gather
+<13:31:34>   R32FX8T, mips, gather (comparable)
+<13:31:34>   R32T, mips
+<13:31:34>   R24G8T, mips
+<13:31:34>   R16T, mips
+<13:31:34>   B5G6R5, mips (autogen), blend, RT (multi-sampled), gather
+<13:31:34>   B5G5R5, mips (autogen), blend, RT (multi-sampled), gather
+<13:31:34>   B8G8R8A8, mips (autogen), sRGB, blend, RT (multi-sampled), gather
+<13:31:34>   B8G8R8X8, mips (autogen), sRGB, blend, RT (multi-sampled), gather
+<13:31:34>  Renderer HDR_Scalar: R32F
+<13:31:34>  ****** D3D11 CryRender Stats ******
+<13:31:34>  Driver description: Intel(R) Iris(TM) Graphics 6100
+<13:31:34>  Feature level: DirectX 11.0
+<13:31:34>  Full stats: 
+<13:31:34>  Rasterizer: Hardware
+<13:31:34>  Current Resolution: 1280x720x32 Windowed
+<13:31:34>  HDR Rendering: FP16
+<13:31:34>  Occlusion queries: Supported
+<13:31:34>  Geometry instancing: Supported
+<13:31:34>  NormalMaps compression : Supported
+<13:31:34>  Gamma control: Hardware
+<13:31:34>  Vertex Shaders version 4.0
+<13:31:34>  Pixel Shaders version 4.0
+<13:31:34>  Used GeomInstancingThreshold is 7
+<13:31:34>  Shader model usage: 'SM.5.0'
+<13:31:34>  *****************************************
+<13:31:34>  
+<13:31:34> Init Shaders
+<13:31:34> Flushing pended shaders...
+<13:31:34> Finished flushing pended shaders...
+<13:31:34> Flushing pended shaders...
+<13:31:34> Finished flushing pended shaders...
+<13:31:34>  General shader quality: VeryHigh
+<13:31:34>  Metal shader quality: VeryHigh
+<13:31:34>  Glass shader quality: VeryHigh
+<13:31:34>  Vegetation shader quality: VeryHigh
+<13:31:34>  Ice shader quality: VeryHigh
+<13:31:34>  Terrain shader quality: VeryHigh
+<13:31:34>  Shadow shader quality: VeryHigh
+<13:31:34>  Water shader quality: High
+<13:31:34>  FX shader quality: VeryHigh
+<13:31:34>  PostProcess shader quality: VeryHigh
+<13:31:34>  HDR shader quality: VeryHigh
+<13:31:34>  Sky shader quality: VeryHigh
+<13:31:34> Render quality: VeryHigh
+<13:31:34> Allocate render buffer for particles (16384 verts, 49152 tris)...
+<13:31:34> Init textures management (128 Mb of video memory is available)...
+<13:31:34>   Enabling of textures streaming...
+<13:31:34>   Using 512 Mb of textures pool for streaming...
+<13:31:34>   Video textures: Atlas clouds max size: 24 Mb
+<13:31:34>   Video textures: Atlas sprites max size: 32 Mb
+<13:31:34>   Video textures: Dynamic managed max size: 80 Mb
+<13:31:34>   Reloading all textures...
+<13:31:34>   Finished reloading textures...
+<13:31:34>   Finished initializing textures streaming...
+<13:31:35> Initialized hardware mouse (game is allowed to confine mouse to window)
+<13:31:35> Using Scaleform GFx 3.3.94
+<13:31:35>   Using dynamic pool
+<13:31:35> Font initialization
+<13:31:35> Initializing CryFont...
+<13:31:35> Using FreeType 2.5.5
+<13:31:35> Initializing CryFont done, MemUsage=260Kb
+<13:31:35> *** Init system render resources ***
+<13:31:35> Allocate render buffer for particles (16384 verts, 49152 tris)...
+<13:31:35> Allocating shadow map cache 4214 x 4214: 33.87 MB
+<13:31:35> Network initialization
+<13:31:35> Initializing CryNetwork...
+<13:31:35> [LagProfiles] Could not load "". 6 default profiles activated.
+<13:31:35> [net] Socket IO management: External [iocp], Internal [iocp]
+<13:31:35> network hostname: DESKTOP-GM0D50Q
+<13:31:35>   ip:192.168.1.24
+<13:31:35> [Network Version]: PROFILE DEVELOPMENT BUILD
+<13:31:35> Initializing CryNetwork done, MemUsage=2268Kb
+<13:31:35> Online initialization
+<13:31:35> Initializing CryOnline...
+<13:31:35> DLL Failed to load, error code: 7E
+<13:31:35> Lobby initialization
+<13:31:35> Initializing CryLobby...
+<13:31:35> Initializing CryLobby done, MemUsage=448Kb
+<13:31:35> MovieSystem initialization
+<13:31:35> Initializing CryMovie...
+<13:31:35> Initializing CryMovie done, MemUsage=552Kb
+<13:31:35> Console initialization
+<13:31:35> Time initialization
+<13:31:35> Input initialization
+<13:31:35> Initializing CryInput...
+<13:31:35> Initializing DirectInput
+<13:31:35> Initializing Keyboard
+<13:31:35> Initializing mouse
+<13:31:35> Initializing CryInput done, MemUsage=1220Kb
+<13:31:35> AI initialization
+<13:31:35> Initializing CryAISystem...
+<13:31:35> Initializing CryAISystem done, MemUsage=1256Kb
+<13:31:35>  
+<13:31:35> con_debug=0 [  ]
+<13:31:35> con_display_last_messages=0 [  ]
+<13:31:35> con_line_buffer_size=1000 [  ]
+<13:31:35> con_restricted=0 [ RESTRICTEDMODE ]
+<13:31:35> con_showonload=0 [  ]
+<13:31:35>  
+<13:31:35> con_debug=0 [  ]
+<13:31:35> con_display_last_messages=0 [  ]
+<13:31:35> con_line_buffer_size=1000 [  ]
+<13:31:35> con_restricted=0 [ RESTRICTEDMODE ]
+<13:31:35> con_showonload=0 [  ]
+<13:31:35>  
+<13:31:35> con_debug=0 [  ]
+<13:31:35>  
+<13:31:35> con_debug=0 [  ]
+<13:31:35> Initializing Animation System
+<13:31:35> Initializing CryAnimation...
+<13:31:35> Initializing CryAnimation done, MemUsage=2136Kb
+<13:31:35> Initializing 3D Engine
+<13:31:35> Initializing Cry3DEngine...
+<13:31:35> Sky light: Optical lookup tables loaded off disc.
+<13:31:35> Initializing Cry3DEngine done, MemUsage=11596Kb
+<13:31:35> Script System Initialization
+<13:31:35> Initializing CryScriptSystem...
+<13:31:35> Initializing CryScriptSystem done, MemUsage=1056Kb
+<13:31:35> Entity system initialization
+<13:31:35> Initializing CryEntitySystem...
+<13:31:35> Initializing CryEntitySystem done, MemUsage=2500Kb
+<13:31:35> LiveCreate initialization
+<13:31:35> LiveCreateHost not created, using NULL implementation.
+<13:31:35> CryMonoBridge initialization
+<13:31:35> Initializing CryMonoBridge...
+<13:31:35> Initializing CryMonoBridge done, MemUsage=828Kb
+<13:31:35> Initializing AI System
+<13:31:35> AI: [AISYSTEM] Initialization started.
+<13:31:35> AI: Loaded 54 AI Behaviors in 0.05s...
+<13:31:35> Registering CentralInterestManager with EntitySystem
+<13:31:35> AI: [AISYSTEM] Initialization finished.
+<13:31:35> Initializing additional systems
+<13:31:35> Dynamic Response System initialization
+<13:31:35> Initializing CryDynamicResponseSystem.dll...
+<13:31:35> Initializing CryDynamicResponseSystem.dll done, MemUsage=480Kb
+<13:31:35> OnSysSpecChange(4)
+<13:31:35> Loading Config file VeryHighSpec.cfg (assets\config\veryhighspec.cfg)
+<13:31:35> Loading Config file %ENGINEROOT%/editor.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\editor.cfg)
+<13:31:35> Loading Config file game.cfg (assets\game.cfg)
+<13:31:35> Current Language: English 
+<13:31:35> Windows 10 10.0 (C:\Windows)
+<13:31:35> Local time is 13:31:35 05/07/16, system running for 30 minutes
+<13:31:35> 8095MB phys. memory installed, 5032MB paging available
+<13:31:35> Current display mode is 1280x800x32, (Unknown graphics card)
+<13:31:35> IBM enhanced (101/102-key) keyboard and 3+ button mouse installed
+<13:31:35> --------------------------------------------------------------------------------
+<13:31:35> sys_dll_game = Game
+<13:31:35> sys_game_folder = Assets
+<13:31:35> sys_localization_folder = localization
+<13:31:35> <ThreadConfigInfo>: [XML Parsing] Thread with name "NetworkStallTicker" already loaded. Overriding with new configuration
+<13:31:35> <ThreadConfigInfo>: [XML Parsing] Thread with name "ZLibCompressor" already loaded. Overriding with new configuration
+<13:31:35> [Warning] <ThreadConfigInfo>: Active platform identifier string "pc" not found in config "config/game.thread_config".
+<13:31:35> [Invite] SetInviteAcceptedState 0 to 0
+<13:31:35> [Invite] InvalidateInviteData
+<13:31:35> CGameLocalizationManager::LoadLocalizationData() is loading localization file=Libs/Localization/localization.xml
+<13:31:35> Finished loading item XML definitions from 'scripts/entities/items/XML'!
+<13:31:35> Finished loading ammo XML definitions from 'scripts/entities/items/XML'!
+<13:31:35> [PlayerProfiles] Login of user 'Omar' successful.
+<13:31:35> [PlayerProfiles] Found 1 profiles.
+<13:31:35>    Profile 0 : 'default'
+<13:31:35> [Error] [CVARS]: [MISSING] [e_TerrainAO] is not a registered console variable; referenced when testing console variable group [sys_spec_shading] = [4]
+<13:31:35> [Error] [CVARS]: [MISSING] [e_ShadowsOnAlphaBlend] is not a registered console variable; referenced when testing console variable group [sys_spec_shadows] = [4]
+<13:31:35> CGame: Loading singleplayer difficulty config 'difficulty/easy.cfg'
+<13:31:35> Loading Config file difficulty/easy.cfg (assets\difficulty\easy.cfg)
+<13:31:35> [Error] [CVARS]: [MISSING] [e_TerrainAO] is not a registered console variable; referenced when testing console variable group [sys_spec_shading] = [4]
+<13:31:35> [Error] [CVARS]: [MISSING] [e_ShadowsOnAlphaBlend] is not a registered console variable; referenced when testing console variable group [sys_spec_shadows] = [4]
+<13:31:35> [GameProfiles]: Successfully activated profile 'default' for user 'Omar'
+<13:31:35> username Omar signedIn 1 userIndex 0
+<13:31:35> ActivateProfile profileName default
+<13:31:35> [Warning] CActionMap::LoadRebindingDataFromXML: Action: xi_v_rotateyaw, doesn't exist, can't rebind
+<13:31:35> [Warning] CActionMap::LoadRebindingDataFromXML: Action: xi_v_rotatepitch, doesn't exist, can't rebind
+<13:31:35> CGame: Loading singleplayer difficulty config 'difficulty/easy.cfg'
+<13:31:35> Loading Config file difficulty/easy.cfg (assets\difficulty\easy.cfg)
+<13:31:35> CPlayerProgression::Constructor
+<13:31:35> CPlayerProgression::Init() Done
+<13:31:35> PersistantStats profile version mismatch, got 0, expected 3, so ignoring
+<13:31:36> CGame::LoadPatchLocalizationData() is loading localization file=localization_english.xml
+<13:31:36> CGame::InitGameType() multiplayer=false, fromInit=true
+<13:31:36> hostName = 'DESKTOP-GM0D50Q'
+<13:31:36> SetGlobalState 1->2 'INIT'->'RUNNING' 2.4 seconds
+<13:31:36> Loading singleplayer configuration...
+<13:31:36> Loading Config file singleplayer.cfg (assets\config\singleplayer.cfg)
+<13:31:36> Changing "ai_CompatibilityMode" cvar from '' to 'crysis2' (now got 1 cvar to revert when switching game type)
+<13:31:36> Changing "ai_BurstWhileMovingDestinationRange" cvar from '2' to '9999.0' (now got 2 cvars to revert when switching game type)
+<13:31:36> Changing "g_telemetryConfig" cvar from 'none' to 'SP' (now got 3 cvars to revert when switching game type)
+<13:31:36> Changing "net_inactivitytimeout" cvar from '30' to '3600' (now got 4 cvars to revert when switching game type)
+<13:31:36> Changing "net_inactivitytimeoutDevmode" cvar from '30' to '3600' (now got 5 cvars to revert when switching game type)
+<13:31:36> Changing "pl_movement.nonCombat_heavy_weapon_speed_scale" cvar from '0.75' to '1.0' (now got 6 cvars to revert when switching game type)
+<13:31:36> No need to change "sv_gamerules" to 'SinglePlayer' as that's also its current value
+<13:31:36> No need to change "ca_StreamCHR" to '1' as that's also its current value
+<13:31:36> Finished loading singleplayer configuration, used 192/5120 bytes storing old cvar values
+<13:31:36> [Lobby] Terminate service 1 error 4
+<13:31:36> CGame: Singleplayer game type initialised
+<13:31:36> CGame: Loading singleplayer difficulty config 'difficulty/easy.cfg'
+<13:31:36> Loading Config file difficulty/easy.cfg (assets\difficulty\easy.cfg)
+<13:31:36> Registering TPS Extensions...
+<13:31:36> <Lua> PipeManager: Creating goal pipes
+<13:31:36> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesShared.xml...
+<13:31:36> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesCoordination.xml...
+<13:31:36> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesHuman.xml...
+<13:31:36> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesHeli.xml...
+<13:31:36> <Lua> PipeManager: Finished creating goal pipes!
+<13:31:36> [FEATURETESTER] (No instance) Creating feature tester instance
+<13:31:36> Ending game context...
+<13:31:36> <Lua> Loading AIAlertness.lua
+<13:31:36> [Warning] No game rules active, can not precache resources
+<13:31:36> Initializing default materials...
+<13:31:36> [MFX] Loading FXLib 'breakables' ...
+<13:31:36> [MFX] Loading FXLib 'collisions' ...
+<13:31:36> [MFX] Loading FXLib 'foley' ...
+<13:31:36> [MFX] Loading FXLib 'foley_grunt' ...
+<13:31:36> [MFX] Loading FXLib 'foley_player' ...
+<13:31:36> [MFX] Loading FXLib 'footstep_grunt' ...
+<13:31:36> [MFX] Loading FXLib 'footstep_player' ...
+<13:31:36> [MFX] Loading FXLib 'footsteps' ...
+<13:31:36> [MFX] Loading FXLib 'grenade' ...
+<13:31:36> [MFX] Loading FXLib 'melee' ...
+<13:31:36> [MFX] Loading FXLib 'player_fx' ...
+<13:31:36> [MFX] Loading FXLib 'projectiles' ...
+<13:31:36> [MFX] Loading FXLib 'tornado' ...
+<13:31:36> [MFX] Loading FXLib 'vegetation' ...
+<13:31:36> [MFX] Loading FXLib 'vehicles' ...
+<13:31:36> -- FAIL (strcmpi( src.wrapped.c_str(), dst.wrapped.c_str()) == 0): [CryAction]:SCRCRef_Serialization_StoreString_Empty (d:\jk\mastercd13_gamesdk_release\bintemp\uber_files\cryaction\..\..\..\Code\CryEngine\CryAction\Mannequin\Tests\Test_CRCRef.cpp:59)
+<13:31:36> UnitTesting Finished Tests: 69 Succeeded: 68, Failed: 1, Time: 15.42 ms
+<13:31:36> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<13:31:36> Loading Config file singleplayer.cfg (assets\config\singleplayer.cfg)
+<13:31:36> Finished loading ammo XML definitions from 'scripts/entities/items/XML'!
+<13:31:37> [Warning] No game rules active, can not precache resources
+<13:31:37> AI: [AISYSTEM] Initializing AI Actions.
+<13:31:37> [Warning] [flow] Trying to link an invalid node
+<13:31:37> [Warning] [flow] Trying to link an invalid node
+<13:31:37> [Warning] [flow] Trying to link an invalid node
+<13:31:37> [Error] [flow] guy_eat_food : Can't link edge <43,Result> to <20,Destination> - FLOWGRAPH DISCARDED
+<13:31:37> [Error] [flow] guy_eat_food : Did not load all edges (21/29 edges) - FLOWGRAPH DISCARDED
+<13:31:37> [Warning] [flow] Trying to link an invalid node
+<13:31:37> [Warning] [flow] Trying to link an invalid node
+<13:31:37> [Warning] [flow] Trying to link an invalid node
+<13:31:37> [Warning] [flow] Trying to link an invalid node
+<13:31:37> [Error] [flow] guy_look_random : Can't link edge <4,Done> to <2,end> - FLOWGRAPH DISCARDED
+<13:31:37> [Error] [flow] guy_look_random : Did not load all edges (2/8 edges) - FLOWGRAPH DISCARDED
+<13:31:37> AI: [AISYSTEM] Initializing Smart Objects.
+<13:31:37> CFlowGraph::Migrate: FG 'Libs/ActionGraphs/guy_eat_food': NodeID 20: Remapped attribute 'Value' to 'Speed' value='5' 
+<13:31:37> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
+<13:31:37> [Warning] [flow] Trying to link an invalid node
+<13:31:37> [Warning] [flow] Trying to link an invalid node
+<13:31:37> [Warning] The hypergraph has been changed during serialization. Please see the log for details on replaced nodes and reconnected links.
+<13:31:37> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:31:37> [Warning] [flow] Trying to link an invalid node
+<13:31:37> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:31:37> [Warning] [flow] Trying to link an invalid node
+<13:31:37> [Warning] [flow] Trying to link an invalid node
+<13:31:37> OnSysSpecChange(2)
+<13:31:37> Loading Config file MedSpec.cfg (assets\config\medspec.cfg)
+<13:31:37> Flushing pended shaders...
+<13:31:37> Finished flushing pended shaders...
+<13:31:37> Flushing pended shaders...
+<13:31:37> Finished flushing pended shaders...
+<13:31:37> Allocating shadow map cache 2810 x 2810: 15.06 MB
+<13:31:37> Allocating shadow map cache 6324 x 6324: 76.28 MB
+<13:31:37> Allocating shadow map cache 4214 x 4214: 33.87 MB
+<13:31:37> Loading Config file %ENGINEROOT%/editor.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\editor.cfg)
+<13:31:37> Loading Config file game.cfg (assets\game.cfg)
+<13:31:37> Unloading all previous plugins
+<13:31:37> Loading plugins...
+<13:31:37> Successfully loaded plugin 'CryDesigner', version '1' (GUID: )
+<13:31:37> Successfully loaded plugin 'EditorPhysics', version '1' (GUID: (null))
+<13:31:37> Successfully loaded plugin 'AudioControlsEditor', version '1' (GUID: {DFA4AFF7-2C70-4B29-B736-GRH00040314})
+<13:31:37> Successfully loaded plugin 'QtConsole', version '1' (GUID: {B0E9DE33-C2E3-4506-8B63-B023327156BB})
+<13:31:37> Cannot query plugin DLL 'C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.0\bin\win_x64\EditorPlugins\EditorCryAudioImplFmod.dll' factory pointer (is it a Sandbox plugin?)
+<13:31:37> Cannot query plugin DLL 'C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.0\bin\win_x64\EditorPlugins\EditorCryAudioImplSDLMixer.dll' factory pointer (is it a Sandbox plugin?)
+<13:31:37> Cannot query plugin DLL 'C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.0\bin\win_x64\EditorPlugins\EditorCryAudioImplWwise.dll' factory pointer (is it a Sandbox plugin?)
+<13:31:37> Successfully loaded plugin 'DynamicResponseSystemEditor', version '1' (GUID: {DFA4AFF7-2C70-4B29-B736-GRH00290515})
+<13:31:37> Successfully loaded plugin 'EditorEnvironment', version '1' (GUID: {800BBFA9-9895-4E81-AB02-7425FD4F5554})
+<13:31:37> Successfully loaded plugin 'ParticleLibrary', version '1' (GUID: (null))
+<13:31:37> Successfully loaded plugin 'TrackView', version '1' (GUID: {7C4EB160-30AC-44C1-92D6-6D4B74B2E96B})
+<13:31:38> FBX plugin: CreatePluginInstance
+<13:31:38> Successfully loaded plugin 'FBX Exporter', version '1' (GUID: {6CD02F95-362C-4ADF-8BAE-87C6342A8027})
+<13:31:38> Successfully loaded plugin 'MeshImporter', version '1' (GUID: {4F68F679-39AD-4BB4-B5E2-8A8DD3020DC1})
+<13:31:38> Started game resource files indexing...
+<13:31:38> Loading Localization File localization\english_xml\text_ui_ingame.xml
+<13:31:38> Loading Localization File localization\english_xml\text_ui_items.xml
+<13:31:38> Loading Localization File localization\english_xml\text_ui_levels.xml
+<13:31:38> Loading Localization File localization\english_xml\text_ui_menus.xml
+<13:31:38> Loading Localization File localization\english_xml\text_ui_warnings.xml
+<13:31:38> Loading Localization File localization\english_xml\ai_dialog_recording_list.xml
+<13:31:38> Loading Localization File localization\english_xml\dialog_recording_list.xml
+<13:31:38> [CONSOLE] Executing console command 'exec autoexec.cfg'
+<13:31:38> Executing console batch file (try game,config,root): "autoexec.cfg" not found!
+<13:31:38> [CONSOLE] Executing console command 'exec editor.cfg'
+<13:31:38> Executing console batch file (try game,config,root): "editor.cfg" found in editor.cfg ...
+<13:31:38> ed_MissingAssetResolver=0 [  ]
+<13:31:38> ca_UseIMG_CAF=0 [  ]
+<13:31:38> drs_dialogSubtitles=1 [  ]
+<13:31:38> [CONSOLE] Executing console command 'exec user.cfg'
+<13:31:38> Executing console batch file (try game,config,root): "user.cfg" not found!
+<13:31:38> Loading editor preferences from: C:/Users/Omar/AppData/Roaming/Crytek/CRYENGINE/Settings.ini
+<13:31:38> [Warning] Command 'ui_action.actionSelection_Mask' is not registered.
+<13:31:38> [Warning] Command 'ui_action.actionAIPoint_Pick_Link' is not registered.
+<13:31:38> [Warning] Command 'ui_action.actionAIPoint_Pick_Impass_Link' is not registered.
+<13:31:38> [Warning] Command 'general.fullscreen' is not registered.
+<13:31:38> [Warning] Command 'ui_action.actionTerrain_Flatten' is not registered.
+<13:31:38> [Warning] Command 'ui_action.actionTerrain_Smooth' is not registered.
+<13:31:38> [Warning] Command 'ui_action.actionEnable_file_change_monitoring' is not registered.
+<13:31:38> [Warning] Command 'general.set_config_spec 4' is not registered.
+<13:31:38> [Warning] Command 'general.set_config_spec 3' is not registered.
+<13:31:38> [Warning] Command 'general.set_config_spec 2' is not registered.
+<13:31:38> [Warning] Command 'general.set_config_spec 1' is not registered.
+<13:31:38> [Warning] Command 'general.set_config_spec 5' is not registered.
+<13:31:38> [Warning] Command 'general.set_config_spec 6' is not registered.
+<13:31:38> [Warning] Command 'general.set_config_spec 0' is not registered.
+<13:31:38> [Warning] XML reader: Can't open file (assets\audio\wwise\SoundbanksInfo.xml)
+<13:31:38> Adding for file change notifications: 'assets\'
+<13:31:38> Adding for file change notifications: '.\assets\'
+<13:31:40> Task Completed: Update Local Animations
+<13:31:40> Flushing pended shaders...
+<13:31:40> Finished flushing pended shaders...
+<13:31:40> Flushing pended shaders...
+<13:31:41> Finished flushing pended shaders...
+<13:31:41> Flushing pended shaders...
+<13:31:41> Finished flushing pended shaders...
+<13:31:41> Flushing pended shaders...
+<13:31:41> Finished flushing pended shaders...
+<13:31:41> Remote console listening on: 4600
+<13:31:42> Task Completed: Clean up compiled animations
+<13:31:42> general.open
+<13:31:44> general.open_level_no_prompt 'Assets/levels/CS188/CS188.cry'
+<13:31:44> Opening document Assets/levels/CS188/CS188.cry
+<13:31:44> CGame::OnSystemEvent(ESYSTEM_EVENT_LEVEL_LOAD_START) while in single player mode
+<13:31:44> Loading subADB Animations/Mannequin/ADB/pistolAnims1P.adb
+<13:31:44> Loading subADB Animations/Mannequin/ADB/rifleAnims1P.adb
+<13:31:44> Loading subADB Animations/Mannequin/ADB/shotgunAnims1P.adb
+<13:31:44> Loading subADB Animations/Mannequin/ADB/grenadeAnims1P.adb
+<13:31:44> Loading subADB Animations/Mannequin/ADB/rocketlauncherAnims1P.adb
+<13:31:44> Loading subADB Animations/Mannequin/ADB/hmgAnims1P.adb
+<13:31:44> Loading subADB Animations/Mannequin/ADB/c4Anims1P.adb
+<13:31:44> Loading subADB Animations/Mannequin/ADB/humanSlaveAnims1P.adb
+<13:31:44> Loading subADB Animations/Mannequin/ADB/ladderAnims1P.adb
+<13:31:44> Loading subADB Animations/Mannequin/ADB/swimAnims1P.adb
+<13:31:44> Loading subADB Animations/Mannequin/ADB/interactAnims1P.adb
+<13:31:44> Loading subADB Animations/Mannequin/ADB/animcontrolAnims1P.adb
+<13:31:44> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
+<13:31:45> [Warning] [flow] Trying to link an invalid node
+<13:31:45> [Warning] [flow] Trying to link an invalid node
+<13:31:45> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:31:45> [Warning] [flow] Trying to link an invalid node
+<13:31:45> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:31:45> [Warning] [flow] Trying to link an invalid node
+<13:31:45> [Warning] [flow] Trying to link an invalid node
+<13:31:45> [Warning] No game rules active, can not precache resources
+<13:31:45> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
+<13:31:45> [Warning] [flow] Trying to link an invalid node
+<13:31:45> [Warning] [flow] Trying to link an invalid node
+<13:31:45> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:31:45> [Warning] [flow] Trying to link an invalid node
+<13:31:45> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:31:45> [Warning] [flow] Trying to link an invalid node
+<13:31:45> [Warning] [flow] Trying to link an invalid node
+<13:31:45> [Warning] No game rules active, can not precache resources
+<13:31:45> [Warning] No game rules active, can not precache resources
+<13:31:45> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
+<13:31:45> [Warning] [flow] Trying to link an invalid node
+<13:31:45> [Warning] [flow] Trying to link an invalid node
+<13:31:45> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:31:45> [Warning] [flow] Trying to link an invalid node
+<13:31:45> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:31:45> [Warning] [flow] Trying to link an invalid node
+<13:31:45> [Warning] [flow] Trying to link an invalid node
+<13:31:45> [Warning] No game rules active, can not precache resources
+<13:31:45> sp_coop_mp set to 0.000000
+<13:31:45> Loading from Assets/levels/CS188/CS188.cry...
+<13:31:45> Ending game context...
+<13:31:45> Destroying CActionGame instance 00000212C852B1F0 (level="")
+<13:31:45> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<13:31:46> Loading Config file singleplayer.cfg (assets\config\singleplayer.cfg)
+<13:31:46> Loading game rules class='SinglePlayer' xml='Scripts/GameRules/SinglePlayer.xml'
+<13:31:46> GameRulesCommonDamageHandling::GameRulesCommonDamageHandling()
+<13:31:46> CGameRulesCommonDamageHandling::PostInit()
+<13:31:46> CGame::OnSystemEvent(ESYSTEM_EVENT_LEVEL_LOAD_START) while in single player mode
+<13:31:46> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
+<13:31:46> [Warning] [flow] Trying to link an invalid node
+<13:31:46> [Warning] [flow] Trying to link an invalid node
+<13:31:46> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:31:46> [Warning] [flow] Trying to link an invalid node
+<13:31:46> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:31:46> [Warning] [flow] Trying to link an invalid node
+<13:31:46> [Warning] [flow] Trying to link an invalid node
+<13:31:46> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
+<13:31:46> [Warning] [flow] Trying to link an invalid node
+<13:31:46> [Warning] [flow] Trying to link an invalid node
+<13:31:46> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:31:46> [Warning] [flow] Trying to link an invalid node
+<13:31:46> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:31:46> [Warning] [flow] Trying to link an invalid node
+<13:31:46> [Warning] [flow] Trying to link an invalid node
+<13:31:47> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
+<13:31:47> [Warning] [flow] Trying to link an invalid node
+<13:31:47> [Warning] [flow] Trying to link an invalid node
+<13:31:47> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:31:47> [Warning] [flow] Trying to link an invalid node
+<13:31:47> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:31:47> [Warning] [flow] Trying to link an invalid node
+<13:31:47> [Warning] [flow] Trying to link an invalid node
+<13:31:47> sp_coop_mp set to 0.000000
+<13:31:47> Loading missions...
+<13:31:47> ---- Start: Load Terrain
+<13:31:47> CRGBLayer::AllocateTiles 1x1 tiles 512 => 512x512 texture
+<13:31:47> allocating editor height map (1024x1024)*4
+<13:31:47> ---- Start: Loading Surface Types
+<13:31:47> ---- End: Loading Surface Types (0 seconds)
+<13:31:47> ---- Start: Loading Terrain Layers Info
+<13:31:47> Loading layer settings...
+<13:31:47> Loading layer texture (engineassets/textures/grey.dds)...
+<13:31:47>   loaded editor layer 0  name='Default' LayerID=0
+<13:31:47> ---- End: Loading Terrain Layers Info (0 seconds)
+<13:31:47> ---- Start: Load Terrain
+<13:31:47> Constructing 1365 terrain nodes (0.6 MB) <13:31:47>  done in 0.00 sec
+<13:31:47> ===== Loading 0 vegetation models =====
+<13:31:47> ===== Loading 4 brush models ===== 
+<13:31:47> ===== Initializing terrain nodes ===== 
+<13:31:47> ===== Loading outdoor instances ===== 
+<13:31:47> ---- End: Load Terrain (0 seconds)
+<13:31:47> ---- Start: Process RGB Terrain Layers
+<13:31:47> ---- End: Process RGB Terrain Layers (0 seconds)
+<13:31:47> CRGBLayer::AllocateTiles 1x1 tiles 512 => 512x512 texture
+<13:31:47> Loading terrain layers for segment 0 ...
+<13:31:47> ---- End: Load Terrain (0 seconds)
+<13:31:47> ---- Start: Game Engine level load
+<13:31:47> Loading map 'assets/levels/cs188' into engine...
+<13:31:47> ===== Loading Particle Effects =====
+<13:31:47> ---- End: Game Engine level load (0 seconds)
+<13:31:47> ---- Start: Load MaterialManager
+<13:31:47> ---- End: Load MaterialManager (0 seconds)
+<13:31:47> ---- Start: Load Particles
+<13:31:47> ---- End: Load Particles (0 seconds)
+<13:31:47> ---- Start: Load Flares
+<13:31:47> ---- End: Load Flares (0 seconds)
+<13:31:47> ---- Start: Load GameTokens
+<13:31:47> ---- End: Load GameTokens (0 seconds)
+<13:31:47> Loading View settings...
+<13:31:47> ---- Start: Load Vegetation
+<13:31:47> Loading Vegetation Map...
+<13:31:47> ---- End: Load Vegetation (0 seconds)
+<13:31:47> ---- Start: Reposition Vegetation
+<13:31:47> ---- End: Reposition Vegetation (0 seconds)
+<13:31:47> ---- Start: Updating Surface Types
+<13:31:47> Loading terrain layers for segment 0 ...
+<13:31:47> ---- End: Updating Surface Types (0 seconds)
+<13:31:47> Loading Fog settings...
+<13:31:47> ---- Start: Load Entity Archetypes Database
+<13:31:47> ---- End: Load Entity Archetypes Database (0 seconds)
+<13:31:47> ---- Start: Load Prefabs Database
+<13:31:47> ---- End: Load Prefabs Database (0 seconds)
+<13:31:47> ---- Start: Activating Mission Mission0
+<13:31:47> Loading AI data assets/levels/cs188, Mission0
+<13:31:47> --- AI: Navigation Data Loaded in  0.00 sec
+<13:31:47> Finished Loading AI data in  0.008 secs
+<13:31:47> ---- End: Activating Mission Mission0 (0 seconds)
+<13:31:47> ---- Start: Load Level Shader Cache
+<13:31:47> ---- End: Load Level Shader Cache (0 seconds)
+<13:31:47> ---- Start: Post Load
+<13:31:47> ---- End: Post Load (0 seconds)
+<13:31:47> [LevelLoadTime] Level assets/levels/cs188 loaded in 0 seconds
+<13:31:47> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<13:31:48> Loading subADB Animations/Mannequin/ADB/aimAnims3P.adb
+<13:31:48> Loading subADB Animations/Mannequin/ADB/pistolAnims3P.adb
+<13:31:48> Loading subADB Animations/Mannequin/ADB/rifleAnims3P.adb
+<13:31:48> Loading subADB Animations/Mannequin/ADB/shotgunAnims3P.adb
+<13:31:48> Loading subADB Animations/Mannequin/ADB/grenadeAnims3P.adb
+<13:31:48> Loading subADB Animations/Mannequin/ADB/rocketlauncherAnims3P.adb
+<13:31:48> Loading subADB Animations/Mannequin/ADB/hmgAnims3P.adb
+<13:31:48> Loading subADB Animations/Mannequin/ADB/humanSlaveAnims3P.adb
+<13:31:48> Loading subADB Animations/Mannequin/ADB/pistolSounds.adb
+<13:31:48> Loading subADB Animations/Mannequin/ADB/rifleSounds.adb
+<13:31:48> Loading subADB Animations/Mannequin/ADB/shotgunSounds.adb
+<13:31:48> Loading subADB Animations/Mannequin/ADB/grenadeSounds.adb
+<13:31:48>   1690 animation-assets loaded (total assets: 1514)
+<13:31:48> [PLAYER PLUG-IN] Player 'Dude' attempting to enter plug-in 'CPlayerPlugin_Interaction'
+<13:31:48> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
+<13:31:48> Player 'Dude' (0 0 0) can't change stance from -1 'Null' to 0 'Stand' [Attempt 1]
+<13:31:48> [PLAYER PLUG-IN] Player 'Dude' attempting to enter plug-in 'CPlayerPlugin_CurrentlyTargetting'
+<13:31:49>   11 animation-assets loaded (total assets: 1524)
+<13:31:49> Loading subADB Animations/Mannequin/ADB/pistolFFEvents.adb
+<13:31:49>   12 animation-assets loaded (total assets: 1535)
+<13:31:49> Loading subADB Animations/Mannequin/ADB/rifleFFEvents.adb
+<13:31:49>   8 animation-assets loaded (total assets: 1542)
+<13:31:49> Loading subADB Animations/Mannequin/ADB/shotgunFFEvents.adb
+<13:31:49>   6 animation-assets loaded (total assets: 1547)
+<13:31:49> Player 'Dude' is becoming local actor
+<13:31:49> SetGlobalState 2->11 'RUNNING'->'LEVEL_LOAD_TEXTURES' 13.2 seconds
+<13:31:49> -- Presort shaders by states...
+<13:31:49> --- 117 Resources, 27 Resource groups.
+<13:31:49> Requesting textures precache ...
+<13:31:49> -- Precaching textures...
+<13:31:49> Precaching progress: 1
+<13:31:49> Precaching progress: 2
+<13:31:49> Precaching progress: 3
+<13:31:49> Precaching progress: 4
+<13:31:49> Precaching progress: 5
+<13:31:49> Precaching progress: 6
+<13:31:49> Precaching progress: 7
+<13:31:49> Precaching progress: 8
+<13:31:49> Precaching progress: 9
+<13:31:49> Precaching textures done in 0.29 seconds
+<13:31:49> Textures precache done.
+<13:31:49> File access time during level loading: 0.66 seconds
+<13:31:49> -----------------------------------------------------------
+<13:31:49> Successfully opened document Assets/levels/CS188/
+<13:31:49> Level loading time: 5.02 seconds
+<13:31:49> -----------------------------------------------------------
+<13:31:49> Returned: 
+<13:31:49> Returned: 
+<13:31:49> Opening terrain\cover.ctc ...
+<13:31:49>   TerrainLayer 0: TexFormat: BC3, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
+<13:31:49>   TerrainLayer 1: TexFormat: BC3, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
+<13:31:49>   RGB multiplier: 8, Texture indices: 21
+<13:32:00> ui_action.actionMove
+<13:32:00> Returned: 
+<13:32:22> general.undo
+<13:32:22> Undo (Undo:7,Redo:1)
+<13:32:22> Returned: 
+<13:32:22> general.undo
+<13:32:22> Undo (Undo:6,Redo:2)
+<13:32:22> Returned: 
+<13:32:23> general.undo
+<13:32:23> Undo (Undo:5,Redo:3)
+<13:32:23> Returned: 
+<13:32:24> general.undo
+<13:32:24> Undo (Undo:4,Redo:4)
+<13:32:24> Returned: 
+<13:32:25> general.undo
+<13:32:25> Undo (Undo:3,Redo:5)
+<13:32:25> Returned: 
+<13:32:53> general.save
+<13:32:53> Saving to Assets/levels/CS188/CS188.cry...
+<13:32:53> Storing View settings...
+<13:32:53> Storing Fog settings...
+<13:32:53> Storing missions...<13:32:53> Done
+<13:32:53> 0 shader combination loaded for level Assets/levels/CS188
+<13:32:53> Saving pak file assets\levels\cs188\cs188.tmp
+<13:32:53> Storing surface types...
+<13:32:53> Storing layer settings...
+<13:32:53> Saving Vegetation Map...
+<13:32:53> Level successfully saved
+<13:32:53> Returned: 
+<13:32:56> ui_action.actionSelect_Mode
+<13:32:56> Returned: 
+<13:33:04> general.delete
+<13:33:04> Returned: 
+<13:33:07> general.delete
+<13:33:07> Returned: 
+<13:33:14> general.delete
+<13:33:14> Returned: 
+<13:33:35> general.duplicate
+<13:33:35> general.clear_selection
+<13:33:35> Returned: 1
+<13:33:35> Returned: 
+<13:33:40> ui_action.actionRotate
+<13:33:40> Returned: 
+<13:33:43> general.undo
+<13:33:43> Undo (Undo:17,Redo:1)
+<13:33:43> Returned: 
+<13:34:07> general.undo
+<13:34:07> Undo (Undo:19,Redo:1)
+<13:34:07> Returned: 
+<13:34:20> general.undo
+<13:34:20> Undo (Undo:20,Redo:1)
+<13:34:20> Returned: 
+<13:34:20> general.undo
+<13:34:20> Undo (Undo:19,Redo:2)
+<13:34:20> Returned: 
+<13:34:21> general.undo
+<13:34:21> Undo (Undo:18,Redo:3)
+<13:34:21> Returned: 
+<13:34:21> general.undo
+<13:34:21> Undo (Undo:17,Redo:4)
+<13:34:21> Returned: 
+<13:34:22> general.undo
+<13:34:22> Undo (Undo:16,Redo:5)
+<13:34:22> Returned: 
+<13:34:27> ui_action.actionSelect_Mode
+<13:34:27> Returned: 
+<13:34:29> ui_action.actionMove
+<13:34:29> Returned: 
+<13:34:32> general.undo
+<13:34:32> Undo (Undo:16,Redo:1)
+<13:34:32> Returned: 
+<13:34:34> general.duplicate
+<13:34:34> general.clear_selection
+<13:34:34> Returned: 1
+<13:34:34> Returned: 
+<13:35:16> general.duplicate
+<13:35:16> general.clear_selection
+<13:35:16> Returned: 1
+<13:35:16> Returned: 
+<13:35:33> general.duplicate
+<13:35:33> general.clear_selection
+<13:35:33> Returned: 1
+<13:35:33> Returned: 
+<13:36:04> general.save
+<13:36:04> Saving to Assets/levels/CS188/CS188.cry...
+<13:36:04> Storing View settings...
+<13:36:04> Storing Fog settings...
+<13:36:04> Storing missions...<13:36:04> Done
+<13:36:04> 0 shader combination loaded for level Assets/levels/CS188
+<13:36:04> Saving pak file assets\levels\cs188\cs188.tmp
+<13:36:04> Storing surface types...
+<13:36:04> Storing layer settings...
+<13:36:04> Saving Vegetation Map...
+<13:36:04> Level successfully saved
+<13:36:04> Returned: 
+<13:36:07> general.save
+<13:36:07> Saving to Assets/levels/CS188/CS188.cry...
+<13:36:07> Storing View settings...
+<13:36:07> Storing Fog settings...
+<13:36:07> Storing missions...<13:36:07> Done
+<13:36:07> 0 shader combination loaded for level Assets/levels/CS188
+<13:36:07> Saving pak file assets\levels\cs188\cs188.tmp
+<13:36:07> Storing surface types...
+<13:36:07> Storing layer settings...
+<13:36:07> Saving Vegetation Map...
+<13:36:07> Level successfully saved
+<13:36:07> Returned: 
+<13:39:41> ui_action.actionSelect_Mode
+<13:39:41> Returned: 
+<13:39:56> ui_action.actionMove
+<13:39:56> Returned: 
+<13:39:59> general.undo
+<13:39:59> Undo (Undo:34,Redo:1)
+<13:39:59> Returned: 
+<13:40:09> general.duplicate
+<13:40:09> general.clear_selection
+<13:40:09> Returned: 1
+<13:40:09> Returned: 
+<13:41:14> general.undo
+<13:41:14> Undo (Undo:37,Redo:1)
+<13:41:14> Returned: 
+<13:41:14> general.undo
+<13:41:14> Undo (Undo:36,Redo:2)
+<13:41:14> Returned: 
+<13:41:15> general.undo
+<13:41:15> Undo (Undo:35,Redo:3)
+<13:41:15> Returned: 
+<13:41:17> general.undo
+<13:41:17> Undo (Undo:35,Redo:1)
+<13:41:17> Returned: 
+<13:41:17> general.undo
+<13:41:17> Undo (Undo:34,Redo:2)
+<13:41:17> Returned: 
+<13:41:20> ui_action.actionSelect_Mode
+<13:41:20> Returned: 
+<13:41:38> Storing View settings...
+<13:41:38> Storing Fog settings...
+<13:41:38> Storing missions...<13:41:38> Done
+<13:41:38> 0 shader combination loaded for level Assets/levels/CS188/_autobackup/2016.05.07 [13-41.38]/CS188
+<13:41:38> Saving pak file assets\levels\cs188\_autobackup\2016.05.07 [13-41.38]\cs188\cs188.tmp
+<13:41:38> Storing surface types...
+<13:41:38> Storing layer settings...
+<13:41:38> Saving Vegetation Map...
+<13:41:50> ui_action.actionMove
+<13:41:50> Returned: 
+<13:42:03> ui_action.actionSelect_Mode
+<13:42:03> Returned: 
+<13:42:29> general.delete
+<13:42:29> Returned: 
+<13:42:32> general.delete
+<13:42:32> Returned: 
+<13:42:36> general.delete
+<13:42:36> Returned: 
+<13:42:45> general.duplicate
+<13:42:45> general.clear_selection
+<13:42:45> Returned: 1
+<13:42:45> Returned: 
+<13:43:26> general.duplicate
+<13:43:26> general.clear_selection
+<13:43:26> Returned: 1
+<13:43:26> Returned: 
+<13:44:24> ui_action.actionMove
+<13:44:24> Returned: 
+<13:45:34> general.duplicate
+<13:45:34> general.clear_selection
+<13:45:34> Returned: 1
+<13:45:34> Returned: 
+<13:46:12> general.save
+<13:46:12> Saving to Assets/levels/CS188/CS188.cry...
+<13:46:12> Storing View settings...
+<13:46:12> Storing Fog settings...
+<13:46:12> Storing missions...<13:46:12> Done
+<13:46:12> 0 shader combination loaded for level Assets/levels/CS188
+<13:46:12> Saving pak file assets\levels\cs188\cs188.tmp
+<13:46:12> Storing surface types...
+<13:46:12> Storing layer settings...
+<13:46:12> Saving Vegetation Map...
+<13:46:12> Level successfully saved
+<13:46:12> Returned: 
+<13:46:37> general.duplicate
+<13:46:37> general.clear_selection
+<13:46:37> Returned: 1
+<13:46:37> Returned: 
+<13:46:52> general.duplicate
+<13:46:52> general.clear_selection
+<13:46:52> Returned: 1
+<13:46:52> Returned: 
+<13:46:57> general.duplicate
+<13:46:57> general.clear_selection
+<13:46:57> Returned: 1
+<13:46:57> Returned: 
+<13:47:30> ui_action.actionSwitch_to_Game
+<13:47:30> general.enter_game_mode
+<13:47:30> Returned: 
+<13:47:30> Returned: 
+<13:47:30> CActor::NetReviveAt: Dude
+<13:47:30> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
+<13:47:31> Player 'Dude' (503.785 485.931 70.024) has finally changed stance from -1 'Null' to 0 'Stand'
+<13:47:31> Pre-caching render meshes for camera position
+<13:47:31> Updating level streaming priorities for 1 cameras (LevelFrameId = 1)
+<13:47:31> -- 512.500000 510.033508 33.650002
+<13:47:31> SetGlobalState 11->2 'LEVEL_LOAD_TEXTURES'->'RUNNING' 942.3 seconds
+<13:47:40> general.exit_game_mode
+<13:47:40> Returned: 
+<13:47:40> [Warning] Projectile 0000021280B3A1A0 fired from 'Pistol' owned by Player 'Dude' hasn't moved since launch (499.36 500.78 33.52)
+<13:47:40> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<13:47:59> general.save
+<13:47:59> Saving to Assets/levels/CS188/CS188.cry...
+<13:47:59> Storing View settings...
+<13:47:59> Storing Fog settings...
+<13:47:59> Storing missions...<13:47:59> Done
+<13:47:59> 0 shader combination loaded for level Assets/levels/CS188
+<13:47:59> Saving pak file assets\levels\cs188\cs188.tmp
+<13:47:59> Storing surface types...
+<13:47:59> Storing layer settings...
+<13:47:59> Saving Vegetation Map...
+<13:47:59> Level successfully saved
+<13:47:59> Returned: 
+<13:49:11> general.save
+<13:49:11> Saving to Assets/levels/CS188/CS188.cry...
+<13:49:11> Storing View settings...
+<13:49:11> Storing Fog settings...
+<13:49:11> Storing missions...<13:49:11> Done
+<13:49:11> 0 shader combination loaded for level Assets/levels/CS188
+<13:49:11> Saving pak file assets\levels\cs188\cs188.tmp
+<13:49:11> Storing surface types...
+<13:49:11> Storing layer settings...
+<13:49:11> Saving Vegetation Map...
+<13:49:11> Level successfully saved
+<13:49:11> Returned: 
+<13:49:29> general.open_pane 'Level Explorer'
+<13:49:29> Returned: 
+<13:49:42> level.go_to_selection
+<13:49:42> Returned: 
+<13:49:51> ui_action.actionSwitch_to_Game
+<13:49:51> general.enter_game_mode
+<13:49:51> Returned: 
+<13:49:51> Returned: 
+<13:49:51> CActor::NetReviveAt: Dude
+<13:49:51> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
+<13:49:51> Pre-caching render meshes for camera position
+<13:49:51> Updating level streaming priorities for 1 cameras (LevelFrameId = 347)
+<13:49:51> -- 516.671204 512.790466 33.646637
+<13:49:54> general.exit_game_mode
+<13:49:54> Returned: 
+<13:49:54> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<13:50:21> general.save
+<13:50:21> Saving to Assets/levels/CS188/CS188.cry...
+<13:50:21> Storing View settings...
+<13:50:21> Storing Fog settings...
+<13:50:21> Storing missions...<13:50:21> Done
+<13:50:21> 0 shader combination loaded for level Assets/levels/CS188
+<13:50:21> Saving pak file assets\levels\cs188\cs188.tmp
+<13:50:21> Storing surface types...
+<13:50:21> Storing layer settings...
+<13:50:21> Saving Vegetation Map...
+<13:50:21> Level successfully saved
+<13:50:21> Returned: 
+<13:50:22> ui_action.actionSwitch_to_Game
+<13:50:22> general.enter_game_mode
+<13:50:22> Returned: 
+<13:50:22> Returned: 
+<13:50:22> CActor::NetReviveAt: Dude
+<13:50:22> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
+<13:50:22> Pre-caching render meshes for camera position
+<13:50:22> Updating level streaming priorities for 1 cameras (LevelFrameId = 493)
+<13:50:22> -- 496.945587 494.664307 33.614082
+<13:50:23> general.exit_game_mode
+<13:50:23> Returned: 
+<13:50:23> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<13:51:38> Storing View settings...
+<13:51:38> Storing Fog settings...
+<13:51:38> Storing missions...<13:51:38> Done
+<13:51:38> 0 shader combination loaded for level Assets/levels/CS188/_autobackup/2016.05.07 [13-51.38]/CS188
+<13:51:38> Saving pak file assets\levels\cs188\_autobackup\2016.05.07 [13-51.38]\cs188\cs188.tmp
+<13:51:38> Storing surface types...
+<13:51:38> Storing layer settings...
+<13:51:38> Saving Vegetation Map...
+<13:52:46> Loading subADB Animations/Mannequin/ADB/humanAimPose.adb
+<13:52:46> Loading subADB Animations/Mannequin/ADB/humanAiming.adb
+<13:52:46> Loading subADB Animations/Mannequin/ADB/humanLookPose.adb
+<13:52:46> Loading subADB Animations/Mannequin/ADB/humanLooking.adb
+<13:52:46> Loading subADB Animations/Mannequin/ADB/humanTorsoDetail.adb
+<13:52:46> Loading subADB Animations/Mannequin/ADB/humanPistol.adb
+<13:52:46> Loading subADB Animations/Mannequin/ADB/humanRifle.adb
+<13:52:46> Loading subADB Animations/Mannequin/ADB/humanShotgun.adb
+<13:52:46> Loading subADB Animations/Mannequin/ADB/humanRocketLauncher.adb
+<13:52:46> Loading subADB Animations/Mannequin/ADB/humanCoverHigh.adb
+<13:52:46> Loading subADB Animations/Mannequin/ADB/humanCoverLow.adb
+<13:52:46> Loading body destruction file 'libs/bodydamage/bodydestructibility_humanmaleshared.xml'
+<13:52:46> ======== Loading body destruction done ==================
+<13:54:05> ui_action.actionCreate_Prefab_fom_Selected_Objects
+<13:54:09> Returned: 
+<13:56:12> [Error] Animation-queue filled up to 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212B9A63250.
+<13:56:12> PM class: AnimationPoseModifier_IKTorsoAim, name IKTorsoAimHelper
+<13:56:12> PM class: AnimationPoseModifier_IKTorsoAim, name IKTorsoAimHelper
+<13:56:12> PM class: AnimationPoseModifier_IKTorsoAim, name IKTorsoAimHelper
+<13:56:12> PM class: AnimationPoseModifier_IKTorsoAim, name IKTorsoAimHelper
+<13:56:12> PM class: AnimationPoseModifier_IKTorsoAim, name IKTorsoAimHelper
+<13:56:12> PM class: AnimationPoseModifier_IKTorsoAim, name IKTorsoAimHelper
+<13:56:12> PM class: AnimationPoseModifier_IKTorsoAim, name IKTorsoAimHelper
+<13:56:12> PM class: AnimationPoseModifier_IKTorsoAim, name IKTorsoAimHelper
+<13:56:12> AnimInAFIFO 10: t:0  'stand_tac_idlebreak_rifle_shoulder_add_1p_02'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<13:56:12> AnimInAFIFO 10: t:0  'stand_tac_idlebreak_rifle_shoulder_add_1p_03'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<13:56:12> AnimInAFIFO 10: t:0  'stand_tac_idlebreak_rifle_shoulder_add_1p_02'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<13:56:12> AnimInAFIFO 10: t:0  'stand_tac_idlebreak_rifle_shoulder_add_1p_02'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<13:56:12> AnimInAFIFO 10: t:0  'stand_tac_idlebreak_rifle_shoulder_add_1p_03'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<13:56:12> AnimInAFIFO 10: t:0  'stand_tac_idlebreak_rifle_shoulder_add_1p_03'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<13:56:12> AnimInAFIFO 10: t:0  'stand_tac_idlebreak_rifle_shoulder_add_1p_02'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<13:56:12> AnimInAFIFO 10: t:0  'stand_tac_idlebreak_rifle_shoulder_add_1p_02'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<13:56:12> AnimInAFIFO 10: t:0  'stand_tac_idlebreak_rifle_shoulder_add_1p_02'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<13:56:12> AnimInAFIFO 10: t:0  'stand_tac_idlebreak_rifle_shoulder_add_1p_02'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<13:56:12> AnimInAFIFO 10: t:0  'stand_tac_idlebreak_rifle_shoulder_add_1p_03'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<13:56:12> AnimInAFIFO 10: t:0  'stand_tac_idlebreak_rifle_shoulder_add_1p_03'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<13:56:12> AnimInAFIFO 10: t:0  'stand_tac_idlebreak_rifle_shoulder_add_1p_03'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<13:56:12> AnimInAFIFO 10: t:0  'stand_tac_idlebreak_rifle_shoulder_add_1p_03'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<13:56:12> AnimInAFIFO 10: t:0  'stand_tac_idlebreak_rifle_shoulder_add_1p_02'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<13:56:12> AnimInAFIFO 10: t:0  'stand_tac_idlebreak_rifle_shoulder_add_1p_03'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<13:56:12> ADIK: target: Bip01 RHand2RiflePos_IKTarget weight: 0.00
+<13:56:12> ADIK: target: Bip01 RHand2Aim_IKTarget weight: -0.00
+<13:56:12> ADIK: target: Bip01 LHand2Aim_IKTarget weight: 0.00
+<13:56:12> ADIK: target: Bip01 LHand2Weapon_IKTarget weight: 0.00
+<13:56:12> ADIK: target: Bip01 LHand2Pocket_IKTarget weight: 0.00
+<13:56:12> ADIK: target: Bip01 RHand2Pocket_IKTarget weight: 0.00
+<13:56:12> ADIK: target: Bip01 LHand2RiflePos_IKTarget weight: 0.00
+<13:56:12> ADIK: target: Bip01 LHand2PistolPos_IKTarget weight: 0.00
+<13:56:12> ADIK: target: Bip01 RHand2PistolPos_IKTarget weight: 0.00
+<13:56:12> ADIK: target: Bip01 RHand2Weapon_IKTarget weight: -0.00
+<13:57:08> general.delete
+<13:57:08> Returned: 
+<13:57:24> Undo Object Canceled (Undo:112,Redo:0)
+<13:57:43> general.undo
+<13:57:43> Undo (Undo:112,Redo:1)
+<13:57:43> Returned: 
+<13:57:47> Undo Object Canceled (Undo:112,Redo:1)
+<13:58:05> general.undo
+<13:58:05> Undo (Undo:112,Redo:1)
+<13:58:05> Returned: 
+<13:58:32> general.undo
+<13:58:32> Undo (Undo:112,Redo:1)
+<13:58:32> Returned: 
+<13:59:02> ui_action.actionSwitch_to_Game
+<13:59:02> general.enter_game_mode
+<13:59:02> Returned: 
+<13:59:02> Returned: 
+<13:59:02> CActor::NetReviveAt: Dude
+<13:59:02> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
+<13:59:02> [Error] Invalid Animation ID: -1 for Model: objects/characters/human/generic/skeleton_player_generic.chr
+<13:59:02> [Error] Invalid Animation ID: -1 for Model: objects/characters/human/generic/skeleton_player_generic.chr
+<13:59:02> [Error] Invalid Animation ID: -1 for Model: objects/characters/human/generic/skeleton_player_generic.chr
+<13:59:05> Enemy.Easy_Pistol1 - Message: Enemy.E
+<13:59:06> Enemy.Easy_Pistol1 - Message: Enemy.Easy
+<13:59:06> Enemy.Easy_Pistol1 - Message: Enemy.Easy
+<13:59:06> Enemy.Easy_Pistol1 - Message: Enemy.Easy
+<13:59:07> Enemy.Easy_Pistol1 - Message: Enemy.Easy
+<13:59:08> [CGameRules::KillPlayer] HitJoint: 16  PartID: 16
+<13:59:08> CActor::NetKill: Dude killed Enemy.Easy_Pistol1
+<13:59:09> general.exit_game_mode
+<13:59:09> Returned: 
+<13:59:09> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<13:59:24> ai_BubbleSystemAllowPrototypeDialogBubbles=1 [  ]
+<13:59:27> ui_action.actionSwitch_to_Game
+<13:59:27> general.enter_game_mode
+<13:59:27> Returned: 
+<13:59:27> Returned: 
+<13:59:27> CActor::NetReviveAt: Dude
+<13:59:27> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
+<13:59:27> Pre-caching render meshes for camera position
+<13:59:27> Updating level streaming priorities for 1 cameras (LevelFrameId = 813)
+<13:59:27> -- 500.759857 493.007355 33.611660
+<13:59:30> Enemy.Easy_Pistol1 - Message: Enemy.E
+<13:59:32> Enemy.Easy_Pistol1 - Message: Enemy.Easy
+<13:59:32> Enemy.Easy_Pistol1 - Message: Enemy.Easy
+<13:59:37> Enemy.Easy_Pistol1 - Message: Enemy.Easy
+<13:59:40> Enemy.Easy_Pistol1 - Message: Enemy.Easy
+<13:59:45> Enemy.Easy_Pistol1 - Message: Enemy.Easy
+<13:59:45> Enemy.Easy_Pistol1 - Message: Enemy.Easy
+<13:59:50> Enemy.Easy_Pistol1 - Message: Enemy.Easy
+<13:59:52> Enemy.Easy_Pistol1 - Message: Enemy.E
+<13:59:52> Enemy.Easy_Pistol1 - Message: Enemy.E
+<13:59:53> Enemy.Easy_Pistol1 - Message: Enemy.E
+<13:59:53> Enemy.Easy_Pistol1 - Message: Enemy.E
+<13:59:53> Enemy.Easy_Pistol1 - Message: Enemy.E
+<13:59:54> [CGameRules::KillPlayer] HitJoint: 16  PartID: 16
+<13:59:54> CActor::NetKill: Dude killed Enemy.Easy_Pistol1
+<14:00:00> general.exit_game_mode
+<14:00:00> Returned: 
+<14:00:00> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<14:00:04> general.save
+<14:00:04> Saving to Assets/levels/CS188/CS188.cry...
+<14:00:04> Storing View settings...
+<14:00:04> Storing Fog settings...
+<14:00:04> Storing missions...<14:00:04> Done
+<14:00:04> 0 shader combination loaded for level Assets/levels/CS188
+<14:00:04> Saving pak file assets\levels\cs188\cs188.tmp
+<14:00:04> Storing surface types...
+<14:00:04> Storing layer settings...
+<14:00:04> Saving Vegetation Map...
+<14:00:04> Level successfully saved
+<14:00:04> Returned: 
+<14:00:43> Undo Object Canceled (Undo:114,Redo:0)
+<14:00:45>   2 animation-assets loaded (total assets: 1547)
+<14:00:45> Loading body destruction file 'libs/bodydamage/bodydestructibility_humanturret.xml'
+<14:00:45> ======== Loading body destruction done ==================
+<14:00:45> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:00:59> ui_action.actionRotate
+<14:00:59> Returned: 
+<14:01:38> Storing View settings...
+<14:01:38> Storing Fog settings...
+<14:01:38> Storing missions...<14:01:38> Done
+<14:01:38> 0 shader combination loaded for level Assets/levels/CS188/_autobackup/2016.05.07 [14-01.38]/CS188
+<14:01:38> Saving pak file assets\levels\cs188\_autobackup\2016.05.07 [14-01.38]\cs188\cs188.tmp
+<14:01:38> Storing surface types...
+<14:01:38> Storing layer settings...
+<14:01:38> Saving Vegetation Map...
+<14:01:43> ui_action.actionMove
+<14:01:43> Returned: 
+<14:02:49> general.save
+<14:02:49> Saving to Assets/levels/CS188/CS188.cry...
+<14:02:49> Storing View settings...
+<14:02:49> Storing Fog settings...
+<14:02:49> Storing missions...<14:02:49> Done
+<14:02:49> 0 shader combination loaded for level Assets/levels/CS188
+<14:02:49> Saving pak file assets\levels\cs188\cs188.tmp
+<14:02:49> Storing surface types...
+<14:02:49> Storing layer settings...
+<14:02:49> Saving Vegetation Map...
+<14:02:50> Level successfully saved
+<14:02:50> Returned: 
+<14:03:00> CDefaultSkeleton Release: _objects/characters/human/generic/skeleton_player_generic.chr
+<14:03:00> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:03:00>   2 animation-assets loaded (total assets: 1547)
+<14:03:00> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:03:00>   2 animation-assets loaded (total assets: 1547)
+<14:03:00> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:03:00>   2 animation-assets loaded (total assets: 1547)
+<14:03:00> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:03:00>   2 animation-assets loaded (total assets: 1547)
+<14:03:00> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:03:00>   2 animation-assets loaded (total assets: 1547)
+<14:03:00> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:03:00>   2 animation-assets loaded (total assets: 1547)
+<14:03:00> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:03:00>   2 animation-assets loaded (total assets: 1547)
+<14:03:00> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:03:00>   2 animation-assets loaded (total assets: 1547)
+<14:03:00> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:03:00>   2 animation-assets loaded (total assets: 1547)
+<14:03:00> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:03:08> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:03:08>   2 animation-assets loaded (total assets: 1547)
+<14:03:08> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:03:09> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:03:09>   2 animation-assets loaded (total assets: 1547)
+<14:03:09> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:03:19> [Error] Animation-queue filled up to 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212EBED8C90.
+<14:03:19> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.67 (1.07s/1.60s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:03:19> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:19> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:19> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:19> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:19> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:19> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:19> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:19> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:19> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:19> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:19> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:19> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:19> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:19> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:19> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:19> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:19> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:19> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:19> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:19> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:19> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:19> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:19> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:19> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:19> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:19> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:19> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:19> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:19> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:19> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:19> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:19> PM class: AnimationPoseModifier_OperatorQueue, name Unknown
+<14:03:19> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:03:19> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:03:19> PM class: AnimationPoseModifier_OperatorQueue, name Unknown
+<14:03:19> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:03:19> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:03:19> PM class: AnimationPoseModifier_OperatorQueue, name Unknown
+<14:03:19> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:03:19> AnimInAFIFO 07: t:0  'stand_tac_lookaround_rifle_add_3p_01'  ATime:0.57 (5.91s/10.40s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:03:19> AnimInAFIFO 07: t:0  'stand_tac_lookaround_rifle_add_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:19> AnimInAFIFO 07: t:0  'stand_tac_lookaround_rifle_add_3p_02'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:19> AnimInAFIFO 08: t:0  'cover_tac_idle_rifle_add_3p_01'  ATime:1.00 (1.30s/1.30s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:03:20> AnimInAFIFO 08: t:0  'cover_tac_idle_rifle_add_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:20> AnimInAFIFO 08: t:0  'cover_tac_idle_rifle_add_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:20> AnimInAFIFO 14: t:0  'stand_tac_aimposes_idle_rifle_shoulder_3p_01'  ATime:0.22 (0.10s/0.47s) ASpd:1.00 Flag:00000102 (-------n------L-) TTime:0.20 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:03:20> AnimInAFIFO 15: t:0  'stand_tac_lookposes_fullbody_3p_01'  ATime:0.22 (0.10s/0.47s) ASpd:1.00 Flag:00000102 (-------n------L-) TTime:0.20 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:03:20> ADIK: target: Bip01 RHand2RiflePos_IKTarget weight: 0.00
+<14:03:20> ADIK: target: Bip01 RHand2Aim_IKTarget weight: -0.00
+<14:03:20> ADIK: target: Bip01 LHand2Aim_IKTarget weight: -0.00
+<14:03:20> ADIK: target: Bip01 LHand2Weapon_IKTarget weight: 0.00
+<14:03:20> ADIK: target: Bip01 LHand2Pocket_IKTarget weight: 0.00
+<14:03:20> ADIK: target: Bip01 RHand2Pocket_IKTarget weight: 0.00
+<14:03:20> ADIK: target: Bip01 LHand2RiflePos_IKTarget weight: 0.00
+<14:03:20> ADIK: target: Bip01 LHand2PistolPos_IKTarget weight: 0.00
+<14:03:20> ADIK: target: Bip01 RHand2PistolPos_IKTarget weight: 0.00
+<14:03:20> ADIK: target: Bip01 RHand2Weapon_IKTarget weight: -0.00
+<14:03:21> [Error] Animation-queue overflow. More then 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212EBED8C90.
+<14:03:23> [Error] Animation-queue overflow. More then 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212EBED8C90.
+<14:03:24> [Error] Animation-queue overflow. More then 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212EBED8C90.
+<14:03:26> [Error] Animation-queue overflow. More then 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212EBED8C90.
+<14:03:27> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:03:27>   2 animation-assets loaded (total assets: 1547)
+<14:03:27> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:03:27> [Error] Animation-queue overflow. More then 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212EBED8C90.
+<14:03:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:03:41>   2 animation-assets loaded (total assets: 1547)
+<14:03:41> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:03:54> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:03:54>   2 animation-assets loaded (total assets: 1547)
+<14:03:54> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:03:59> [Error] Animation-queue filled up to 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212EBED8C90.
+<14:03:59> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:1.00 (1.60s/1.60s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.98 PWght:1.00 seg:00 inmem:1
+<14:03:59> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:59> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.02 (0.02s/1.60s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.02 PWght:1.00 seg:00 inmem:1
+<14:03:59> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:59> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:59> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:59> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:59> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:59> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:59> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:59> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:59> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:59> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:59> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:59> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:59> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:59> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:59> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:03:59> PM class: AnimationPoseModifier_OperatorQueue, name Unknown
+<14:03:59> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:03:59> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:03:59> PM class: AnimationPoseModifier_OperatorQueue, name Unknown
+<14:03:59> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:03:59> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:03:59> PM class: AnimationPoseModifier_OperatorQueue, name Unknown
+<14:03:59> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:03:59> AnimInAFIFO 07: t:0  'stand_tac_lookaround_rifle_add_3p_02'  ATime:0.21 (2.44s/11.70s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> AnimInAFIFO 07: t:0  'stand_tac_lookaround_rifle_add_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> AnimInAFIFO 07: t:0  'stand_tac_lookaround_rifle_add_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> AnimInAFIFO 08: t:0  'cover_tac_idle_rifle_add_3p_01'  ATime:1.00 (1.30s/1.30s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> AnimInAFIFO 08: t:0  'cover_tac_idle_rifle_add_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> AnimInAFIFO 08: t:0  'cover_tac_idle_rifle_add_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> AnimInAFIFO 14: t:0  'stand_tac_aimposes_idle_rifle_shoulder_3p_01'  ATime:0.78 (0.36s/0.47s) ASpd:1.00 Flag:00000102 (-------n------L-) TTime:0.20 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> AnimInAFIFO 15: t:0  'stand_tac_lookposes_fullbody_3p_01'  ATime:0.78 (0.36s/0.47s) ASpd:1.00 Flag:00000102 (-------n------L-) TTime:0.20 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:03:59> ADIK: target: Bip01 RHand2RiflePos_IKTarget weight: 0.00
+<14:03:59> ADIK: target: Bip01 RHand2Aim_IKTarget weight: -0.00
+<14:03:59> ADIK: target: Bip01 LHand2Aim_IKTarget weight: 0.00
+<14:03:59> ADIK: target: Bip01 LHand2Weapon_IKTarget weight: 0.00
+<14:03:59> ADIK: target: Bip01 LHand2Pocket_IKTarget weight: 0.00
+<14:03:59> ADIK: target: Bip01 RHand2Pocket_IKTarget weight: 0.00
+<14:03:59> ADIK: target: Bip01 LHand2RiflePos_IKTarget weight: 0.00
+<14:03:59> ADIK: target: Bip01 LHand2PistolPos_IKTarget weight: 0.00
+<14:03:59> ADIK: target: Bip01 RHand2PistolPos_IKTarget weight: 0.00
+<14:03:59> ADIK: target: Bip01 RHand2Weapon_IKTarget weight: -0.00
+<14:04:01> [Error] Animation-queue overflow. More then 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212EBED8C90.
+<14:04:01> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:01>   2 animation-assets loaded (total assets: 1547)
+<14:04:01> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:01> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:01>   2 animation-assets loaded (total assets: 1547)
+<14:04:01> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:02> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:02>   2 animation-assets loaded (total assets: 1547)
+<14:04:02> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:02> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:02>   2 animation-assets loaded (total assets: 1547)
+<14:04:02> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:02> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:02>   2 animation-assets loaded (total assets: 1547)
+<14:04:02> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:02> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:02>   2 animation-assets loaded (total assets: 1547)
+<14:04:02> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:02> [Error] Animation-queue overflow. More then 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212EBED8C90.
+<14:04:03> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:03>   2 animation-assets loaded (total assets: 1547)
+<14:04:03> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:03> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:03>   2 animation-assets loaded (total assets: 1547)
+<14:04:03> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:03> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:03>   2 animation-assets loaded (total assets: 1547)
+<14:04:03> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:03> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:03>   2 animation-assets loaded (total assets: 1547)
+<14:04:03> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:03> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:03>   2 animation-assets loaded (total assets: 1547)
+<14:04:03> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:03> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:03>   2 animation-assets loaded (total assets: 1547)
+<14:04:03> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:04> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:04>   2 animation-assets loaded (total assets: 1547)
+<14:04:04> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:04> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:04>   2 animation-assets loaded (total assets: 1547)
+<14:04:04> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:04> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:04>   2 animation-assets loaded (total assets: 1547)
+<14:04:04> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:04> [Error] Animation-queue overflow. More then 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212EBED8C90.
+<14:04:04> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:04>   2 animation-assets loaded (total assets: 1547)
+<14:04:04> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:04> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:04>   2 animation-assets loaded (total assets: 1547)
+<14:04:04> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:04> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:04>   2 animation-assets loaded (total assets: 1547)
+<14:04:04> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:05> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:05>   2 animation-assets loaded (total assets: 1547)
+<14:04:05> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:06> [Error] Animation-queue overflow. More then 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212EBED8C90.
+<14:04:09> ui_action.actionSwitch_to_Game
+<14:04:09> general.enter_game_mode
+<14:04:09> Returned: 
+<14:04:09> Returned: 
+<14:04:09> CActor::NetReviveAt: Dude
+<14:04:09> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
+<14:04:09> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:10> [Error] Invalid Animation ID: -1 for Model: objects/characters/human/generic/skeleton_player_generic.chr
+<14:04:10> [Error] Invalid Animation ID: -1 for Model: objects/characters/human/generic/skeleton_player_generic.chr
+<14:04:10> [Error] Invalid Animation ID: -1 for Model: objects/characters/human/generic/skeleton_player_generic.chr
+<14:04:12> Enemy.Easy_Pistol1 - Message: Enemy.E
+<14:04:12> Enemy.Easy_Pistol1 - Message: Enemy.Easy
+<14:04:15> Enemy.Easy_Pistol1 - Message: Enemy.E
+<14:04:15> Enemy.Easy_Pistol1 - Message: Enemy.E
+<14:04:16> Enemy.Easy_Pistol1 - Message: Enemy.E
+<14:04:16> Enemy.Easy_Pistol1 - Message: Enemy.E
+<14:04:16> Enemy.Easy_Pistol1 - Message: Enemy.E
+<14:04:17> Enemy.Easy_Pistol1 - Message: Enemy.E
+<14:04:18> Enemy.Easy_Pistol1 - Message: Enemy.E
+<14:04:18> Enemy.Easy_Pistol1 - Message: Enemy.E
+<14:04:18> [CGameRules::KillPlayer] HitJoint: 5  PartID: 5
+<14:04:18> CActor::NetKill: Dude killed Enemy.Easy_Pistol1
+<14:04:26> [Warning] Projectile 0000021280B29AF0 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.02 527.01 32.00)
+<14:04:26> [Warning] Projectile 0000021280B2B080 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:04:26> [Warning] Projectile 0000021280B2B600 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:04:35> [CGameRules::KillPlayer] HitJoint: 11  PartID: 11
+<14:04:35> CActor::NetKill: Turret.Enemy_Normal1 killed Dude
+<14:04:36> general.exit_game_mode
+<14:04:36> Returned: 
+<14:04:36> [Warning] Projectile 0000021280B2B080 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:04:36> [Warning] Dude tried to select item ID 458724 but that ID does not belong to an item, it belongs to nothing
+<14:04:36> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<14:04:36> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:42> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:42>   2 animation-assets loaded (total assets: 1547)
+<14:04:42> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:04:45> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:04:45>   2 animation-assets loaded (total assets: 1547)
+<14:04:45> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:05:00> [Error] Animation-queue filled up to 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212EBEDADC0.
+<14:05:00> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.75 (1.21s/1.60s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:05:00> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:05:00> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:05:00> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:05:00> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:05:00> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:05:00> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:05:00> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:05:00> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:05:00> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:05:00> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:05:00> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:05:00> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:05:00> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:05:00> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:05:00> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:05:00> PM class: AnimationPoseModifier_OperatorQueue, name Unknown
+<14:05:00> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:05:00> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:05:00> PM class: AnimationPoseModifier_OperatorQueue, name Unknown
+<14:05:00> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:05:00> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:05:00> PM class: AnimationPoseModifier_OperatorQueue, name Unknown
+<14:05:00> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:05:00> AnimInAFIFO 07: t:0  'stand_tac_lookaround_rifle_add_3p_02'  ATime:0.10 (1.17s/11.70s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> AnimInAFIFO 07: t:0  'stand_tac_lookaround_rifle_add_3p_02'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> AnimInAFIFO 07: t:0  'stand_tac_lookaround_rifle_add_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> AnimInAFIFO 08: t:0  'cover_tac_idle_rifle_add_3p_01'  ATime:0.90 (1.17s/1.30s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> AnimInAFIFO 08: t:0  'cover_tac_idle_rifle_add_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> AnimInAFIFO 08: t:0  'cover_tac_idle_rifle_add_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> AnimInAFIFO 14: t:0  'stand_tac_aimposes_idle_rifle_shoulder_3p_01'  ATime:0.58 (0.27s/0.47s) ASpd:1.00 Flag:00000102 (-------n------L-) TTime:0.20 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> AnimInAFIFO 15: t:0  'stand_tac_lookposes_fullbody_3p_01'  ATime:0.58 (0.27s/0.47s) ASpd:1.00 Flag:00000102 (-------n------L-) TTime:0.20 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:05:00> ADIK: target: Bip01 RHand2RiflePos_IKTarget weight: 0.00
+<14:05:00> ADIK: target: Bip01 RHand2Aim_IKTarget weight: -0.00
+<14:05:00> ADIK: target: Bip01 LHand2Aim_IKTarget weight: 0.00
+<14:05:00> ADIK: target: Bip01 LHand2Weapon_IKTarget weight: 0.00
+<14:05:00> ADIK: target: Bip01 LHand2Pocket_IKTarget weight: 0.00
+<14:05:00> ADIK: target: Bip01 RHand2Pocket_IKTarget weight: 0.00
+<14:05:00> ADIK: target: Bip01 LHand2RiflePos_IKTarget weight: 0.00
+<14:05:00> ADIK: target: Bip01 LHand2PistolPos_IKTarget weight: 0.00
+<14:05:00> ADIK: target: Bip01 RHand2PistolPos_IKTarget weight: 0.00
+<14:05:00> ADIK: target: Bip01 RHand2Weapon_IKTarget weight: -0.00
+<14:05:01> [Error] Animation-queue overflow. More then 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212EBEDADC0.
+<14:05:03> [Error] Animation-queue overflow. More then 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212EBEDADC0.
+<14:05:05> [Error] Animation-queue overflow. More then 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212EBEDADC0.
+<14:05:06> [Error] Animation-queue overflow. More then 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212EBEDADC0.
+<14:05:28> ai_DrawAgentFOV=1 [  ]
+<14:05:33> ui_action.actionSwitch_to_Game
+<14:05:33> general.enter_game_mode
+<14:05:33> Returned: 
+<14:05:33> Returned: 
+<14:05:33> CActor::NetReviveAt: Dude
+<14:05:33> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
+<14:05:33> [Error] Invalid Animation ID: -1 for Model: objects/characters/human/generic/skeleton_player_generic.chr
+<14:05:33> [Error] Invalid Animation ID: -1 for Model: objects/characters/human/generic/skeleton_player_generic.chr
+<14:05:33> [Error] Invalid Animation ID: -1 for Model: objects/characters/human/generic/skeleton_player_generic.chr
+<14:05:33> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:05:33> Pre-caching render meshes for camera position
+<14:05:33> Updating level streaming priorities for 1 cameras (LevelFrameId = 3292)
+<14:05:33> -- 498.967346 493.525482 33.674374
+<14:05:37> Enemy.Easy_Pistol1 - Message: Enemy.E
+<14:05:37> Enemy.Easy_Pistol1 - Message: Enemy.Easy
+<14:05:39> general.exit_game_mode
+<14:05:39> Returned: 
+<14:05:39> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<14:05:39> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:05:47> ui_action.actionEnable_Physics_AI
+<14:05:47> Returned: 
+<14:05:47> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:05:47> Pre-caching render meshes for camera position
+<14:05:47> Updating level streaming priorities for 1 cameras (LevelFrameId = 3526)
+<14:05:47> -- 502.856750 507.891266 54.662296
+<14:06:02> ai_DebugDrawVisionMapObserversFOV=1 [  ]
+<14:06:31> ai_DebugDrawVisionMap=1 [  ]
+<14:06:34> ui_action.actionSwitch_to_Game
+<14:06:34> general.enter_game_mode
+<14:06:34> Returned: 
+<14:06:34> Returned: 
+<14:06:34> CActor::NetReviveAt: Dude
+<14:06:34> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
+<14:06:34> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:06:34> Pre-caching render meshes for camera position
+<14:06:34> Updating level streaming priorities for 1 cameras (LevelFrameId = 5580)
+<14:06:34> -- 500.158722 496.597321 32.000000
+<14:06:37> Enemy.Easy_Pistol1 - Message: Enemy.E
+<14:06:37> Enemy.Easy_Pistol1 - Message: Enemy.Easy
+<14:06:38> general.exit_game_mode
+<14:06:38> Returned: 
+<14:06:38> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:06:38> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<14:06:38> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:07:01> e_DebugDraw=1 [  ]
+<14:07:17> ai_DrawAgentFOV=0 [  ]
+<14:07:23> ui_action.actionSwitch_to_Game
+<14:07:23> general.enter_game_mode
+<14:07:23> Returned: 
+<14:07:23> Returned: 
+<14:07:23> CActor::NetReviveAt: Dude
+<14:07:23> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
+<14:07:23> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:07:23> [Error] Invalid Animation ID: -1 for Model: objects/characters/human/generic/skeleton_player_generic.chr
+<14:07:23> [Error] Invalid Animation ID: -1 for Model: objects/characters/human/generic/skeleton_player_generic.chr
+<14:07:23> [Error] Invalid Animation ID: -1 for Model: objects/characters/human/generic/skeleton_player_generic.chr
+<14:07:25> Enemy.Easy_Pistol1 - Message: Enemy.E
+<14:07:28> Enemy.Easy_Pistol1 - Message: Enemy.Easy
+<14:07:28> Enemy.Easy_Pistol1 - Message: Enemy.Easy
+<14:07:29> Enemy.Easy_Pistol1 - Message: Enemy.Easy
+<14:07:31> [CGameRules::KillPlayer] HitJoint: 16  PartID: 16
+<14:07:31> CActor::NetKill: Dude killed Enemy.Easy_Pistol1
+<14:07:31> [Warning] Projectile 0000021280B28B60 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:07:31> [Warning] Projectile 0000021281861760 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:07:34> [CGameRules::KillPlayer] HitJoint: 107  PartID: 107
+<14:07:34> CActor::NetKill: Turret.Enemy_Normal1 killed Dude
+<14:07:34> [CONSOLE] Executing console command 'loadLastSave'
+<14:07:34> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
+<14:07:42> general.exit_game_mode
+<14:07:42> Returned: 
+<14:07:42> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:07:42> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<14:07:42> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:08:01> e_DebugDraw=0 [  ]
+<14:08:06> general.save
+<14:08:06> Saving to Assets/levels/CS188/CS188.cry...
+<14:08:06> Storing View settings...
+<14:08:06> Storing Fog settings...
+<14:08:06> Storing missions...<14:08:07> Done
+<14:08:07> 0 shader combination loaded for level Assets/levels/CS188
+<14:08:07> Saving pak file assets\levels\cs188\cs188.tmp
+<14:08:07> Storing surface types...
+<14:08:07> Storing layer settings...
+<14:08:07> Saving Vegetation Map...
+<14:08:07> Level successfully saved
+<14:08:07> Returned: 
+<14:08:19> [Error] Invalid Animation ID: -1 for Model: objects/characters/human/generic/skeleton_player_generic.chr
+<14:08:19> [Error] Invalid Animation ID: -1 for Model: objects/characters/human/generic/skeleton_player_generic.chr
+<14:08:19> [Error] Invalid Animation ID: -1 for Model: objects/characters/human/generic/skeleton_player_generic.chr
+<14:08:23> level.go_to_selection
+<14:08:23> Returned: 
+<14:08:31> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:08:31> CDefaultSkeleton Release: _objects/characters/human/generic/skeleton_player_generic.chr
+<14:09:19> general.save
+<14:09:19> Returned: 
+<14:09:22> ui_action.actionSwitch_to_Game
+<14:09:22> general.enter_game_mode
+<14:09:22> Returned: 
+<14:09:22> Returned: 
+<14:09:22> CActor::NetReviveAt: Dude
+<14:09:22> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
+<14:09:22> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:09:26> Enemy.Easy_Pistol1 - Message: Enemy.E
+<14:09:30> general.exit_game_mode
+<14:09:30> Returned: 
+<14:09:30> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:09:30> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<14:09:30> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:09:35> ui_action.actionEnable_Physics_AI
+<14:09:35> Returned: 
+<14:09:35> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:09:52> ui_action.actionSwitch_to_Game
+<14:09:52> general.enter_game_mode
+<14:09:52> Returned: 
+<14:09:52> Returned: 
+<14:09:52> CActor::NetReviveAt: Dude
+<14:09:52> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
+<14:09:52> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:09:52> [Error] Invalid Animation ID: -1 for Model: objects/characters/human/generic/skeleton_player_generic.chr
+<14:09:52> [Error] Invalid Animation ID: -1 for Model: objects/characters/human/generic/skeleton_player_generic.chr
+<14:09:53> [Error] Invalid Animation ID: -1 for Model: objects/characters/human/generic/skeleton_player_generic.chr
+<14:09:54> general.exit_game_mode
+<14:09:54> Returned: 
+<14:09:54> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<14:09:54> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:10:23> ui_action.actionSwitch_to_Game
+<14:10:23> general.enter_game_mode
+<14:10:23> Returned: 
+<14:10:23> Returned: 
+<14:10:23> CActor::NetReviveAt: Dude
+<14:10:23> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
+<14:10:23> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:10:24> Friendly.Easy_Pistol1 - Message: Friendly.Easy_Pisto
+<14:10:26> Friendly.Easy_Pistol1 - Message: Friendly.Easy
+<14:10:28> Enemy.Easy_Pistol1 - Message: Enemy.E
+<14:10:34> Friendly.Easy_Pistol1 - Message: Friendly.Easy_Pistol
+<14:10:40> general.exit_game_mode
+<14:10:40> Returned: 
+<14:10:40> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<14:10:40> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:11:14> ui_action.actionSwitch_to_Game
+<14:11:14> general.enter_game_mode
+<14:11:14> Returned: 
+<14:11:14> Returned: 
+<14:11:15> CActor::NetReviveAt: Dude
+<14:11:15> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
+<14:11:15> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:11:15> Friendly.Easy_Pistol1 - Message: Friendly.Easy_Pisto
+<14:11:17> Friendly.Easy_Pistol1 - Message: Friendly.Easy
+<14:11:17> [Warning] Item owner 'Dude' doesn't have third-person item attachment point ''!
+<14:11:20> Enemy.Easy_Pistol1 - Message: Enemy.E
+<14:11:20> Enemy.Easy_Pistol1 - Message: Enemy.Easy
+<14:11:23> Friendly.Easy_Pistol1 - Message: Friendly.Easy_Pistol
+<14:11:23> general.exit_game_mode
+<14:11:23> Returned: 
+<14:11:23> [Warning] Dude tried to select item ID 261953 but that ID does not belong to an item, it belongs to nothing
+<14:11:23> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<14:11:23> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:11:33> general.delete
+<14:11:33> Returned: 
+<14:11:38> Storing View settings...
+<14:11:38> Storing Fog settings...
+<14:11:38> Storing missions...<14:11:38> Done
+<14:11:38> 0 shader combination loaded for level Assets/levels/CS188/_autobackup/2016.05.07 [14-11.38]/CS188
+<14:11:38> Saving pak file assets\levels\cs188\_autobackup\2016.05.07 [14-11.38]\cs188\cs188.tmp
+<14:11:38> Storing surface types...
+<14:11:38> Storing layer settings...
+<14:11:38> Saving Vegetation Map...
+<14:11:40> [Warning] 'mat_grenade' undefined surface type, using mat_default ()
+<14:12:10> [Error] Animation-queue filled up to 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212EBED5540.
+<14:12:10> AnimInAFIFO 00: t:0  'stand_tac_shootidle_rifle_3p_02'  ATime:0.66 (1.59s/2.40s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:12:10> AnimInAFIFO 00: t:0  'stand_tac_shootidle_rifle_3p_02'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:12:10> AnimInAFIFO 00: t:0  'stand_tac_idle_rifle_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:12:10> AnimInAFIFO 00: t:0  'stand_tac_shootidlestressed_rifle_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:12:10> AnimInAFIFO 00: t:0  'stand_tac_shootidlestressed_rifle_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:12:10> AnimInAFIFO 00: t:0  'stand_tac_shootidlestressed_rifle_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:12:10> AnimInAFIFO 00: t:0  'stand_tac_idle_rifle_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:12:10> AnimInAFIFO 00: t:0  'stand_tac_shootidlestressed_rifle_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:12:10> AnimInAFIFO 00: t:0  'stand_tac_shootidlestressed_rifle_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:12:10> AnimInAFIFO 00: t:0  'stand_tac_idle_rifle_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:12:10> AnimInAFIFO 00: t:0  'stand_tac_shootidle_rifle_3p_02'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:12:10> AnimInAFIFO 00: t:0  'stand_tac_shootidle_rifle_3p_02'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:12:10> AnimInAFIFO 00: t:0  'stand_tac_idle_rifle_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:12:10> AnimInAFIFO 00: t:0  'stand_tac_idle_rifle_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:12:10> AnimInAFIFO 00: t:0  'stand_tac_shootidle_rifle_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:12:10> AnimInAFIFO 00: t:0  'stand_tac_shootidle_rifle_3p_02'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:12:10> AnimInAFIFO 07: t:0  'stand_tac_lookaround_rifle_add_3p_02'  ATime:0.78 (9.07s/11.70s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> AnimInAFIFO 07: t:0  'stand_tac_lookaround_rifle_add_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> AnimInAFIFO 07: t:0  'stand_tac_lookaround_rifle_add_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> AnimInAFIFO 07: t:0  'stand_tac_lookaround_rifle_add_3p_02'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> AnimInAFIFO 08: t:0  'cover_tac_idle_rifle_add_3p_01'  ATime:1.00 (1.30s/1.30s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> AnimInAFIFO 08: t:0  'cover_tac_idle_rifle_add_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> AnimInAFIFO 08: t:0  'cover_tac_idle_rifle_add_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> AnimInAFIFO 08: t:0  'cover_tac_idle_rifle_add_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> AnimInAFIFO 14: t:0  'stand_tac_aimposes_idle_rifle_iron_3p_01'  ATime:0.86 (0.40s/0.47s) ASpd:1.00 Flag:00000102 (-------n------L-) TTime:0.20 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> AnimInAFIFO 15: t:0  'stand_tac_lookposes_fullbody_3p_01'  ATime:0.86 (0.40s/0.47s) ASpd:1.00 Flag:00000102 (-------n------L-) TTime:0.20 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:12:10> ADIK: target: Bip01 RHand2RiflePos_IKTarget weight: 0.00
+<14:12:10> ADIK: target: Bip01 RHand2Aim_IKTarget weight: -0.00
+<14:12:10> ADIK: target: Bip01 LHand2Aim_IKTarget weight: 0.00
+<14:12:10> ADIK: target: Bip01 LHand2Weapon_IKTarget weight: 1.00
+<14:12:10> ADIK: target: Bip01 LHand2Pocket_IKTarget weight: 0.00
+<14:12:10> ADIK: target: Bip01 RHand2Pocket_IKTarget weight: 0.00
+<14:12:10> ADIK: target: Bip01 LHand2RiflePos_IKTarget weight: 0.00
+<14:12:10> ADIK: target: Bip01 LHand2PistolPos_IKTarget weight: 0.00
+<14:12:10> ADIK: target: Bip01 RHand2PistolPos_IKTarget weight: 0.00
+<14:12:10> ADIK: target: Bip01 RHand2Weapon_IKTarget weight: 0.00
+<14:12:13> [Error] Animation-queue overflow. More then 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212EBED5540.
+<14:12:16> ui_action.actionSwitch_to_Game
+<14:12:16> general.enter_game_mode
+<14:12:16> Returned: 
+<14:12:16> Returned: 
+<14:12:17> CActor::NetReviveAt: Dude
+<14:12:17> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
+<14:12:17> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:12:17> Friendly.Easy_RPG1 - Message: Friendly.Easy_RPG1 
+<14:12:18> [Warning] Item owner 'Dude' doesn't have third-person item attachment point ''!
+<14:12:19> Friendly.Easy_RPG1 - Message: Friendly.Easy
+<14:12:19> Enemy.Easy_Pistol1 - Message: Enemy.E
+<14:12:25> Friendly.Easy_RPG1 - Message: Friendly.Easy_RPG1 -
+<14:12:28> Enemy.Easy_Pistol1 - Message: Enemy.Easy
+<14:12:28> [CGameRules::KillPlayer] HitJoint: 16  PartID: 16
+<14:12:28> CActor::NetKill: Dude killed Enemy.Easy_Pistol1
+<14:12:30> [Warning] Projectile 00000212818635F0 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:12:30> [Warning] Projectile 0000021280B28B60 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:12:30> [Warning] Projectile 0000021281863490 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:12:31> [Warning] Projectile 0000021281861760 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:12:31> [Warning] Projectile 000002128183D390 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:12:31> [Warning] Projectile 0000021280B29AF0 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:12:31> [Warning] Projectile 00000212818635F0 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:12:32> [Warning] Projectile 0000021280B28B60 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:12:32> [Warning] Projectile 0000021281863490 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:12:32> [Warning] Projectile 0000021280B2B080 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:12:32> [Warning] Projectile 0000021280B2B600 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:12:35> [Warning] Projectile 000002128183D390 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:12:36> [Warning] Projectile 0000021280B29AF0 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:12:36> [Warning] Projectile 00000212818635F0 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:12:37> [Warning] Projectile 0000021280B2B080 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:12:38> [Warning] Projectile 0000021281861760 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:12:38> [CGameRules::KillPlayer] HitJoint: 16  PartID: 16
+<14:12:38> CActor::NetKill: Turret.Enemy_Normal1 killed Dude
+<14:12:38> [CONSOLE] Executing console command 'loadLastSave'
+<14:12:38> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
+<14:12:38> [Warning] Projectile 0000021281863490 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (509.01 527.01 32.00)
+<14:12:46> Friendly.Easy_RPG1 - Message: Friendly.Easy_RPG1 
+<14:12:53> general.exit_game_mode
+<14:12:53> Returned: 
+<14:12:53> [Warning] Dude tried to select item ID 393033 but that ID does not belong to an item, it belongs to nothing
+<14:12:53> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<14:12:53> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:12:54> general.save
+<14:12:54> Saving to Assets/levels/CS188/CS188.cry...
+<14:12:54> Storing View settings...
+<14:12:54> Storing Fog settings...
+<14:12:54> Storing missions...<14:12:54> Done
+<14:12:54> 0 shader combination loaded for level Assets/levels/CS188
+<14:12:54> Saving pak file assets\levels\cs188\cs188.tmp
+<14:12:54> Storing surface types...
+<14:12:54> Storing layer settings...
+<14:12:54> Saving Vegetation Map...
+<14:12:54> Level successfully saved
+<14:12:54> Returned: 
+<14:13:24> [Error] Animation-queue filled up to 16 entries. This is a serious performance problem. Model: _objects/characters/human/generic/skeleton_player_generic.chr. CharInst: 00000212EBED5540.
+<14:13:24> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.55 (0.88s/1.60s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:13:24> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:13:24> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:13:24> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:13:24> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:13:24> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:13:24> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:13:24> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:13:24> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:13:24> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:13:24> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:13:24> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:13:24> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:13:24> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:13:24> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:13:24> AnimInAFIFO 00: t:0  'stand_tac_idle_nw_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.20 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> (Try)UseAimIK: 0  AimIKBlend: 0.00  AimIKInfluence: 0.00   (Try)UseLookIK: 0  LookIKBlend: 0.00  LookIKInfluence: 0.00
+<14:13:24> PM class: AnimationPoseModifier_OperatorQueue, name Unknown
+<14:13:24> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:13:24> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:13:24> PM class: AnimationPoseModifier_OperatorQueue, name Unknown
+<14:13:24> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:13:24> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:13:24> PM class: AnimationPoseModifier_OperatorQueue, name Unknown
+<14:13:24> PM class: AnimationPoseModifier_PoseAlignerChain, name Unknown
+<14:13:24> AnimInAFIFO 07: t:0  'stand_tac_lookaround_rifle_add_3p_02'  ATime:0.35 (4.08s/11.70s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> AnimInAFIFO 07: t:0  'stand_tac_lookaround_rifle_add_3p_02'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> AnimInAFIFO 07: t:0  'stand_tac_lookaround_rifle_add_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> AnimInAFIFO 08: t:0  'cover_tac_idle_rifle_add_3p_01'  ATime:1.00 (1.30s/1.30s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> AnimInAFIFO 08: t:0  'cover_tac_idle_rifle_add_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> AnimInAFIFO 08: t:0  'cover_tac_idle_rifle_add_3p_01'  ATime:0.00 (-0.00s/-1.00s) ASpd:1.00 Flag:00000104 (-------n-----R--) TTime:0.50 TWght:0.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> AnimInAFIFO 14: t:0  'stand_tac_aimposes_idle_rifle_shoulder_3p_01'  ATime:0.82 (0.38s/0.47s) ASpd:1.00 Flag:00000102 (-------n------L-) TTime:0.20 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> AnimInAFIFO 15: t:0  'stand_tac_lookposes_fullbody_3p_01'  ATime:0.82 (0.38s/0.47s) ASpd:1.00 Flag:00000102 (-------n------L-) TTime:0.20 TWght:1.00 PWght:1.00 seg:00 inmem:1
+<14:13:24> ADIK: target: Bip01 RHand2RiflePos_IKTarget weight: 0.00
+<14:13:24> ADIK: target: Bip01 RHand2Aim_IKTarget weight: -0.00
+<14:13:24> ADIK: target: Bip01 LHand2Aim_IKTarget weight: 0.00
+<14:13:24> ADIK: target: Bip01 LHand2Weapon_IKTarget weight: 0.00
+<14:13:24> ADIK: target: Bip01 LHand2Pocket_IKTarget weight: 0.00
+<14:13:24> ADIK: target: Bip01 RHand2Pocket_IKTarget weight: 0.00
+<14:13:24> ADIK: target: Bip01 LHand2RiflePos_IKTarget weight: 0.00
+<14:13:24> ADIK: target: Bip01 LHand2PistolPos_IKTarget weight: -0.00
+<14:13:24> ADIK: target: Bip01 RHand2PistolPos_IKTarget weight: 0.00
+<14:13:24> ADIK: target: Bip01 RHand2Weapon_IKTarget weight: -0.00
+<14:13:28> CDefaultSkeleton Release: _objects/characters/human/generic/skeleton_player_generic.chr
+<14:13:37> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:37>   2 animation-assets loaded (total assets: 1547)
+<14:13:37> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:37>   2 animation-assets loaded (total assets: 1547)
+<14:13:37> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:37>   2 animation-assets loaded (total assets: 1547)
+<14:13:37> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:37>   2 animation-assets loaded (total assets: 1547)
+<14:13:37> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:37>   2 animation-assets loaded (total assets: 1547)
+<14:13:37> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:37>   2 animation-assets loaded (total assets: 1547)
+<14:13:37> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:37>   2 animation-assets loaded (total assets: 1547)
+<14:13:37> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:37>   2 animation-assets loaded (total assets: 1547)
+<14:13:37> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:37>   2 animation-assets loaded (total assets: 1547)
+<14:13:37> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<14:13:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:41>   2 animation-assets loaded (total assets: 1547)
+<14:13:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:41>   2 animation-assets loaded (total assets: 1547)
+<14:13:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:41>   2 animation-assets loaded (total assets: 1547)
+<14:13:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:41>   2 animation-assets loaded (total assets: 1547)
+<14:13:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:41>   2 animation-assets loaded (total assets: 1547)
+<14:13:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:41>   2 animation-assets loaded (total assets: 1547)
+<14:13:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:41>   2 animation-assets loaded (total assets: 1547)
+<14:13:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:41>   2 animation-assets loaded (total assets: 1547)
+<14:13:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:41>   2 animation-assets loaded (total assets: 1547)
+<14:13:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:41>   2 animation-assets loaded (total assets: 1547)
+<14:13:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:41>   2 animation-assets loaded (total assets: 1547)
+<14:13:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:41>   2 animation-assets loaded (total assets: 1547)
+<14:13:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:41>   2 animation-assets loaded (total assets: 1547)
+<14:13:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:41>   2 animation-assets loaded (total assets: 1547)
+<14:13:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:41>   2 animation-assets loaded (total assets: 1547)
+<14:13:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:41>   2 animation-assets loaded (total assets: 1547)
+<14:13:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:41>   2 animation-assets loaded (total assets: 1547)
+<14:13:41> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<14:13:41>   2 animation-assets loaded (total assets: 1547)
+<14:13:41> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'

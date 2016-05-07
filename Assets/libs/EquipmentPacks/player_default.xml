@@ -1,11 +1,7 @@
-<EquipPack name="Player_Default" primary="Pistol">
+<EquipPack name="Player_Default" primary="NoWeapon">
  <Items>
-  <Pistol type="ItemGivable" setup="|PistolBulletAmmo|NoAttachmentBarrel|NoAttachmentBottom|"/>
-  <Rifle type="ItemGivable" setup="|Silencer|SniperScope|"/>
-  <Shotgun type="ItemGivable" setup="|ShotgunAmmo|NoAttachmentBottom|"/>
-  <FragGrenades type="ItemGivable" setup=""/>
-  <PickAndThrowWeapon type="ItemGivable" setup=""/>
   <NoWeapon type="ItemGivable" setup=""/>
+  <Pistol type="ItemGivable" setup=""/>
  </Items>
  <Ammos>
   <Ammo name="RifleBullet" amount="0"/>
