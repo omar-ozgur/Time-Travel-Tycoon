@@ -1,0 +1,22 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-110,-20,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="250,340,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="5" Class="entity:Human" pos="250,-20,0" flags="0">
+   <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Eat="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" SetTargetPos="0,0,0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+  </Node>
+  <Node Id="6" Class="Entity:GetPos" pos="20,90,0" flags="0">
+   <Inputs entityId="0" CoordSys="1"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="5" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="1" portIn="Get" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="6" portIn="end" portOut="Pos" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="6" portIn="SetTargetPos" portOut="Pos" enabled="1"/>
+ </Edges>
+ <GraphTokens />
+</Graph>

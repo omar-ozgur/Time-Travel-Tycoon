@@ -1,0 +1,4 @@
+<Entity 
+Name="Apple"
+ Script="Scripts/Entities/Food/Apple.lua"
+/>

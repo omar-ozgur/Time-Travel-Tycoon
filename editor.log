@@ -1,5 +1,5 @@
-BackupNameAttachment=" Build(191) 05 Apr 16 (12 22 04)"  -- used by backup system
-Log Started at Tue Apr  5 12:22:04 2016
+BackupNameAttachment=" Build(191) 07 May 16 (13 11 09)"  -- used by backup system
+Log Started at Sat May  7 13:11:09 2016
 Built on Mar 18 2016 10:51:44
 Running 64 bit Windows version
 Executable: C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.0\bin\win_x64\Sandbox.exe
@@ -37,676 +37,683 @@ Processor 1:
  
 [Error] [CVARS]: [DUPLICATE] CXConsole::AddCommand(): console command [hmd_recenter_pose] is already registered
 Loading Config file system.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\system.cfg)
-<12:22:04> OnSysSpecChange(4)
-<12:22:04> [Warning] Config file VeryHighSpec.cfg not found!
-<12:22:04> Loading Config file %ENGINEROOT%/editor.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\editor.cfg)
-<12:22:04> [Warning] Config file game.cfg not found!
-<12:22:04> Loading Config file project.cfg (project.cfg)
-<12:22:04> GameDir: Assets
-<12:22:04> Loading Config file game.cfg (assets\game.cfg)
-<12:22:04> creating CVarGroups from directory 'assets/Config/CVarGroups' ...
-<12:22:04> Loading Config file assets/Config/CVarGroups/sys_spec_full.cfg (assets\config\cvargroups\sys_spec_full.cfg)
-<12:22:04> Loading Config file assets/Config/CVarGroups/sys_spec_gameeffects.cfg (assets\config\cvargroups\sys_spec_gameeffects.cfg)
-<12:22:04> Loading Config file assets/Config/CVarGroups/sys_spec_light.cfg (assets\config\cvargroups\sys_spec_light.cfg)
-<12:22:04> Loading Config file assets/Config/CVarGroups/sys_spec_objectdetail.cfg (assets\config\cvargroups\sys_spec_objectdetail.cfg)
-<12:22:04> Loading Config file assets/Config/CVarGroups/sys_spec_particles.cfg (assets\config\cvargroups\sys_spec_particles.cfg)
-<12:22:04> Loading Config file assets/Config/CVarGroups/sys_spec_physics.cfg (assets\config\cvargroups\sys_spec_physics.cfg)
-<12:22:04> Loading Config file assets/Config/CVarGroups/sys_spec_postprocessing.cfg (assets\config\cvargroups\sys_spec_postprocessing.cfg)
-<12:22:04> Loading Config file assets/Config/CVarGroups/sys_spec_quality.cfg (assets\config\cvargroups\sys_spec_quality.cfg)
-<12:22:04> Loading Config file assets/Config/CVarGroups/sys_spec_shading.cfg (assets\config\cvargroups\sys_spec_shading.cfg)
-<12:22:04> Loading Config file assets/Config/CVarGroups/sys_spec_shadows.cfg (assets\config\cvargroups\sys_spec_shadows.cfg)
-<12:22:04> Loading Config file assets/Config/CVarGroups/sys_spec_sound.cfg (assets\config\cvargroups\sys_spec_sound.cfg)
-<12:22:04> Loading Config file assets/Config/CVarGroups/sys_spec_texture.cfg (assets\config\cvargroups\sys_spec_texture.cfg)
-<12:22:04> Loading Config file assets/Config/CVarGroups/sys_spec_textureresolution.cfg (assets\config\cvargroups\sys_spec_textureresolution.cfg)
-<12:22:04> Loading Config file assets/Config/CVarGroups/sys_spec_volumetriceffects.cfg (assets\config\cvargroups\sys_spec_volumetriceffects.cfg)
-<12:22:04> Loading Config file assets/Config/CVarGroups/sys_spec_water.cfg (assets\config\cvargroups\sys_spec_water.cfg)
-<12:22:04> creating CVarGroups from directory 'Engine/Config/CVarGroups' ...
-<12:22:04> [Warning] <ThreadConfigInfo>: Active platform identifier string "pc" not found in config "config/engine_core.thread_config".
-<12:22:04> [Warning] <ThreadConfigInfo>: Active platform identifier string "pc" not found in config "config/engine_sandbox.thread_config".
-<12:22:04> Windows 10 64 bit (build 10.0.10586)
-<12:22:04> User name: "Omar"
-<12:22:04> System language: English
-<12:22:04> Windows Directory: "C:\Windows"
-<12:22:04> Local time is 12:22:04 04/05/16, system running for 0 minutes
-<12:22:04> 8095MB physical memory installed, 6526MB available, 134217727MB virtual memory installed, 19 percent of memory in use
-<12:22:04> PageFile usage: 48MB, Working Set: 56MB, Peak PageFile usage: 48MB,
-<12:22:04> Current display mode is 1280x800x32, (Unknown graphics card)
-<12:22:04> IBM enhanced (101/102-key) keyboard and 2+ button mouse installed
-<12:22:04> --------------------------------------------------------------------------------
-<12:22:04> Loading Config file %USER%/game.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\gamesdk_5.0\gamesdk\user\game.cfg)
-<12:22:04> Loading Config file system.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\system.cfg)
-<12:22:04> OnSysSpecChange(4)
-<12:22:04> Loading Config file VeryHighSpec.cfg (assets\config\veryhighspec.cfg)
-<12:22:04> Loading Config file %ENGINEROOT%/editor.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\editor.cfg)
-<12:22:04> Loading Config file game.cfg (assets\game.cfg)
-<12:22:04> Loading Config file project.cfg (project.cfg)
-<12:22:04> [Warning] Config file user.cfg not found!
-<12:22:04> Stream Engine Initialization
-<12:22:04> GameName: CRYENGINE SDK
-<12:22:04> BuildTime: Mar 18 2016 10:51:44
-<12:22:04> Physics initialization
-<12:22:04> Initializing CryPhysics...
-<12:22:04> Initializing CryPhysics done, MemUsage=984Kb
-<12:22:04> <Audio>: AudioSystem initialization
-<12:22:04> Initializing CryAudioSystem...
-<12:22:04> Initializing CryAudioImplWwise...
-<12:22:05> <Audio> <0.464>: CryAudioImplWwise loaded
-<12:22:05> Initializing CryAudioImplWwise done, MemUsage=4960Kb
-<12:22:05> Initializing CryAudioSystem done, MemUsage=38308Kb
-<12:22:05> Renderer initialization
-<12:22:05> Initializing CryRenderD3D11...
-<12:22:05> CRenderer sizeof(Vec2f16)=4 sizeof(Vec3f16)=8
-<12:22:05> Initializing CryRenderD3D11 done, MemUsage=3856Kb
-<12:22:05> Initializing Direct3D and creating game window:
-<12:22:05> D3DX_SDK_VERSION = <UNDEFINED>
-<12:22:05> Direct3D driver is creating...
-<12:22:05> Crytek Direct3D driver version 2.00 (Mar 18 2016 <10:51:35>)
-<12:22:05> Creating window called 'CRYENGINE SDK' (1280x720)
-<12:22:05> D3D Adapter: Description: Intel(R) Iris(TM) Graphics 6100
-<12:22:05> D3D Adapter: Driver version (UMD): 20.19.15.4331
-<12:22:05> D3D Adapter: VendorId = 0x8086
-<12:22:05> D3D Adapter: DeviceId = 0x162B
-<12:22:05> D3D Adapter: SubSysId = 0x013F106B
-<12:22:05> D3D Adapter: Revision = 9
-<12:22:05> Active GPUs: 1
-<12:22:05> Using pixel texture formats:
-<12:22:05>   R8G8B8A8S, mips (autogen), blend, RT (multi-sampled), gather
-<12:22:05>   R8G8B8A8, mips (autogen), sRGB, blend, RT (multi-sampled), gather
-<12:22:05>   A8, mips (autogen), blend, RT (multi-sampled), gather
-<12:22:05>   R8, mips (autogen), blend, RT (multi-sampled), gather
-<12:22:05>   R8S, mips (autogen), blend, RT (multi-sampled), gather
-<12:22:05>   R16, mips (autogen), blend, RT (multi-sampled), gather (comparable)
-<12:22:05>   R16F, mips (autogen), blend, RT (multi-sampled), gather
-<12:22:05>   R32F, mips (autogen), blend, RT (multi-sampled), gather (comparable)
-<12:22:05>   R8G8, mips (autogen), blend, RT (multi-sampled), gather
-<12:22:05>   R8G8S, mips (autogen), blend, RT (multi-sampled), gather
-<12:22:05>   R16G16, mips (autogen), blend, RT (multi-sampled), gather
-<12:22:05>   R16G16S, mips (autogen), blend, RT (multi-sampled), gather
-<12:22:05>   R16G16F, mips (autogen), blend, RT (multi-sampled), gather
-<12:22:05>   R11G11B10F, mips (autogen), blend, RT (multi-sampled), gather
-<12:22:05>   R10G10B10A2, mips (autogen), blend, RT (multi-sampled), gather
-<12:22:05>   R16G16B16A16, mips (autogen), blend, RT (multi-sampled), gather
-<12:22:05>   R16G16B16A16S, mips (autogen), blend, RT (multi-sampled), gather
-<12:22:05>   R16G16B16A16F, mips (autogen), blend, RT (multi-sampled), gather
-<12:22:05>   R32G32B32A32F, mips (autogen), blend, RT (multi-sampled), gather
-<12:22:05>   BC1, mips, sRGB, gather
-<12:22:05>   BC2, mips, sRGB, gather
-<12:22:05>   BC3, mips, sRGB, gather
-<12:22:05>   BC4, mips, gather
-<12:22:05>   BC4S, mips, gather
-<12:22:05>   BC5, mips, gather
-<12:22:05>   BC5S, mips, gather
-<12:22:05>   BC6UH, mips, gather
-<12:22:05>   BC6SH, mips, gather
-<12:22:05>   BC7, mips, sRGB, gather
-<12:22:05>   R9G9B9E5, mips, gather
-<12:22:05>   R32FX8T, mips, gather (comparable)
-<12:22:05>   R32T, mips
-<12:22:05>   R24G8T, mips
-<12:22:05>   R16T, mips
-<12:22:05>   B5G6R5, mips (autogen), blend, RT (multi-sampled), gather
-<12:22:05>   B5G5R5, mips (autogen), blend, RT (multi-sampled), gather
-<12:22:05>   B8G8R8A8, mips (autogen), sRGB, blend, RT (multi-sampled), gather
-<12:22:05>   B8G8R8X8, mips (autogen), sRGB, blend, RT (multi-sampled), gather
-<12:22:05>  Renderer HDR_Scalar: R32F
-<12:22:05>  ****** D3D11 CryRender Stats ******
-<12:22:05>  Driver description: Intel(R) Iris(TM) Graphics 6100
-<12:22:05>  Feature level: DirectX 11.0
-<12:22:05>  Full stats: 
-<12:22:05>  Rasterizer: Hardware
-<12:22:05>  Current Resolution: 1280x720x32 Windowed
-<12:22:05>  HDR Rendering: FP16
-<12:22:05>  Occlusion queries: Supported
-<12:22:05>  Geometry instancing: Supported
-<12:22:05>  NormalMaps compression : Supported
-<12:22:05>  Gamma control: Hardware
-<12:22:05>  Vertex Shaders version 4.0
-<12:22:05>  Pixel Shaders version 4.0
-<12:22:05>  Used GeomInstancingThreshold is 7
-<12:22:05>  Shader model usage: 'SM.5.0'
-<12:22:05>  *****************************************
-<12:22:05>  
-<12:22:05> Init Shaders
-<12:22:05> Flushing pended shaders...
-<12:22:05> Finished flushing pended shaders...
-<12:22:05> Flushing pended shaders...
-<12:22:05> Finished flushing pended shaders...
-<12:22:05>  General shader quality: VeryHigh
-<12:22:05>  Metal shader quality: VeryHigh
-<12:22:05>  Glass shader quality: VeryHigh
-<12:22:05>  Vegetation shader quality: VeryHigh
-<12:22:05>  Ice shader quality: VeryHigh
-<12:22:05>  Terrain shader quality: VeryHigh
-<12:22:05>  Shadow shader quality: VeryHigh
-<12:22:05>  Water shader quality: High
-<12:22:05>  FX shader quality: VeryHigh
-<12:22:05>  PostProcess shader quality: VeryHigh
-<12:22:05>  HDR shader quality: VeryHigh
-<12:22:05>  Sky shader quality: VeryHigh
-<12:22:05> Render quality: VeryHigh
-<12:22:05> Allocate render buffer for particles (16384 verts, 49152 tris)...
-<12:22:05> Init textures management (128 Mb of video memory is available)...
-<12:22:05>   Enabling of textures streaming...
-<12:22:05>   Using 512 Mb of textures pool for streaming...
-<12:22:05>   Video textures: Atlas clouds max size: 24 Mb
-<12:22:05>   Video textures: Atlas sprites max size: 32 Mb
-<12:22:05>   Video textures: Dynamic managed max size: 80 Mb
-<12:22:05>   Reloading all textures...
-<12:22:05>   Finished reloading textures...
-<12:22:05>   Finished initializing textures streaming...
-<12:22:06> Initialized hardware mouse (game is allowed to confine mouse to window)
-<12:22:06> Using Scaleform GFx 3.3.94
-<12:22:06>   Using dynamic pool
-<12:22:06> Font initialization
-<12:22:06> Initializing CryFont...
-<12:22:06> Using FreeType 2.5.5
-<12:22:06> Initializing CryFont done, MemUsage=260Kb
-<12:22:07> *** Init system render resources ***
-<12:22:07> Allocate render buffer for particles (16384 verts, 49152 tris)...
-<12:22:07> Allocating shadow map cache 4214 x 4214: 33.87 MB
-<12:22:07> Network initialization
-<12:22:07> Initializing CryNetwork...
-<12:22:07> [LagProfiles] Could not load "". 6 default profiles activated.
-<12:22:07> [net] Socket IO management: External [iocp], Internal [iocp]
-<12:22:07> network hostname: DESKTOP-GM0D50Q
-<12:22:07>   ip:172.31.0.23
-<12:22:07> [Network Version]: PROFILE DEVELOPMENT BUILD
-<12:22:07> Initializing CryNetwork done, MemUsage=2284Kb
-<12:22:07> Online initialization
-<12:22:07> Initializing CryOnline...
-<12:22:07> DLL Failed to load, error code: 7E
-<12:22:07> Lobby initialization
-<12:22:07> Initializing CryLobby...
-<12:22:07> Initializing CryLobby done, MemUsage=428Kb
-<12:22:07> MovieSystem initialization
-<12:22:07> Initializing CryMovie...
-<12:22:07> Initializing CryMovie done, MemUsage=560Kb
-<12:22:07> Console initialization
-<12:22:07> Time initialization
-<12:22:07> Input initialization
-<12:22:07> Initializing CryInput...
-<12:22:07> Initializing DirectInput
-<12:22:07> Initializing Keyboard
-<12:22:07> Initializing mouse
-<12:22:07> Initializing CryInput done, MemUsage=1252Kb
-<12:22:07> AI initialization
-<12:22:07> Initializing CryAISystem...
-<12:22:07> Initializing CryAISystem done, MemUsage=1264Kb
-<12:22:07>  
-<12:22:07> con_debug=0 [  ]
-<12:22:07> con_display_last_messages=0 [  ]
-<12:22:07> con_line_buffer_size=1000 [  ]
-<12:22:07> con_restricted=0 [ RESTRICTEDMODE ]
-<12:22:07> con_showonload=0 [  ]
-<12:22:07>  
-<12:22:07> con_debug=0 [  ]
-<12:22:07> con_display_last_messages=0 [  ]
-<12:22:07> con_line_buffer_size=1000 [  ]
-<12:22:07> con_restricted=0 [ RESTRICTEDMODE ]
-<12:22:07> con_showonload=0 [  ]
-<12:22:07>  
-<12:22:07> con_debug=0 [  ]
-<12:22:07>  
-<12:22:07> con_debug=0 [  ]
-<12:22:07> Initializing Animation System
-<12:22:07> Initializing CryAnimation...
-<12:22:07> Initializing CryAnimation done, MemUsage=2164Kb
-<12:22:07> Initializing 3D Engine
-<12:22:07> Initializing Cry3DEngine...
-<12:22:07> Sky light: Optical lookup tables loaded off disc.
-<12:22:07> Initializing Cry3DEngine done, MemUsage=15096Kb
-<12:22:08> Script System Initialization
-<12:22:08> Initializing CryScriptSystem...
-<12:22:08> Initializing CryScriptSystem done, MemUsage=1076Kb
-<12:22:08> Entity system initialization
-<12:22:08> Initializing CryEntitySystem...
-<12:22:08> Initializing CryEntitySystem done, MemUsage=2540Kb
-<12:22:08> LiveCreate initialization
-<12:22:08> LiveCreateHost not created, using NULL implementation.
-<12:22:08> CryMonoBridge initialization
-<12:22:08> Initializing CryMonoBridge...
-<12:22:08> Initializing CryMonoBridge done, MemUsage=836Kb
-<12:22:08> Initializing AI System
-<12:22:08> AI: [AISYSTEM] Initialization started.
-<12:22:08> AI: Loaded 54 AI Behaviors in 0.05s...
-<12:22:08> Registering CentralInterestManager with EntitySystem
-<12:22:08> AI: [AISYSTEM] Initialization finished.
-<12:22:08> Initializing additional systems
-<12:22:08> Dynamic Response System initialization
-<12:22:08> Initializing CryDynamicResponseSystem.dll...
-<12:22:08> Initializing CryDynamicResponseSystem.dll done, MemUsage=488Kb
-<12:22:08> OnSysSpecChange(4)
-<12:22:08> Loading Config file VeryHighSpec.cfg (assets\config\veryhighspec.cfg)
-<12:22:08> Loading Config file %ENGINEROOT%/editor.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\editor.cfg)
-<12:22:08> Loading Config file game.cfg (assets\game.cfg)
-<12:22:08> Current Language: English 
-<12:22:08> Windows 10 10.0 (C:\Windows)
-<12:22:08> Local time is 12:22:08 04/05/16, system running for 0 minutes
-<12:22:08> 8095MB phys. memory installed, 7725MB paging available
-<12:22:08> Current display mode is 1280x800x32, (Unknown graphics card)
-<12:22:08> IBM enhanced (101/102-key) keyboard and 2+ button mouse installed
-<12:22:08> --------------------------------------------------------------------------------
-<12:22:08> sys_dll_game = Game
-<12:22:08> sys_game_folder = Assets
-<12:22:08> sys_localization_folder = localization
-<12:22:08> <ThreadConfigInfo>: [XML Parsing] Thread with name "NetworkStallTicker" already loaded. Overriding with new configuration
-<12:22:08> <ThreadConfigInfo>: [XML Parsing] Thread with name "ZLibCompressor" already loaded. Overriding with new configuration
-<12:22:08> [Warning] <ThreadConfigInfo>: Active platform identifier string "pc" not found in config "config/game.thread_config".
-<12:22:08> [Invite] SetInviteAcceptedState 0 to 0
-<12:22:08> [Invite] InvalidateInviteData
-<12:22:08> CGameLocalizationManager::LoadLocalizationData() is loading localization file=Libs/Localization/localization.xml
-<12:22:08> Finished loading item XML definitions from 'scripts/entities/items/XML'!
-<12:22:08> Finished loading ammo XML definitions from 'scripts/entities/items/XML'!
-<12:22:08> [PlayerProfiles] Login of user 'Omar' successful.
-<12:22:08> [PlayerProfiles] Found 1 profiles.
-<12:22:08>    Profile 0 : 'default'
-<12:22:08> [Error] [CVARS]: [MISSING] [e_TerrainAO] is not a registered console variable; referenced when testing console variable group [sys_spec_shading] = [4]
-<12:22:08> [Error] [CVARS]: [MISSING] [e_ShadowsOnAlphaBlend] is not a registered console variable; referenced when testing console variable group [sys_spec_shadows] = [4]
-<12:22:08> CGame: Loading singleplayer difficulty config 'difficulty/easy.cfg'
-<12:22:08> Loading Config file difficulty/easy.cfg (assets\difficulty\easy.cfg)
-<12:22:08> [Error] [CVARS]: [MISSING] [e_TerrainAO] is not a registered console variable; referenced when testing console variable group [sys_spec_shading] = [4]
-<12:22:08> [Error] [CVARS]: [MISSING] [e_ShadowsOnAlphaBlend] is not a registered console variable; referenced when testing console variable group [sys_spec_shadows] = [4]
-<12:22:08> [GameProfiles]: Successfully activated profile 'default' for user 'Omar'
-<12:22:08> username Omar signedIn 1 userIndex 0
-<12:22:08> ActivateProfile profileName default
-<12:22:08> [Warning] CActionMap::LoadRebindingDataFromXML: Action: xi_v_rotateyaw, doesn't exist, can't rebind
-<12:22:08> [Warning] CActionMap::LoadRebindingDataFromXML: Action: xi_v_rotatepitch, doesn't exist, can't rebind
-<12:22:08> CGame: Loading singleplayer difficulty config 'difficulty/easy.cfg'
-<12:22:09> Loading Config file difficulty/easy.cfg (assets\difficulty\easy.cfg)
-<12:22:09> CPlayerProgression::Constructor
-<12:22:09> CPlayerProgression::Init() Done
-<12:22:09> PersistantStats profile version mismatch, got 0, expected 3, so ignoring
-<12:22:09> CGame::LoadPatchLocalizationData() is loading localization file=localization_english.xml
-<12:22:09> CGame::InitGameType() multiplayer=false, fromInit=true
-<12:22:09> hostName = 'DESKTOP-GM0D50Q'
-<12:22:09> SetGlobalState 1->2 'INIT'->'RUNNING' 4.5 seconds
-<12:22:09> Loading singleplayer configuration...
-<12:22:09> Loading Config file singleplayer.cfg (assets\config\singleplayer.cfg)
-<12:22:09> Changing "ai_CompatibilityMode" cvar from '' to 'crysis2' (now got 1 cvar to revert when switching game type)
-<12:22:09> Changing "ai_BurstWhileMovingDestinationRange" cvar from '2' to '9999.0' (now got 2 cvars to revert when switching game type)
-<12:22:09> Changing "g_telemetryConfig" cvar from 'none' to 'SP' (now got 3 cvars to revert when switching game type)
-<12:22:09> Changing "net_inactivitytimeout" cvar from '30' to '3600' (now got 4 cvars to revert when switching game type)
-<12:22:09> Changing "net_inactivitytimeoutDevmode" cvar from '30' to '3600' (now got 5 cvars to revert when switching game type)
-<12:22:09> Changing "pl_movement.nonCombat_heavy_weapon_speed_scale" cvar from '0.75' to '1.0' (now got 6 cvars to revert when switching game type)
-<12:22:09> No need to change "sv_gamerules" to 'SinglePlayer' as that's also its current value
-<12:22:09> No need to change "ca_StreamCHR" to '1' as that's also its current value
-<12:22:09> Finished loading singleplayer configuration, used 192/5120 bytes storing old cvar values
-<12:22:09> [Lobby] Terminate service 1 error 4
-<12:22:09> CGame: Singleplayer game type initialised
-<12:22:09> CGame: Loading singleplayer difficulty config 'difficulty/easy.cfg'
-<12:22:09> Loading Config file difficulty/easy.cfg (assets\difficulty\easy.cfg)
-<12:22:09> Registering TPS Extensions...
-<12:22:09> <Lua> PipeManager: Creating goal pipes
-<12:22:09> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesShared.xml...
-<12:22:09> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesCoordination.xml...
-<12:22:09> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesHuman.xml...
-<12:22:09> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesHeli.xml...
-<12:22:09> <Lua> PipeManager: Finished creating goal pipes!
-<12:22:09> [FEATURETESTER] (No instance) Creating feature tester instance
-<12:22:09> Ending game context...
-<12:22:09> <Lua> Loading AIAlertness.lua
-<12:22:09> [Warning] No game rules active, can not precache resources
-<12:22:09> Initializing default materials...
-<12:22:09> [MFX] Loading FXLib 'breakables' ...
-<12:22:09> [MFX] Loading FXLib 'collisions' ...
-<12:22:09> [MFX] Loading FXLib 'foley' ...
-<12:22:09> [MFX] Loading FXLib 'foley_grunt' ...
-<12:22:09> [MFX] Loading FXLib 'foley_player' ...
-<12:22:09> [MFX] Loading FXLib 'footstep_grunt' ...
-<12:22:09> [MFX] Loading FXLib 'footstep_player' ...
-<12:22:09> [MFX] Loading FXLib 'footsteps' ...
-<12:22:09> [MFX] Loading FXLib 'grenade' ...
-<12:22:09> [MFX] Loading FXLib 'melee' ...
-<12:22:09> [MFX] Loading FXLib 'player_fx' ...
-<12:22:09> [MFX] Loading FXLib 'projectiles' ...
-<12:22:09> [MFX] Loading FXLib 'tornado' ...
-<12:22:09> [MFX] Loading FXLib 'vegetation' ...
-<12:22:09> [MFX] Loading FXLib 'vehicles' ...
-<12:22:09> -- FAIL (strcmpi( src.wrapped.c_str(), dst.wrapped.c_str()) == 0): [CryAction]:SCRCRef_Serialization_StoreString_Empty (d:\jk\mastercd13_gamesdk_release\bintemp\uber_files\cryaction\..\..\..\Code\CryEngine\CryAction\Mannequin\Tests\Test_CRCRef.cpp:59)
-<12:22:09> UnitTesting Finished Tests: 69 Succeeded: 68, Failed: 1, Time: 25.39 ms
-<12:22:09> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
-<12:22:09> Loading Config file singleplayer.cfg (assets\config\singleplayer.cfg)
-<12:22:10> Finished loading ammo XML definitions from 'scripts/entities/items/XML'!
-<12:22:10> [Warning] No game rules active, can not precache resources
-<12:22:10> AI: [AISYSTEM] Initializing AI Actions.
-<12:22:10> AI: [AISYSTEM] Initializing Smart Objects.
-<12:22:10> OnSysSpecChange(2)
-<12:22:10> Loading Config file MedSpec.cfg (assets\config\medspec.cfg)
-<12:22:10> Flushing pended shaders...
-<12:22:10> Finished flushing pended shaders...
-<12:22:11> Flushing pended shaders...
-<12:22:11> Finished flushing pended shaders...
-<12:22:11> Allocating shadow map cache 2810 x 2810: 15.06 MB
-<12:22:11> Allocating shadow map cache 6324 x 6324: 76.28 MB
-<12:22:11> Allocating shadow map cache 4214 x 4214: 33.87 MB
-<12:22:11> Loading Config file %ENGINEROOT%/editor.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\editor.cfg)
-<12:22:11> Loading Config file game.cfg (assets\game.cfg)
-<12:22:11> Unloading all previous plugins
-<12:22:11> Loading plugins...
-<12:22:11> Successfully loaded plugin 'CryDesigner', version '1' (GUID: )
-<12:22:11> Successfully loaded plugin 'EditorPhysics', version '1' (GUID: (null))
-<12:22:11> Successfully loaded plugin 'AudioControlsEditor', version '1' (GUID: {DFA4AFF7-2C70-4B29-B736-GRH00040314})
-<12:22:11> Successfully loaded plugin 'QtConsole', version '1' (GUID: {B0E9DE33-C2E3-4506-8B63-B023327156BB})
-<12:22:11> Cannot query plugin DLL 'C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.0\bin\win_x64\EditorPlugins\EditorCryAudioImplFmod.dll' factory pointer (is it a Sandbox plugin?)
-<12:22:11> Cannot query plugin DLL 'C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.0\bin\win_x64\EditorPlugins\EditorCryAudioImplSDLMixer.dll' factory pointer (is it a Sandbox plugin?)
-<12:22:11> Cannot query plugin DLL 'C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.0\bin\win_x64\EditorPlugins\EditorCryAudioImplWwise.dll' factory pointer (is it a Sandbox plugin?)
-<12:22:11> Successfully loaded plugin 'DynamicResponseSystemEditor', version '1' (GUID: {DFA4AFF7-2C70-4B29-B736-GRH00290515})
-<12:22:11> Successfully loaded plugin 'EditorEnvironment', version '1' (GUID: {800BBFA9-9895-4E81-AB02-7425FD4F5554})
-<12:22:11> Successfully loaded plugin 'ParticleLibrary', version '1' (GUID: (null))
-<12:22:11> Successfully loaded plugin 'TrackView', version '1' (GUID: {7C4EB160-30AC-44C1-92D6-6D4B74B2E96B})
-<12:22:12> FBX plugin: CreatePluginInstance
-<12:22:12> Successfully loaded plugin 'FBX Exporter', version '1' (GUID: {6CD02F95-362C-4ADF-8BAE-87C6342A8027})
-<12:22:12> Successfully loaded plugin 'MeshImporter', version '1' (GUID: {4F68F679-39AD-4BB4-B5E2-8A8DD3020DC1})
-<12:22:12> Started game resource files indexing...
-<12:22:12> Loading Localization File localization\english_xml\text_ui_ingame.xml
-<12:22:12> Loading Localization File localization\english_xml\text_ui_items.xml
-<12:22:12> Loading Localization File localization\english_xml\text_ui_levels.xml
-<12:22:12> Loading Localization File localization\english_xml\text_ui_menus.xml
-<12:22:12> Loading Localization File localization\english_xml\text_ui_warnings.xml
-<12:22:12> Loading Localization File localization\english_xml\ai_dialog_recording_list.xml
-<12:22:12> Loading Localization File localization\english_xml\dialog_recording_list.xml
-<12:22:12> [CONSOLE] Executing console command 'exec autoexec.cfg'
-<12:22:12> Executing console batch file (try game,config,root): "autoexec.cfg" not found!
-<12:22:12> [CONSOLE] Executing console command 'exec editor.cfg'
-<12:22:12> Executing console batch file (try game,config,root): "editor.cfg" found in editor.cfg ...
-<12:22:12> ed_MissingAssetResolver=0 [  ]
-<12:22:12> ca_UseIMG_CAF=0 [  ]
-<12:22:12> drs_dialogSubtitles=1 [  ]
-<12:22:12> [CONSOLE] Executing console command 'exec user.cfg'
-<12:22:12> Executing console batch file (try game,config,root): "user.cfg" not found!
-<12:22:12> Loading editor preferences from: C:/Users/Omar/AppData/Roaming/Crytek/CRYENGINE/Settings.ini
-<12:22:12> [Warning] Command 'ui_action.actionSelection_Mask' is not registered.
-<12:22:12> [Warning] Command 'ui_action.actionAIPoint_Pick_Link' is not registered.
-<12:22:12> [Warning] Command 'ui_action.actionAIPoint_Pick_Impass_Link' is not registered.
-<12:22:12> [Warning] Command 'general.fullscreen' is not registered.
-<12:22:12> [Warning] Command 'ui_action.actionTerrain_Flatten' is not registered.
-<12:22:12> [Warning] Command 'ui_action.actionTerrain_Smooth' is not registered.
-<12:22:12> [Warning] Command 'ui_action.actionEnable_file_change_monitoring' is not registered.
-<12:22:12> [Warning] Command 'general.set_config_spec 4' is not registered.
-<12:22:12> [Warning] Command 'general.set_config_spec 3' is not registered.
-<12:22:12> [Warning] Command 'general.set_config_spec 2' is not registered.
-<12:22:12> [Warning] Command 'general.set_config_spec 1' is not registered.
-<12:22:12> [Warning] Command 'general.set_config_spec 5' is not registered.
-<12:22:12> [Warning] Command 'general.set_config_spec 6' is not registered.
-<12:22:12> [Warning] Command 'general.set_config_spec 0' is not registered.
-<12:22:12> [Warning] XML reader: Can't open file (assets\audio\wwise\SoundbanksInfo.xml)
-<12:22:12> Adding for file change notifications: 'assets\'
-<12:22:12> Adding for file change notifications: '.\assets\'
-<12:22:12> Adding for file change notifications: '.\Editor\'
-<12:22:17> Task Completed: Update Local Animations
-<12:22:17> Flushing pended shaders...
-<12:22:17> Finished flushing pended shaders...
-<12:22:17> Flushing pended shaders...
-<12:22:17> Finished flushing pended shaders...
-<12:22:17> Flushing pended shaders...
-<12:22:17> Finished flushing pended shaders...
-<12:22:17> Flushing pended shaders...
-<12:22:17> Finished flushing pended shaders...
-<12:22:17> Remote console listening on: 4600
-<12:22:19> general.open
-<12:22:20> Task Completed: Clean up compiled animations
-<12:22:20> general.open_level_no_prompt 'Assets/levels/CS188/CS188.cry'
-<12:22:20> Opening document Assets/levels/CS188/CS188.cry
-<12:22:20> CGame::OnSystemEvent(ESYSTEM_EVENT_LEVEL_LOAD_START) while in single player mode
-<12:22:21> Loading subADB Animations/Mannequin/ADB/pistolAnims1P.adb
-<12:22:21> Loading subADB Animations/Mannequin/ADB/rifleAnims1P.adb
-<12:22:21> Loading subADB Animations/Mannequin/ADB/shotgunAnims1P.adb
-<12:22:21> Loading subADB Animations/Mannequin/ADB/grenadeAnims1P.adb
-<12:22:21> Loading subADB Animations/Mannequin/ADB/rocketlauncherAnims1P.adb
-<12:22:21> Loading subADB Animations/Mannequin/ADB/hmgAnims1P.adb
-<12:22:21> Loading subADB Animations/Mannequin/ADB/c4Anims1P.adb
-<12:22:21> Loading subADB Animations/Mannequin/ADB/humanSlaveAnims1P.adb
-<12:22:21> Loading subADB Animations/Mannequin/ADB/ladderAnims1P.adb
-<12:22:21> Loading subADB Animations/Mannequin/ADB/swimAnims1P.adb
-<12:22:21> Loading subADB Animations/Mannequin/ADB/interactAnims1P.adb
-<12:22:21> Loading subADB Animations/Mannequin/ADB/animcontrolAnims1P.adb
-<12:22:21> [Warning] No game rules active, can not precache resources
-<12:22:22> [Warning] No game rules active, can not precache resources
-<12:22:22> [Warning] No game rules active, can not precache resources
-<12:22:22> [Warning] No game rules active, can not precache resources
-<12:22:22> sp_coop_mp set to 0.000000
-<12:22:22> Loading from Assets/levels/CS188/CS188.cry...
-<12:22:22> Ending game context...
-<12:22:22> Destroying CActionGame instance 000001D5C503F070 (level="")
-<12:22:22> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
-<12:22:22> Loading Config file singleplayer.cfg (assets\config\singleplayer.cfg)
-<12:22:22> Loading game rules class='SinglePlayer' xml='Scripts/GameRules/SinglePlayer.xml'
-<12:22:22> GameRulesCommonDamageHandling::GameRulesCommonDamageHandling()
-<12:22:22> CGameRulesCommonDamageHandling::PostInit()
-<12:22:22> CGame::OnSystemEvent(ESYSTEM_EVENT_LEVEL_LOAD_START) while in single player mode
-<12:22:24> sp_coop_mp set to 0.000000
-<12:22:24> Loading missions...
-<12:22:24> ---- Start: Load Terrain
-<12:22:24> CRGBLayer::AllocateTiles 1x1 tiles 512 => 512x512 texture
-<12:22:24> allocating editor height map (1024x1024)*4
-<12:22:24> ---- Start: Loading Surface Types
-<12:22:24> ---- End: Loading Surface Types (0 seconds)
-<12:22:24> ---- Start: Loading Terrain Layers Info
-<12:22:24> Loading layer settings...
-<12:22:24> Loading layer texture (engineassets/textures/grey.dds)...
-<12:22:24>   loaded editor layer 0  name='Default' LayerID=0
-<12:22:24> ---- End: Loading Terrain Layers Info (0 seconds)
-<12:22:24> ---- Start: Load Terrain
-<12:22:24> Constructing 1365 terrain nodes (0.6 MB) <12:22:24>  done in 0.01 sec
-<12:22:24> ===== Loading 0 vegetation models =====
-<12:22:24> ===== Loading 4 brush models ===== 
-<12:22:24> ===== Initializing terrain nodes ===== 
-<12:22:24> ===== Loading outdoor instances ===== 
-<12:22:24> ---- End: Load Terrain (0 seconds)
-<12:22:24> ---- Start: Process RGB Terrain Layers
-<12:22:24> ---- End: Process RGB Terrain Layers (0 seconds)
-<12:22:24> CRGBLayer::AllocateTiles 1x1 tiles 512 => 512x512 texture
-<12:22:24> Loading terrain layers for segment 0 ...
-<12:22:24> ---- End: Load Terrain (0 seconds)
-<12:22:24> ---- Start: Game Engine level load
-<12:22:24> Loading map 'assets/levels/cs188' into engine...
-<12:22:24> ===== Loading Particle Effects =====
-<12:22:24> ---- End: Game Engine level load (0 seconds)
-<12:22:24> ---- Start: Load MaterialManager
-<12:22:24> ---- End: Load MaterialManager (0 seconds)
-<12:22:24> ---- Start: Load Particles
-<12:22:24> ---- End: Load Particles (0 seconds)
-<12:22:24> ---- Start: Load Flares
-<12:22:24> ---- End: Load Flares (0 seconds)
-<12:22:24> ---- Start: Load GameTokens
-<12:22:24> ---- End: Load GameTokens (0 seconds)
-<12:22:24> Loading View settings...
-<12:22:24> ---- Start: Load Vegetation
-<12:22:24> Loading Vegetation Map...
-<12:22:24> ---- End: Load Vegetation (0 seconds)
-<12:22:24> ---- Start: Reposition Vegetation
-<12:22:24> ---- End: Reposition Vegetation (0 seconds)
-<12:22:24> ---- Start: Updating Surface Types
-<12:22:24> Loading terrain layers for segment 0 ...
-<12:22:24> ---- End: Updating Surface Types (0 seconds)
-<12:22:24> Loading Fog settings...
-<12:22:24> ---- Start: Load Entity Archetypes Database
-<12:22:24> ---- End: Load Entity Archetypes Database (0 seconds)
-<12:22:24> ---- Start: Load Prefabs Database
-<12:22:24> ---- End: Load Prefabs Database (0 seconds)
-<12:22:24> ---- Start: Activating Mission Mission0
-<12:22:25> Loading AI data assets/levels/cs188, Mission0
-<12:22:25> --- AI: Navigation Data Loaded in  0.00 sec
-<12:22:25> Finished Loading AI data in  0.010 secs
-<12:22:25> ---- End: Activating Mission Mission0 (0 seconds)
-<12:22:25> ---- Start: Load Level Shader Cache
-<12:22:25> ---- End: Load Level Shader Cache (0 seconds)
-<12:22:25> ---- Start: Post Load
-<12:22:25> ---- End: Post Load (0 seconds)
-<12:22:25> [LevelLoadTime] Level assets/levels/cs188 loaded in 0 seconds
-<12:22:25> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
-<12:22:25> Loading subADB Animations/Mannequin/ADB/aimAnims3P.adb
-<12:22:25> Loading subADB Animations/Mannequin/ADB/pistolAnims3P.adb
-<12:22:25> Loading subADB Animations/Mannequin/ADB/rifleAnims3P.adb
-<12:22:25> Loading subADB Animations/Mannequin/ADB/shotgunAnims3P.adb
-<12:22:25> Loading subADB Animations/Mannequin/ADB/grenadeAnims3P.adb
-<12:22:25> Loading subADB Animations/Mannequin/ADB/rocketlauncherAnims3P.adb
-<12:22:25> Loading subADB Animations/Mannequin/ADB/hmgAnims3P.adb
-<12:22:25> Loading subADB Animations/Mannequin/ADB/humanSlaveAnims3P.adb
-<12:22:25> Loading subADB Animations/Mannequin/ADB/pistolSounds.adb
-<12:22:25> Loading subADB Animations/Mannequin/ADB/rifleSounds.adb
-<12:22:25> Loading subADB Animations/Mannequin/ADB/shotgunSounds.adb
-<12:22:25> Loading subADB Animations/Mannequin/ADB/grenadeSounds.adb
-<12:22:26>   1690 animation-assets loaded (total assets: 1514)
-<12:22:26> [PLAYER PLUG-IN] Player 'Dude' attempting to enter plug-in 'CPlayerPlugin_Interaction'
-<12:22:26> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
-<12:22:26> Player 'Dude' (0 0 0) can't change stance from -1 'Null' to 0 'Stand' [Attempt 1]
-<12:22:26> [PLAYER PLUG-IN] Player 'Dude' attempting to enter plug-in 'CPlayerPlugin_CurrentlyTargetting'
-<12:22:26>   11 animation-assets loaded (total assets: 1524)
-<12:22:26> Loading subADB Animations/Mannequin/ADB/pistolFFEvents.adb
-<12:22:26>   12 animation-assets loaded (total assets: 1535)
-<12:22:26> Loading subADB Animations/Mannequin/ADB/rifleFFEvents.adb
-<12:22:26>   8 animation-assets loaded (total assets: 1542)
-<12:22:26> Loading subADB Animations/Mannequin/ADB/shotgunFFEvents.adb
-<12:22:26>   6 animation-assets loaded (total assets: 1547)
-<12:22:26> Player 'Dude' is becoming local actor
-<12:22:26> SetGlobalState 2->11 'RUNNING'->'LEVEL_LOAD_TEXTURES' 17.6 seconds
-<12:22:26> -- Presort shaders by states...
-<12:22:26> --- 105 Resources, 26 Resource groups.
-<12:22:26> Requesting textures precache ...
-<12:22:26> -- Precaching textures...
-<12:22:26> Precaching progress: 1
-<12:22:26> Precaching progress: 2
-<12:22:26> Precaching progress: 3
-<12:22:26> Precaching progress: 4
-<12:22:26> Precaching progress: 5
-<12:22:26> Precaching progress: 6
-<12:22:26> Precaching progress: 7
-<12:22:26> Precaching progress: 8
-<12:22:26> Precaching progress: 9
-<12:22:26> Precaching textures done in 0.35 seconds
-<12:22:26> Textures precache done.
-<12:22:26> File access time during level loading: 0.86 seconds
-<12:22:26> -----------------------------------------------------------
-<12:22:26> Successfully opened document Assets/levels/CS188/
-<12:22:26> Level loading time: 6.01 seconds
-<12:22:27> -----------------------------------------------------------
-<12:22:27> Returned: 
-<12:22:27> Returned: 
-<12:22:27> Opening terrain\cover.ctc ...
-<12:22:27>   TerrainLayer 0: TexFormat: BC3, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
-<12:22:27>   TerrainLayer 1: TexFormat: BC3, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
-<12:22:27>   RGB multiplier: 8, Texture indices: 21
-<12:22:29> ui_action.actionSwitch_to_Game
-<12:22:29> general.enter_game_mode
-<12:22:29> Returned: 
-<12:22:29> Returned: 
-<12:22:30> CActor::NetReviveAt: Dude
-<12:22:30> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
-<12:22:30> Player 'Dude' (512 512 34.9626) has finally changed stance from -1 'Null' to 0 'Stand'
-<12:22:31> Pre-caching render meshes for camera position
-<12:22:31> Updating level streaming priorities for 1 cameras (LevelFrameId = 1)
-<12:22:31> -- 512.500000 510.000000 33.650002
-<12:22:31> SetGlobalState 11->2 'LEVEL_LOAD_TEXTURES'->'RUNNING' 4.6 seconds
-<12:22:50> general.exit_game_mode
-<12:22:50> Returned: 
-<12:22:50> [Warning] Dude tried to select item ID 131050 but that ID does not belong to an item, it belongs to nothing
-<12:22:50> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
-<12:22:58> ui_action.actionSwitch_to_Game
-<12:22:58> general.enter_game_mode
-<12:22:58> Returned: 
-<12:22:58> Returned: 
-<12:22:58> CActor::NetReviveAt: Dude
-<12:22:58> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
-<12:23:01> general.exit_game_mode
-<12:23:01> Returned: 
-<12:23:01> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
-<12:23:41>   5 animation-assets loaded (total assets: 1551)
-<12:23:43> ui_action.actionSwitch_to_Game
-<12:23:43> general.enter_game_mode
-<12:23:43> Returned: 
-<12:23:43> Returned: 
-<12:23:43> CActor::NetReviveAt: Dude
-<12:23:43> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
-<12:24:05> general.exit_game_mode
-<12:24:05> Returned: 
-<12:24:05> [Warning] Dude tried to select item ID 262134 but that ID does not belong to an item, it belongs to nothing
-<12:24:05> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
-<12:24:07> general.undo
-<12:24:07> Undo (Undo:0,Redo:1)
-<12:24:07> Returned: 
-<12:24:11>   5 animation-assets loaded (total assets: 1555)
-<12:24:14> ui_action.actionSwitch_to_Game
-<12:24:14> general.enter_game_mode
-<12:24:14> Returned: 
-<12:24:14> Returned: 
-<12:24:14> CActor::NetReviveAt: Dude
-<12:24:14> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
-<12:24:22> general.exit_game_mode
-<12:24:22> Returned: 
-<12:24:22> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
-<12:24:23> general.undo
-<12:24:23> Undo (Undo:0,Redo:1)
-<12:24:23> Returned: 
-<12:24:40>   2 animation-assets loaded (total assets: 1555)
-<12:24:40> Loading body destruction file 'libs/bodydamage/bodydestructibility_humanturret.xml'
-<12:24:40> ======== Loading body destruction done ==================
-<12:24:40> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
-<12:24:50> ui_action.actionMove
-<12:24:50> Returned: 
-<12:24:55> ui_action.actionRotate
-<12:24:55> Returned: 
-<12:25:01> general.undo
-<12:25:01> Undo (Undo:4,Redo:1)
-<12:25:01> Returned: 
-<12:25:13> ui_action.actionSwitch_to_Game
-<12:25:13> general.enter_game_mode
-<12:25:13> Returned: 
-<12:25:13> Returned: 
-<12:25:13> CActor::NetReviveAt: Dude
-<12:25:13> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
-<12:25:13> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
-<12:25:19> [CGameRules::KillPlayer] HitJoint: 16  PartID: 16
-<12:25:19> CActor::NetKill: Turret1 killed Dude
-<12:25:19> [CONSOLE] Executing console command 'loadLastSave'
-<12:25:19> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
-<12:25:24> [CGameRules::KillPlayer] HitJoint: 57  PartID: 57
-<12:25:24> CActor::NetKill: Turret1 killed Dude
-<12:25:28> general.exit_game_mode
-<12:25:28> Returned: 
-<12:25:28> [Warning] Dude tried to select item ID 10420172 but that ID does not belong to an item, it belongs to nothing
-<12:25:28> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
-<12:25:28> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
-<12:25:32> ui_action.actionSwitch_to_Game
-<12:25:32> general.enter_game_mode
-<12:25:32> Returned: 
-<12:25:32> Returned: 
-<12:25:32> CActor::NetReviveAt: Dude
-<12:25:32> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
-<12:25:32> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
-<12:25:32> general.exit_game_mode
-<12:25:32> Returned: 
-<12:25:32> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
-<12:25:32> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
-<12:25:37> general.delete
-<12:25:37> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
-<12:25:37> Returned: 
-<12:25:49> ui_action.actionSwitch_to_Game
-<12:25:49> general.enter_game_mode
-<12:25:49> Returned: 
-<12:25:49> Returned: 
-<12:25:49> CActor::NetReviveAt: Dude
-<12:25:49> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
-<12:25:51> general.exit_game_mode
-<12:25:51> Returned: 
-<12:25:51> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
-<12:26:22> CDefaultSkeleton Release: objects/weapons/rifle/rifle_fp.chr
-<12:26:22> CDefaultSkeleton Release: objects/weapons/shotgun/shotgun.chr
-<12:26:22> CDefaultSkeleton Release: objects/weapons/pistol/pistol_fp.chr
-<12:26:22> CDefaultSkeleton Release: objects/weapons/frag_grenade/frag_grenade.chr
-<12:26:22> [GameRules] destructing 000001D5C2B5E050
-<12:26:22> CGameRulesCommonDamageHandling::~GameRulesCommonDamageHandling()
-<12:26:22> CDefaultSkeleton Release: objects/characters/animals/birds/rooster/rooster_skel.chr
-<12:26:22> CDefaultSkeleton Release: _objects/characters/human/generic/skeleton_player_generic.chr
-<12:26:22> CDefaultSkeleton Release: objects/characters/animals/amphibians/toad/toad_skel.chr
-<12:26:22> CSystem::Quit invoked from thread 5860 (main is 5860)
-<12:26:22> BaseInput - Shutting down all force feedback
-<12:26:22> ActionGame - Shutting down all force feedback
-<12:26:22> [Lobby] Terminate service 0 error 4
-<12:26:22> [Lobby] Terminate service 1 error 4
-<12:26:22> Ending game context...
-<12:26:22> Destroying CActionGame instance 000001D5C503F030 (level="")
-<12:26:22> [FEATURETESTER] Unloading all feature test data
-<12:26:22> Flushing pended shaders...
-<12:26:22> Finished flushing pended shaders...
-<12:26:22> System:Quit
+<13:11:09> OnSysSpecChange(4)
+<13:11:09> [Warning] Config file VeryHighSpec.cfg not found!
+<13:11:09> Loading Config file %ENGINEROOT%/editor.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\editor.cfg)
+<13:11:09> [Warning] Config file game.cfg not found!
+<13:11:09> Loading Config file project.cfg (project.cfg)
+<13:11:09> GameDir: Assets
+<13:11:09> Loading Config file game.cfg (assets\game.cfg)
+<13:11:09> creating CVarGroups from directory 'assets/Config/CVarGroups' ...
+<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_full.cfg (assets\config\cvargroups\sys_spec_full.cfg)
+<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_gameeffects.cfg (assets\config\cvargroups\sys_spec_gameeffects.cfg)
+<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_light.cfg (assets\config\cvargroups\sys_spec_light.cfg)
+<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_objectdetail.cfg (assets\config\cvargroups\sys_spec_objectdetail.cfg)
+<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_particles.cfg (assets\config\cvargroups\sys_spec_particles.cfg)
+<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_physics.cfg (assets\config\cvargroups\sys_spec_physics.cfg)
+<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_postprocessing.cfg (assets\config\cvargroups\sys_spec_postprocessing.cfg)
+<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_quality.cfg (assets\config\cvargroups\sys_spec_quality.cfg)
+<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_shading.cfg (assets\config\cvargroups\sys_spec_shading.cfg)
+<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_shadows.cfg (assets\config\cvargroups\sys_spec_shadows.cfg)
+<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_sound.cfg (assets\config\cvargroups\sys_spec_sound.cfg)
+<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_texture.cfg (assets\config\cvargroups\sys_spec_texture.cfg)
+<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_textureresolution.cfg (assets\config\cvargroups\sys_spec_textureresolution.cfg)
+<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_volumetriceffects.cfg (assets\config\cvargroups\sys_spec_volumetriceffects.cfg)
+<13:11:09> Loading Config file assets/Config/CVarGroups/sys_spec_water.cfg (assets\config\cvargroups\sys_spec_water.cfg)
+<13:11:09> creating CVarGroups from directory 'Engine/Config/CVarGroups' ...
+<13:11:09> [Warning] <ThreadConfigInfo>: Active platform identifier string "pc" not found in config "config/engine_core.thread_config".
+<13:11:09> [Warning] <ThreadConfigInfo>: Active platform identifier string "pc" not found in config "config/engine_sandbox.thread_config".
+<13:11:09> Windows 10 64 bit (build 10.0.10586)
+<13:11:09> User name: "Omar"
+<13:11:09> System language: English
+<13:11:09> Windows Directory: "C:\Windows"
+<13:11:09> Local time is 13:11:09 05/07/16, system running for 10 minutes
+<13:11:09> 8095MB physical memory installed, 4985MB available, 134217727MB virtual memory installed, 38 percent of memory in use
+<13:11:09> PageFile usage: 48MB, Working Set: 56MB, Peak PageFile usage: 48MB,
+<13:11:09> Current display mode is 1280x800x32, (Unknown graphics card)
+<13:11:09> IBM enhanced (101/102-key) keyboard and 3+ button mouse installed
+<13:11:09> --------------------------------------------------------------------------------
+<13:11:09> Loading Config file %USER%/game.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\gamesdk_5.0\gamesdk\user\game.cfg)
+<13:11:09> Loading Config file system.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\system.cfg)
+<13:11:09> OnSysSpecChange(4)
+<13:11:09> Loading Config file VeryHighSpec.cfg (assets\config\veryhighspec.cfg)
+<13:11:09> Loading Config file %ENGINEROOT%/editor.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\editor.cfg)
+<13:11:09> Loading Config file game.cfg (assets\game.cfg)
+<13:11:09> Loading Config file project.cfg (project.cfg)
+<13:11:09> [Warning] Config file user.cfg not found!
+<13:11:09> Stream Engine Initialization
+<13:11:09> GameName: CRYENGINE SDK
+<13:11:09> BuildTime: Mar 18 2016 10:51:44
+<13:11:09> Physics initialization
+<13:11:09> Initializing CryPhysics...
+<13:11:09> Initializing CryPhysics done, MemUsage=968Kb
+<13:11:09> <Audio>: AudioSystem initialization
+<13:11:09> Initializing CryAudioSystem...
+<13:11:09> Initializing CryAudioImplWwise...
+<13:11:09> <Audio> <0.438>: CryAudioImplWwise loaded
+<13:11:09> Initializing CryAudioImplWwise done, MemUsage=4732Kb
+<13:11:10> Initializing CryAudioSystem done, MemUsage=38152Kb
+<13:11:10> Renderer initialization
+<13:11:10> Initializing CryRenderD3D11...
+<13:11:10> CRenderer sizeof(Vec2f16)=4 sizeof(Vec3f16)=8
+<13:11:10> Initializing CryRenderD3D11 done, MemUsage=3816Kb
+<13:11:10> Initializing Direct3D and creating game window:
+<13:11:10> D3DX_SDK_VERSION = <UNDEFINED>
+<13:11:10> Direct3D driver is creating...
+<13:11:10> Crytek Direct3D driver version 2.00 (Mar 18 2016 <10:51:35>)
+<13:11:10> Creating window called 'CRYENGINE SDK' (1280x720)
+<13:11:10> D3D Adapter: Description: Intel(R) Iris(TM) Graphics 6100
+<13:11:10> D3D Adapter: Driver version (UMD): 20.19.15.4331
+<13:11:10> D3D Adapter: VendorId = 0x8086
+<13:11:10> D3D Adapter: DeviceId = 0x162B
+<13:11:10> D3D Adapter: SubSysId = 0x013F106B
+<13:11:10> D3D Adapter: Revision = 9
+<13:11:10> Active GPUs: 1
+<13:11:10> Using pixel texture formats:
+<13:11:10>   R8G8B8A8S, mips (autogen), blend, RT (multi-sampled), gather
+<13:11:10>   R8G8B8A8, mips (autogen), sRGB, blend, RT (multi-sampled), gather
+<13:11:10>   A8, mips (autogen), blend, RT (multi-sampled), gather
+<13:11:10>   R8, mips (autogen), blend, RT (multi-sampled), gather
+<13:11:10>   R8S, mips (autogen), blend, RT (multi-sampled), gather
+<13:11:10>   R16, mips (autogen), blend, RT (multi-sampled), gather (comparable)
+<13:11:10>   R16F, mips (autogen), blend, RT (multi-sampled), gather
+<13:11:10>   R32F, mips (autogen), blend, RT (multi-sampled), gather (comparable)
+<13:11:10>   R8G8, mips (autogen), blend, RT (multi-sampled), gather
+<13:11:10>   R8G8S, mips (autogen), blend, RT (multi-sampled), gather
+<13:11:10>   R16G16, mips (autogen), blend, RT (multi-sampled), gather
+<13:11:10>   R16G16S, mips (autogen), blend, RT (multi-sampled), gather
+<13:11:10>   R16G16F, mips (autogen), blend, RT (multi-sampled), gather
+<13:11:10>   R11G11B10F, mips (autogen), blend, RT (multi-sampled), gather
+<13:11:10>   R10G10B10A2, mips (autogen), blend, RT (multi-sampled), gather
+<13:11:10>   R16G16B16A16, mips (autogen), blend, RT (multi-sampled), gather
+<13:11:10>   R16G16B16A16S, mips (autogen), blend, RT (multi-sampled), gather
+<13:11:10>   R16G16B16A16F, mips (autogen), blend, RT (multi-sampled), gather
+<13:11:10>   R32G32B32A32F, mips (autogen), blend, RT (multi-sampled), gather
+<13:11:10>   BC1, mips, sRGB, gather
+<13:11:10>   BC2, mips, sRGB, gather
+<13:11:10>   BC3, mips, sRGB, gather
+<13:11:10>   BC4, mips, gather
+<13:11:10>   BC4S, mips, gather
+<13:11:10>   BC5, mips, gather
+<13:11:10>   BC5S, mips, gather
+<13:11:10>   BC6UH, mips, gather
+<13:11:10>   BC6SH, mips, gather
+<13:11:10>   BC7, mips, sRGB, gather
+<13:11:10>   R9G9B9E5, mips, gather
+<13:11:10>   R32FX8T, mips, gather (comparable)
+<13:11:10>   R32T, mips
+<13:11:10>   R24G8T, mips
+<13:11:10>   R16T, mips
+<13:11:10>   B5G6R5, mips (autogen), blend, RT (multi-sampled), gather
+<13:11:10>   B5G5R5, mips (autogen), blend, RT (multi-sampled), gather
+<13:11:10>   B8G8R8A8, mips (autogen), sRGB, blend, RT (multi-sampled), gather
+<13:11:10>   B8G8R8X8, mips (autogen), sRGB, blend, RT (multi-sampled), gather
+<13:11:10>  Renderer HDR_Scalar: R32F
+<13:11:10>  ****** D3D11 CryRender Stats ******
+<13:11:10>  Driver description: Intel(R) Iris(TM) Graphics 6100
+<13:11:10>  Feature level: DirectX 11.0
+<13:11:10>  Full stats: 
+<13:11:10>  Rasterizer: Hardware
+<13:11:10>  Current Resolution: 1280x720x32 Windowed
+<13:11:10>  HDR Rendering: FP16
+<13:11:10>  Occlusion queries: Supported
+<13:11:10>  Geometry instancing: Supported
+<13:11:10>  NormalMaps compression : Supported
+<13:11:10>  Gamma control: Hardware
+<13:11:10>  Vertex Shaders version 4.0
+<13:11:10>  Pixel Shaders version 4.0
+<13:11:10>  Used GeomInstancingThreshold is 7
+<13:11:10>  Shader model usage: 'SM.5.0'
+<13:11:10>  *****************************************
+<13:11:10>  
+<13:11:10> Init Shaders
+<13:11:10> Flushing pended shaders...
+<13:11:10> Finished flushing pended shaders...
+<13:11:10> Flushing pended shaders...
+<13:11:10> Finished flushing pended shaders...
+<13:11:10>  General shader quality: VeryHigh
+<13:11:10>  Metal shader quality: VeryHigh
+<13:11:10>  Glass shader quality: VeryHigh
+<13:11:10>  Vegetation shader quality: VeryHigh
+<13:11:10>  Ice shader quality: VeryHigh
+<13:11:10>  Terrain shader quality: VeryHigh
+<13:11:10>  Shadow shader quality: VeryHigh
+<13:11:10>  Water shader quality: High
+<13:11:10>  FX shader quality: VeryHigh
+<13:11:10>  PostProcess shader quality: VeryHigh
+<13:11:10>  HDR shader quality: VeryHigh
+<13:11:10>  Sky shader quality: VeryHigh
+<13:11:10> Render quality: VeryHigh
+<13:11:10> Allocate render buffer for particles (16384 verts, 49152 tris)...
+<13:11:10> Init textures management (128 Mb of video memory is available)...
+<13:11:10>   Enabling of textures streaming...
+<13:11:10>   Using 512 Mb of textures pool for streaming...
+<13:11:10>   Video textures: Atlas clouds max size: 24 Mb
+<13:11:10>   Video textures: Atlas sprites max size: 32 Mb
+<13:11:10>   Video textures: Dynamic managed max size: 80 Mb
+<13:11:10>   Reloading all textures...
+<13:11:10>   Finished reloading textures...
+<13:11:10>   Finished initializing textures streaming...
+<13:11:11> Initialized hardware mouse (game is allowed to confine mouse to window)
+<13:11:11> Using Scaleform GFx 3.3.94
+<13:11:11>   Using dynamic pool
+<13:11:11> Font initialization
+<13:11:11> Initializing CryFont...
+<13:11:11> Using FreeType 2.5.5
+<13:11:11> Initializing CryFont done, MemUsage=260Kb
+<13:11:11> *** Init system render resources ***
+<13:11:11> Allocate render buffer for particles (16384 verts, 49152 tris)...
+<13:11:11> Allocating shadow map cache 4214 x 4214: 33.87 MB
+<13:11:11> Network initialization
+<13:11:11> Initializing CryNetwork...
+<13:11:11> [LagProfiles] Could not load "". 6 default profiles activated.
+<13:11:11> [net] Socket IO management: External [iocp], Internal [iocp]
+<13:11:11> network hostname: DESKTOP-GM0D50Q
+<13:11:11>   ip:192.168.1.24
+<13:11:11> [Network Version]: PROFILE DEVELOPMENT BUILD
+<13:11:11> Initializing CryNetwork done, MemUsage=2568Kb
+<13:11:11> Online initialization
+<13:11:11> Initializing CryOnline...
+<13:11:11> DLL Failed to load, error code: 7E
+<13:11:11> Lobby initialization
+<13:11:11> Initializing CryLobby...
+<13:11:11> Initializing CryLobby done, MemUsage=420Kb
+<13:11:11> MovieSystem initialization
+<13:11:11> Initializing CryMovie...
+<13:11:12> Initializing CryMovie done, MemUsage=552Kb
+<13:11:12> Console initialization
+<13:11:12> Time initialization
+<13:11:12> Input initialization
+<13:11:12> Initializing CryInput...
+<13:11:12> Initializing DirectInput
+<13:11:12> Initializing Keyboard
+<13:11:12> Initializing mouse
+<13:11:12> Initializing CryInput done, MemUsage=1248Kb
+<13:11:12> AI initialization
+<13:11:12> Initializing CryAISystem...
+<13:11:12> Initializing CryAISystem done, MemUsage=1256Kb
+<13:11:12>  
+<13:11:12> con_debug=0 [  ]
+<13:11:12> con_display_last_messages=0 [  ]
+<13:11:12> con_line_buffer_size=1000 [  ]
+<13:11:12> con_restricted=0 [ RESTRICTEDMODE ]
+<13:11:12> con_showonload=0 [  ]
+<13:11:12>  
+<13:11:12> con_debug=0 [  ]
+<13:11:12> con_display_last_messages=0 [  ]
+<13:11:12> con_line_buffer_size=1000 [  ]
+<13:11:12> con_restricted=0 [ RESTRICTEDMODE ]
+<13:11:12> con_showonload=0 [  ]
+<13:11:12>  
+<13:11:12> con_debug=0 [  ]
+<13:11:12>  
+<13:11:12> con_debug=0 [  ]
+<13:11:12> Initializing Animation System
+<13:11:12> Initializing CryAnimation...
+<13:11:12> Initializing CryAnimation done, MemUsage=2156Kb
+<13:11:12> Initializing 3D Engine
+<13:11:12> Initializing Cry3DEngine...
+<13:11:12> Sky light: Optical lookup tables loaded off disc.
+<13:11:12> Initializing Cry3DEngine done, MemUsage=15108Kb
+<13:11:12> Script System Initialization
+<13:11:12> Initializing CryScriptSystem...
+<13:11:12> Initializing CryScriptSystem done, MemUsage=1052Kb
+<13:11:12> Entity system initialization
+<13:11:12> Initializing CryEntitySystem...
+<13:11:12> Initializing CryEntitySystem done, MemUsage=2472Kb
+<13:11:12> LiveCreate initialization
+<13:11:12> LiveCreateHost not created, using NULL implementation.
+<13:11:12> CryMonoBridge initialization
+<13:11:12> Initializing CryMonoBridge...
+<13:11:12> Initializing CryMonoBridge done, MemUsage=892Kb
+<13:11:12> Initializing AI System
+<13:11:12> AI: [AISYSTEM] Initialization started.
+<13:11:13> AI: Loaded 54 AI Behaviors in 0.24s...
+<13:11:13> Registering CentralInterestManager with EntitySystem
+<13:11:13> AI: [AISYSTEM] Initialization finished.
+<13:11:13> Initializing additional systems
+<13:11:13> Dynamic Response System initialization
+<13:11:13> Initializing CryDynamicResponseSystem.dll...
+<13:11:13> Initializing CryDynamicResponseSystem.dll done, MemUsage=488Kb
+<13:11:13> OnSysSpecChange(4)
+<13:11:13> Loading Config file VeryHighSpec.cfg (assets\config\veryhighspec.cfg)
+<13:11:13> Loading Config file %ENGINEROOT%/editor.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\editor.cfg)
+<13:11:13> Loading Config file game.cfg (assets\game.cfg)
+<13:11:13> Current Language: English 
+<13:11:13> Windows 10 10.0 (C:\Windows)
+<13:11:13> Local time is 13:11:13 05/07/16, system running for 10 minutes
+<13:11:13> 8095MB phys. memory installed, 5251MB paging available
+<13:11:13> Current display mode is 1280x800x32, (Unknown graphics card)
+<13:11:13> IBM enhanced (101/102-key) keyboard and 3+ button mouse installed
+<13:11:13> --------------------------------------------------------------------------------
+<13:11:13> sys_dll_game = Game
+<13:11:13> sys_game_folder = Assets
+<13:11:13> sys_localization_folder = localization
+<13:11:13> <ThreadConfigInfo>: [XML Parsing] Thread with name "NetworkStallTicker" already loaded. Overriding with new configuration
+<13:11:13> <ThreadConfigInfo>: [XML Parsing] Thread with name "ZLibCompressor" already loaded. Overriding with new configuration
+<13:11:13> [Warning] <ThreadConfigInfo>: Active platform identifier string "pc" not found in config "config/game.thread_config".
+<13:11:13> [Invite] SetInviteAcceptedState 0 to 0
+<13:11:13> [Invite] InvalidateInviteData
+<13:11:13> CGameLocalizationManager::LoadLocalizationData() is loading localization file=Libs/Localization/localization.xml
+<13:11:14> Finished loading item XML definitions from 'scripts/entities/items/XML'!
+<13:11:14> Finished loading ammo XML definitions from 'scripts/entities/items/XML'!
+<13:11:14> [PlayerProfiles] Login of user 'Omar' successful.
+<13:11:14> [PlayerProfiles] Found 1 profiles.
+<13:11:14>    Profile 0 : 'default'
+<13:11:14> [Error] [CVARS]: [MISSING] [e_TerrainAO] is not a registered console variable; referenced when testing console variable group [sys_spec_shading] = [4]
+<13:11:14> [Error] [CVARS]: [MISSING] [e_ShadowsOnAlphaBlend] is not a registered console variable; referenced when testing console variable group [sys_spec_shadows] = [4]
+<13:11:14> CGame: Loading singleplayer difficulty config 'difficulty/easy.cfg'
+<13:11:14> Loading Config file difficulty/easy.cfg (assets\difficulty\easy.cfg)
+<13:11:14> [Error] [CVARS]: [MISSING] [e_TerrainAO] is not a registered console variable; referenced when testing console variable group [sys_spec_shading] = [4]
+<13:11:14> [Error] [CVARS]: [MISSING] [e_ShadowsOnAlphaBlend] is not a registered console variable; referenced when testing console variable group [sys_spec_shadows] = [4]
+<13:11:14> [GameProfiles]: Successfully activated profile 'default' for user 'Omar'
+<13:11:14> username Omar signedIn 1 userIndex 0
+<13:11:14> ActivateProfile profileName default
+<13:11:14> [Warning] CActionMap::LoadRebindingDataFromXML: Action: xi_v_rotateyaw, doesn't exist, can't rebind
+<13:11:14> [Warning] CActionMap::LoadRebindingDataFromXML: Action: xi_v_rotatepitch, doesn't exist, can't rebind
+<13:11:14> CGame: Loading singleplayer difficulty config 'difficulty/easy.cfg'
+<13:11:14> Loading Config file difficulty/easy.cfg (assets\difficulty\easy.cfg)
+<13:11:14> CPlayerProgression::Constructor
+<13:11:14> CPlayerProgression::Init() Done
+<13:11:14> PersistantStats profile version mismatch, got 0, expected 3, so ignoring
+<13:11:14> CGame::LoadPatchLocalizationData() is loading localization file=localization_english.xml
+<13:11:14> CGame::InitGameType() multiplayer=false, fromInit=true
+<13:11:14> hostName = 'DESKTOP-GM0D50Q'
+<13:11:14> SetGlobalState 1->2 'INIT'->'RUNNING' 5.0 seconds
+<13:11:14> Loading singleplayer configuration...
+<13:11:14> Loading Config file singleplayer.cfg (assets\config\singleplayer.cfg)
+<13:11:14> Changing "ai_CompatibilityMode" cvar from '' to 'crysis2' (now got 1 cvar to revert when switching game type)
+<13:11:14> Changing "ai_BurstWhileMovingDestinationRange" cvar from '2' to '9999.0' (now got 2 cvars to revert when switching game type)
+<13:11:14> Changing "g_telemetryConfig" cvar from 'none' to 'SP' (now got 3 cvars to revert when switching game type)
+<13:11:14> Changing "net_inactivitytimeout" cvar from '30' to '3600' (now got 4 cvars to revert when switching game type)
+<13:11:14> Changing "net_inactivitytimeoutDevmode" cvar from '30' to '3600' (now got 5 cvars to revert when switching game type)
+<13:11:14> Changing "pl_movement.nonCombat_heavy_weapon_speed_scale" cvar from '0.75' to '1.0' (now got 6 cvars to revert when switching game type)
+<13:11:14> No need to change "sv_gamerules" to 'SinglePlayer' as that's also its current value
+<13:11:14> No need to change "ca_StreamCHR" to '1' as that's also its current value
+<13:11:14> Finished loading singleplayer configuration, used 192/5120 bytes storing old cvar values
+<13:11:14> [Lobby] Terminate service 1 error 4
+<13:11:14> CGame: Singleplayer game type initialised
+<13:11:14> CGame: Loading singleplayer difficulty config 'difficulty/easy.cfg'
+<13:11:14> Loading Config file difficulty/easy.cfg (assets\difficulty\easy.cfg)
+<13:11:14> Registering TPS Extensions...
+<13:11:14> <Lua> PipeManager: Creating goal pipes
+<13:11:14> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesShared.xml...
+<13:11:14> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesCoordination.xml...
+<13:11:14> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesHuman.xml...
+<13:11:14> --- AI: Loading goal pipes XML file: Scripts/AI/GoalPipes/GoalPipesHeli.xml...
+<13:11:14> <Lua> PipeManager: Finished creating goal pipes!
+<13:11:14> [FEATURETESTER] (No instance) Creating feature tester instance
+<13:11:14> Ending game context...
+<13:11:14> <Lua> Loading AIAlertness.lua
+<13:11:15> [Warning] No game rules active, can not precache resources
+<13:11:15> Initializing default materials...
+<13:11:15> [MFX] Loading FXLib 'breakables' ...
+<13:11:15> [MFX] Loading FXLib 'collisions' ...
+<13:11:15> [MFX] Loading FXLib 'foley' ...
+<13:11:15> [MFX] Loading FXLib 'foley_grunt' ...
+<13:11:15> [MFX] Loading FXLib 'foley_player' ...
+<13:11:15> [MFX] Loading FXLib 'footstep_grunt' ...
+<13:11:15> [MFX] Loading FXLib 'footstep_player' ...
+<13:11:15> [MFX] Loading FXLib 'footsteps' ...
+<13:11:15> [MFX] Loading FXLib 'grenade' ...
+<13:11:15> [MFX] Loading FXLib 'melee' ...
+<13:11:15> [MFX] Loading FXLib 'player_fx' ...
+<13:11:15> [MFX] Loading FXLib 'projectiles' ...
+<13:11:15> [MFX] Loading FXLib 'tornado' ...
+<13:11:15> [MFX] Loading FXLib 'vegetation' ...
+<13:11:16> [MFX] Loading FXLib 'vehicles' ...
+<13:11:16> -- FAIL (strcmpi( src.wrapped.c_str(), dst.wrapped.c_str()) == 0): [CryAction]:SCRCRef_Serialization_StoreString_Empty (d:\jk\mastercd13_gamesdk_release\bintemp\uber_files\cryaction\..\..\..\Code\CryEngine\CryAction\Mannequin\Tests\Test_CRCRef.cpp:59)
+<13:11:16> UnitTesting Finished Tests: 69 Succeeded: 68, Failed: 1, Time: 25.39 ms
+<13:11:16> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<13:11:16> Loading Config file singleplayer.cfg (assets\config\singleplayer.cfg)
+<13:11:16> Finished loading ammo XML definitions from 'scripts/entities/items/XML'!
+<13:11:16> [Warning] No game rules active, can not precache resources
+<13:11:16> AI: [AISYSTEM] Initializing AI Actions.
+<13:11:16> [Warning] [flow] Trying to link an invalid node
+<13:11:16> [Warning] [flow] Trying to link an invalid node
+<13:11:16> [Warning] [flow] Trying to link an invalid node
+<13:11:16> [Error] [flow] guy_eat_food : Can't link edge <43,Result> to <20,Destination> - FLOWGRAPH DISCARDED
+<13:11:16> [Error] [flow] guy_eat_food : Did not load all edges (21/29 edges) - FLOWGRAPH DISCARDED
+<13:11:16> [Warning] [flow] Trying to link an invalid node
+<13:11:16> [Warning] [flow] Trying to link an invalid node
+<13:11:16> [Warning] [flow] Trying to link an invalid node
+<13:11:16> [Warning] [flow] Trying to link an invalid node
+<13:11:16> [Error] [flow] guy_look_random : Can't link edge <4,Done> to <2,end> - FLOWGRAPH DISCARDED
+<13:11:16> [Error] [flow] guy_look_random : Did not load all edges (2/8 edges) - FLOWGRAPH DISCARDED
+<13:11:16> AI: [AISYSTEM] Initializing Smart Objects.
+<13:11:16> CFlowGraph::Migrate: FG 'Libs/ActionGraphs/guy_eat_food': NodeID 20: Remapped attribute 'Value' to 'Speed' value='5' 
+<13:11:16> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
+<13:11:16> [Warning] [flow] Trying to link an invalid node
+<13:11:16> [Warning] [flow] Trying to link an invalid node
+<13:11:16> [Warning] The hypergraph has been changed during serialization. Please see the log for details on replaced nodes and reconnected links.
+<13:11:16> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:11:16> [Warning] [flow] Trying to link an invalid node
+<13:11:16> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:11:16> [Warning] [flow] Trying to link an invalid node
+<13:11:16> [Warning] [flow] Trying to link an invalid node
+<13:11:16> OnSysSpecChange(2)
+<13:11:16> Loading Config file MedSpec.cfg (assets\config\medspec.cfg)
+<13:11:16> Flushing pended shaders...
+<13:11:16> Finished flushing pended shaders...
+<13:11:17> Flushing pended shaders...
+<13:11:17> Finished flushing pended shaders...
+<13:11:17> Allocating shadow map cache 2810 x 2810: 15.06 MB
+<13:11:17> Allocating shadow map cache 6324 x 6324: 76.28 MB
+<13:11:17> Allocating shadow map cache 4214 x 4214: 33.87 MB
+<13:11:17> Loading Config file %ENGINEROOT%/editor.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\editor.cfg)
+<13:11:17> Loading Config file game.cfg (assets\game.cfg)
+<13:11:17> Unloading all previous plugins
+<13:11:17> Loading plugins...
+<13:11:17> Successfully loaded plugin 'CryDesigner', version '1' (GUID: )
+<13:11:17> Successfully loaded plugin 'EditorPhysics', version '1' (GUID: (null))
+<13:11:17> Successfully loaded plugin 'AudioControlsEditor', version '1' (GUID: {DFA4AFF7-2C70-4B29-B736-GRH00040314})
+<13:11:17> Successfully loaded plugin 'QtConsole', version '1' (GUID: {B0E9DE33-C2E3-4506-8B63-B023327156BB})
+<13:11:17> Cannot query plugin DLL 'C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.0\bin\win_x64\EditorPlugins\EditorCryAudioImplFmod.dll' factory pointer (is it a Sandbox plugin?)
+<13:11:17> Cannot query plugin DLL 'C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.0\bin\win_x64\EditorPlugins\EditorCryAudioImplSDLMixer.dll' factory pointer (is it a Sandbox plugin?)
+<13:11:17> Cannot query plugin DLL 'C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.0\bin\win_x64\EditorPlugins\EditorCryAudioImplWwise.dll' factory pointer (is it a Sandbox plugin?)
+<13:11:18> Successfully loaded plugin 'DynamicResponseSystemEditor', version '1' (GUID: {DFA4AFF7-2C70-4B29-B736-GRH00290515})
+<13:11:18> Successfully loaded plugin 'EditorEnvironment', version '1' (GUID: {800BBFA9-9895-4E81-AB02-7425FD4F5554})
+<13:11:18> Successfully loaded plugin 'ParticleLibrary', version '1' (GUID: (null))
+<13:11:18> Successfully loaded plugin 'TrackView', version '1' (GUID: {7C4EB160-30AC-44C1-92D6-6D4B74B2E96B})
+<13:11:18> FBX plugin: CreatePluginInstance
+<13:11:18> Successfully loaded plugin 'FBX Exporter', version '1' (GUID: {6CD02F95-362C-4ADF-8BAE-87C6342A8027})
+<13:11:18> Successfully loaded plugin 'MeshImporter', version '1' (GUID: {4F68F679-39AD-4BB4-B5E2-8A8DD3020DC1})
+<13:11:18> Started game resource files indexing...
+<13:11:18> Loading Localization File localization\english_xml\text_ui_ingame.xml
+<13:11:18> Loading Localization File localization\english_xml\text_ui_items.xml
+<13:11:18> Loading Localization File localization\english_xml\text_ui_levels.xml
+<13:11:18> Loading Localization File localization\english_xml\text_ui_menus.xml
+<13:11:18> Loading Localization File localization\english_xml\text_ui_warnings.xml
+<13:11:18> Loading Localization File localization\english_xml\ai_dialog_recording_list.xml
+<13:11:18> Loading Localization File localization\english_xml\dialog_recording_list.xml
+<13:11:18> [CONSOLE] Executing console command 'exec autoexec.cfg'
+<13:11:18> Executing console batch file (try game,config,root): "autoexec.cfg" not found!
+<13:11:18> [CONSOLE] Executing console command 'exec editor.cfg'
+<13:11:18> Executing console batch file (try game,config,root): "editor.cfg" found in editor.cfg ...
+<13:11:18> ed_MissingAssetResolver=0 [  ]
+<13:11:18> ca_UseIMG_CAF=0 [  ]
+<13:11:18> drs_dialogSubtitles=1 [  ]
+<13:11:18> [CONSOLE] Executing console command 'exec user.cfg'
+<13:11:18> Executing console batch file (try game,config,root): "user.cfg" not found!
+<13:11:18> Loading editor preferences from: C:/Users/Omar/AppData/Roaming/Crytek/CRYENGINE/Settings.ini
+<13:11:18> [Warning] Command 'ui_action.actionSelection_Mask' is not registered.
+<13:11:18> [Warning] Command 'ui_action.actionAIPoint_Pick_Link' is not registered.
+<13:11:18> [Warning] Command 'ui_action.actionAIPoint_Pick_Impass_Link' is not registered.
+<13:11:18> [Warning] Command 'general.fullscreen' is not registered.
+<13:11:18> [Warning] Command 'ui_action.actionTerrain_Flatten' is not registered.
+<13:11:18> [Warning] Command 'ui_action.actionTerrain_Smooth' is not registered.
+<13:11:18> [Warning] Command 'ui_action.actionEnable_file_change_monitoring' is not registered.
+<13:11:18> [Warning] Command 'general.set_config_spec 4' is not registered.
+<13:11:18> [Warning] Command 'general.set_config_spec 3' is not registered.
+<13:11:18> [Warning] Command 'general.set_config_spec 2' is not registered.
+<13:11:18> [Warning] Command 'general.set_config_spec 1' is not registered.
+<13:11:18> [Warning] Command 'general.set_config_spec 5' is not registered.
+<13:11:18> [Warning] Command 'general.set_config_spec 6' is not registered.
+<13:11:18> [Warning] Command 'general.set_config_spec 0' is not registered.
+<13:11:18> [Warning] XML reader: Can't open file (assets\audio\wwise\SoundbanksInfo.xml)
+<13:11:18> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\textures\cursor_green.tif", to "assets\engineassets\textures\cursor_green_tmp.dds"
+<13:11:18> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\replacemecm.tif", to "assets\engineassets\texturemsg\replacemecm_tmp.dds"
+<13:11:18> Adding for file change notifications: 'assets\'
+<13:11:18> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\textures\white.tif", to "assets\engineassets\textures\white_tmp.dds"
+<13:11:18> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\textures\black.tif", to "assets\engineassets\textures\black_tmp.dds"
+<13:11:18> Adding for file change notifications: '.\assets\'
+<13:11:18> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\textures\blackalpha.tif", to "assets\engineassets\textures\blackalpha_tmp.dds"
+<13:11:18> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\textures\blackcm.tif", to "assets\engineassets\textures\blackcm_tmp.dds"
+<13:11:22> Task Completed: Clean up compiled animations
+<13:11:22> Flushing pended shaders...
+<13:11:22> Finished flushing pended shaders...
+<13:11:22> Flushing pended shaders...
+<13:11:22> Finished flushing pended shaders...
+<13:11:22> Flushing pended shaders...
+<13:11:22> Finished flushing pended shaders...
+<13:11:22> Flushing pended shaders...
+<13:11:22> Finished flushing pended shaders...
+<13:11:23> Remote console listening on: 4600
+<13:11:25> Task Completed: Update Local Animations
+<13:11:25> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\shading\defaultprobe_cm.tif", to "assets\engineassets\shading\defaultprobe_cm_tmp.dds"
+<13:11:26> general.open
+<13:11:27> general.open_level_no_prompt 'Assets/levels/CS188/CS188.cry'
+<13:11:27> Opening document Assets/levels/CS188/CS188.cry
+<13:11:27> CGame::OnSystemEvent(ESYSTEM_EVENT_LEVEL_LOAD_START) while in single player mode
+<13:11:27> Loading subADB Animations/Mannequin/ADB/pistolAnims1P.adb
+<13:11:27> Loading subADB Animations/Mannequin/ADB/rifleAnims1P.adb
+<13:11:27> Loading subADB Animations/Mannequin/ADB/shotgunAnims1P.adb
+<13:11:27> Loading subADB Animations/Mannequin/ADB/grenadeAnims1P.adb
+<13:11:27> Loading subADB Animations/Mannequin/ADB/rocketlauncherAnims1P.adb
+<13:11:27> Loading subADB Animations/Mannequin/ADB/hmgAnims1P.adb
+<13:11:27> Loading subADB Animations/Mannequin/ADB/c4Anims1P.adb
+<13:11:27> Loading subADB Animations/Mannequin/ADB/humanSlaveAnims1P.adb
+<13:11:27> Loading subADB Animations/Mannequin/ADB/ladderAnims1P.adb
+<13:11:27> Loading subADB Animations/Mannequin/ADB/swimAnims1P.adb
+<13:11:27> Loading subADB Animations/Mannequin/ADB/interactAnims1P.adb
+<13:11:27> Loading subADB Animations/Mannequin/ADB/animcontrolAnims1P.adb
+<13:11:28> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
+<13:11:28> [Warning] [flow] Trying to link an invalid node
+<13:11:28> [Warning] [flow] Trying to link an invalid node
+<13:11:28> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:11:28> [Warning] [flow] Trying to link an invalid node
+<13:11:28> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:11:28> [Warning] [flow] Trying to link an invalid node
+<13:11:28> [Warning] [flow] Trying to link an invalid node
+<13:11:28> [Warning] No game rules active, can not precache resources
+<13:11:28> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
+<13:11:28> [Warning] [flow] Trying to link an invalid node
+<13:11:28> [Warning] [flow] Trying to link an invalid node
+<13:11:28> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:11:28> [Warning] [flow] Trying to link an invalid node
+<13:11:28> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:11:28> [Warning] [flow] Trying to link an invalid node
+<13:11:28> [Warning] [flow] Trying to link an invalid node
+<13:11:29> [Warning] No game rules active, can not precache resources
+<13:11:29> [Warning] No game rules active, can not precache resources
+<13:11:29> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
+<13:11:29> [Warning] [flow] Trying to link an invalid node
+<13:11:29> [Warning] [flow] Trying to link an invalid node
+<13:11:29> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:11:29> [Warning] [flow] Trying to link an invalid node
+<13:11:29> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:11:29> [Warning] [flow] Trying to link an invalid node
+<13:11:29> [Warning] [flow] Trying to link an invalid node
+<13:11:29> [Warning] No game rules active, can not precache resources
+<13:11:29> sp_coop_mp set to 0.000000
+<13:11:29> Loading from Assets/levels/CS188/CS188.cry...
+<13:11:29> Ending game context...
+<13:11:29> Destroying CActionGame instance 000001B3415B91E0 (level="")
+<13:11:29> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<13:11:29> Loading Config file singleplayer.cfg (assets\config\singleplayer.cfg)
+<13:11:29> Loading game rules class='SinglePlayer' xml='Scripts/GameRules/SinglePlayer.xml'
+<13:11:29> GameRulesCommonDamageHandling::GameRulesCommonDamageHandling()
+<13:11:29> CGameRulesCommonDamageHandling::PostInit()
+<13:11:29> CGame::OnSystemEvent(ESYSTEM_EVENT_LEVEL_LOAD_START) while in single player mode
+<13:11:30> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
+<13:11:30> [Warning] [flow] Trying to link an invalid node
+<13:11:30> [Warning] [flow] Trying to link an invalid node
+<13:11:30> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:11:30> [Warning] [flow] Trying to link an invalid node
+<13:11:30> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:11:30> [Warning] [flow] Trying to link an invalid node
+<13:11:30> [Warning] [flow] Trying to link an invalid node
+<13:11:30> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
+<13:11:30> [Warning] [flow] Trying to link an invalid node
+<13:11:31> [Warning] [flow] Trying to link an invalid node
+<13:11:31> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:11:31> [Warning] [flow] Trying to link an invalid node
+<13:11:31> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:11:31> [Warning] [flow] Trying to link an invalid node
+<13:11:31> [Warning] [flow] Trying to link an invalid node
+<13:11:31> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_eat_food
+<13:11:31> [Warning] [flow] Trying to link an invalid node
+<13:11:31> [Warning] [flow] Trying to link an invalid node
+<13:11:31> [Error] Missing Port: Done, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:11:31> [Warning] [flow] Trying to link an invalid node
+<13:11:31> [Error] Missing Port: Result, Referenced in FlowGraph Libs/ActionGraphs/guy_look_random
+<13:11:31> [Warning] [flow] Trying to link an invalid node
+<13:11:31> [Warning] [flow] Trying to link an invalid node
+<13:11:31> sp_coop_mp set to 0.000000
+<13:11:31> Loading missions...
+<13:11:31> ---- Start: Load Terrain
+<13:11:31> CRGBLayer::AllocateTiles 1x1 tiles 512 => 512x512 texture
+<13:11:31> allocating editor height map (1024x1024)*4
+<13:11:31> ---- Start: Loading Surface Types
+<13:11:31> ---- End: Loading Surface Types (0 seconds)
+<13:11:31> ---- Start: Loading Terrain Layers Info
+<13:11:31> Loading layer settings...
+<13:11:31> Loading layer texture (engineassets/textures/grey.dds)...
+<13:11:31>   loaded editor layer 0  name='Default' LayerID=0
+<13:11:31> ---- End: Loading Terrain Layers Info (0 seconds)
+<13:11:31> ---- Start: Load Terrain
+<13:11:31> Constructing 1365 terrain nodes (0.6 MB) <13:11:31>  done in 0.01 sec
+<13:11:31> ===== Loading 0 vegetation models =====
+<13:11:31> ===== Loading 4 brush models ===== 
+<13:11:31> ===== Initializing terrain nodes ===== 
+<13:11:31> ===== Loading outdoor instances ===== 
+<13:11:31> ---- End: Load Terrain (0 seconds)
+<13:11:31> ---- Start: Process RGB Terrain Layers
+<13:11:31> ---- End: Process RGB Terrain Layers (0 seconds)
+<13:11:31> CRGBLayer::AllocateTiles 1x1 tiles 512 => 512x512 texture
+<13:11:31> Loading terrain layers for segment 0 ...
+<13:11:32> ---- End: Load Terrain (0 seconds)
+<13:11:32> ---- Start: Game Engine level load
+<13:11:32> Loading map 'assets/levels/cs188' into engine...
+<13:11:32> ===== Loading Particle Effects =====
+<13:11:32> ---- End: Game Engine level load (0 seconds)
+<13:11:32> ---- Start: Load MaterialManager
+<13:11:32> ---- End: Load MaterialManager (0 seconds)
+<13:11:32> ---- Start: Load Particles
+<13:11:32> ---- End: Load Particles (0 seconds)
+<13:11:32> ---- Start: Load Flares
+<13:11:32> ---- End: Load Flares (0 seconds)
+<13:11:32> ---- Start: Load GameTokens
+<13:11:32> ---- End: Load GameTokens (0 seconds)
+<13:11:32> Loading View settings...
+<13:11:32> ---- Start: Load Vegetation
+<13:11:32> Loading Vegetation Map...
+<13:11:32> ---- End: Load Vegetation (0 seconds)
+<13:11:32> ---- Start: Reposition Vegetation
+<13:11:32> ---- End: Reposition Vegetation (0 seconds)
+<13:11:32> ---- Start: Updating Surface Types
+<13:11:32> Loading terrain layers for segment 0 ...
+<13:11:32> ---- End: Updating Surface Types (0 seconds)
+<13:11:32> Loading Fog settings...
+<13:11:32> ---- Start: Load Entity Archetypes Database
+<13:11:32> ---- End: Load Entity Archetypes Database (0 seconds)
+<13:11:32> ---- Start: Load Prefabs Database
+<13:11:32> ---- End: Load Prefabs Database (0 seconds)
+<13:11:32> ---- Start: Activating Mission Mission0
+<13:11:32> Loading AI data assets/levels/cs188, Mission0
+<13:11:32> --- AI: Navigation Data Loaded in  0.00 sec
+<13:11:32> Finished Loading AI data in  0.011 secs
+<13:11:32> ---- End: Activating Mission Mission0 (0 seconds)
+<13:11:32> ---- Start: Load Level Shader Cache
+<13:11:32> ---- End: Load Level Shader Cache (0 seconds)
+<13:11:32> ---- Start: Post Load
+<13:11:32> ---- End: Post Load (0 seconds)
+<13:11:32> [LevelLoadTime] Level assets/levels/cs188 loaded in 0 seconds
+<13:11:32> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<13:11:32> Loading subADB Animations/Mannequin/ADB/aimAnims3P.adb
+<13:11:32> Loading subADB Animations/Mannequin/ADB/pistolAnims3P.adb
+<13:11:32> Loading subADB Animations/Mannequin/ADB/rifleAnims3P.adb
+<13:11:32> Loading subADB Animations/Mannequin/ADB/shotgunAnims3P.adb
+<13:11:32> Loading subADB Animations/Mannequin/ADB/grenadeAnims3P.adb
+<13:11:32> Loading subADB Animations/Mannequin/ADB/rocketlauncherAnims3P.adb
+<13:11:32> Loading subADB Animations/Mannequin/ADB/hmgAnims3P.adb
+<13:11:32> Loading subADB Animations/Mannequin/ADB/humanSlaveAnims3P.adb
+<13:11:32> Loading subADB Animations/Mannequin/ADB/pistolSounds.adb
+<13:11:32> Loading subADB Animations/Mannequin/ADB/rifleSounds.adb
+<13:11:32> Loading subADB Animations/Mannequin/ADB/shotgunSounds.adb
+<13:11:32> Loading subADB Animations/Mannequin/ADB/grenadeSounds.adb
+<13:11:33>   1690 animation-assets loaded (total assets: 1514)
+<13:11:34> [PLAYER PLUG-IN] Player 'Dude' attempting to enter plug-in 'CPlayerPlugin_Interaction'
+<13:11:34> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
+<13:11:34> Player 'Dude' (0 0 0) can't change stance from -1 'Null' to 0 'Stand' [Attempt 1]
+<13:11:34> [PLAYER PLUG-IN] Player 'Dude' attempting to enter plug-in 'CPlayerPlugin_CurrentlyTargetting'
+<13:11:34>   11 animation-assets loaded (total assets: 1524)
+<13:11:34> Loading subADB Animations/Mannequin/ADB/pistolFFEvents.adb
+<13:11:34>   12 animation-assets loaded (total assets: 1535)
+<13:11:34> Loading subADB Animations/Mannequin/ADB/rifleFFEvents.adb
+<13:11:34>   8 animation-assets loaded (total assets: 1542)
+<13:11:34> Loading subADB Animations/Mannequin/ADB/shotgunFFEvents.adb
+<13:11:34>   6 animation-assets loaded (total assets: 1547)
+<13:11:34> Player 'Dude' is becoming local actor
+<13:11:34> SetGlobalState 2->11 'RUNNING'->'LEVEL_LOAD_TEXTURES' 20.3 seconds
+<13:11:34> -- Presort shaders by states...
+<13:11:34> --- 117 Resources, 27 Resource groups.
+<13:11:34> Requesting textures precache ...
+<13:11:34> -- Precaching textures...
+<13:11:34> Precaching progress: 1
+<13:11:34> Precaching progress: 2
+<13:11:34> Precaching progress: 3
+<13:11:34> Precaching progress: 4
+<13:11:34> Precaching progress: 5
+<13:11:34> Precaching progress: 6
+<13:11:34> Precaching progress: 7
+<13:11:34> Precaching progress: 8
+<13:11:34> Precaching progress: 9
+<13:11:35> Precaching textures done in 0.48 seconds
+<13:11:35> Textures precache done.
+<13:11:35> File access time during level loading: 1.05 seconds
+<13:11:35> -----------------------------------------------------------
+<13:11:35> Successfully opened document Assets/levels/CS188/
+<13:11:35> Level loading time: 7.28 seconds
+<13:11:35> -----------------------------------------------------------
+<13:11:35> Returned: 
+<13:11:35> Returned: 
+<13:11:35> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\textures\white_ddn.tif", to "assets\engineassets\textures\white_ddn_tmp.dds"
+<13:11:35> Opening terrain\cover.ctc ...
+<13:11:35>   TerrainLayer 0: TexFormat: BC3, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
+<13:11:35>   TerrainLayer 1: TexFormat: BC3, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
+<13:11:35>   RGB multiplier: 8, Texture indices: 21
+<13:11:35> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\textures\texelspermetergrad.tif", to "assets\engineassets\textures\texelspermetergrad_tmp.dds"
+<13:11:35> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\icons\shadercompiling.tif", to "assets\engineassets\icons\shadercompiling_tmp.dds"
+<13:11:36> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\icons\streaming.tif", to "assets\engineassets\icons\streaming_tmp.dds"
+<13:11:37> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\icons\streamingterrain.tif", to "assets\engineassets\icons\streamingterrain_tmp.dds"
+<13:11:38> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\icons\navigationprocessing.tif", to "assets\engineassets\icons\navigationprocessing_tmp.dds"
+<13:11:38> ui_action.actionSwitch_to_Game
+<13:11:38> general.enter_game_mode
+<13:11:38> Returned: 
+<13:11:38> Returned: 
+<13:11:39> CActor::NetReviveAt: Dude
+<13:11:39> [CONSOLE] Executing console command 'memReplayLabel spawnPlayer'
+<13:11:39> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\shading\environmentbrdf.tif", to "assets\engineassets\shading\environmentbrdf_tmp.dds"
+<13:11:39> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\textures\noise.tif", to "assets\engineassets\textures\noise_tmp.dds"
+<13:11:39> Player 'Dude' (511.627 506.684 36.4125) has finally changed stance from -1 'Null' to 0 'Stand'
+<13:11:39> Pre-caching render meshes for camera position
+<13:11:39> Updating level streaming priorities for 1 cameras (LevelFrameId = 1)
+<13:11:39> -- 512.500000 510.000000 33.650002
+<13:11:39> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\screenspace\grain_bayer_mul.tif", to "assets\engineassets\screenspace\grain_bayer_mul_tmp.dds"
+<13:11:39> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\shading\vignetting.tif", to "assets\engineassets\shading\vignetting_tmp.dds"
+<13:11:40> SetGlobalState 11->2 'LEVEL_LOAD_TEXTURES'->'RUNNING' 5.5 seconds
+<13:11:40> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\screenspace\pointsonsphere4x4.tif", to "assets\engineassets\screenspace\pointsonsphere4x4_tmp.dds"
+<13:11:40> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\screenspace\pointsonspherevo4x4.tif", to "assets\engineassets\screenspace\pointsonspherevo4x4_tmp.dds"
+<13:11:41> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\replaceme.tif", to "assets\engineassets\texturemsg\replaceme_tmp.dds"
+<13:11:42> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\textures\greyalpha.tif", to "assets\engineassets\textures\greyalpha_tmp.dds"
+<13:11:43> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\mipmapdebug.tif", to "assets\engineassets\texturemsg\mipmapdebug_tmp.dds"
+<13:11:44> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\color_blue.tif", to "assets\engineassets\texturemsg\color_blue_tmp.dds"
+<13:11:44> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\color_cyan.tif", to "assets\engineassets\texturemsg\color_cyan_tmp.dds"
+<13:11:45> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\color_green.tif", to "assets\engineassets\texturemsg\color_green_tmp.dds"
+<13:11:46> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\color_purple.tif", to "assets\engineassets\texturemsg\color_purple_tmp.dds"
+<13:11:46> general.exit_game_mode
+<13:11:46> Returned: 
+<13:11:46> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
+<13:11:46> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\color_red.tif", to "assets\engineassets\texturemsg\color_red_tmp.dds"
+<13:11:47> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\color_white.tif", to "assets\engineassets\texturemsg\color_white_tmp.dds"
+<13:11:48> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\color_yellow.tif", to "assets\engineassets\texturemsg\color_yellow_tmp.dds"
+<13:11:50> Compile texture from "c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.0\engine\engineassets\texturemsg\color_orange.tif", to "assets\engineassets\texturemsg\color_orange_tmp.dds"
+<13:11:50> CDefaultSkeleton Release: objects/weapons/rifle/rifle_fp.chr
+<13:11:50> CDefaultSkeleton Release: objects/weapons/shotgun/shotgun.chr
+<13:11:50> CDefaultSkeleton Release: objects/weapons/pistol/pistol_fp.chr
+<13:11:50> CDefaultSkeleton Release: objects/weapons/frag_grenade/frag_grenade.chr
+<13:11:50> [GameRules] destructing 000001B3424D3030
+<13:11:50> CGameRulesCommonDamageHandling::~GameRulesCommonDamageHandling()
+<13:11:50> CDefaultSkeleton Release: _objects/characters/human/generic/skeleton_player_generic.chr
+<13:11:51> CSystem::Quit invoked from thread 6612 (main is 6612)
+<13:11:51> BaseInput - Shutting down all force feedback
+<13:11:51> ActionGame - Shutting down all force feedback
+<13:11:51> [Lobby] Terminate service 0 error 4
+<13:11:51> [Lobby] Terminate service 1 error 4
+<13:11:51> Ending game context...
+<13:11:51> Destroying CActionGame instance 000001B3415B91E0 (level="")
+<13:11:51> [FEATURETESTER] Unloading all feature test data
+<13:11:51> Flushing pended shaders...
+<13:11:51> Finished flushing pended shaders...
+<13:11:51> System:Quit

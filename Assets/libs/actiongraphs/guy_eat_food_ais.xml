@@ -1,0 +1,70 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="80,10,0" flags="1"/>
+  <Node Id="23" Class="Game:GetEntityState" pos="280,100,0" flags="0">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="24" Class="String:Compare" pos="450,100,0" flags="0">
+   <Inputs A="" B="Edible" IgnoreCase="1"/>
+  </Node>
+  <Node Id="26" Class="String:Concat" pos="280,180,0" flags="0">
+   <Inputs String1="" String2="Edible"/>
+  </Node>
+  <Node Id="30" Class="AI:ActionEnd" pos="1000,490,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="33" Name="Eat the food item" Class="_commentbox" pos="670,56.770664,0" flags="0">
+   <Inputs TextSize="1" Color="0.701102,0.577581,0.266356" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="610" Height="470"/>
+   <NodeSize Width="610" Height="495.12119"/>
+  </Node>
+  <Node Id="34" Name="Is the object edible?" Class="_commentbox" pos="250,46.770664,0" flags="0">
+   <Inputs TextSize="1" Color="0.799103,0.799103,0.799103" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="370" Height="230"/>
+   <NodeSize Width="370" Height="255.12119"/>
+  </Node>
+  <Node Id="37" Name="Die of food poisoning" Class="_commentbox" pos="660,546.77063,0" flags="0">
+   <Inputs TextSize="1" Color="0.630757,0.48515,0.791298" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="620" Height="480"/>
+   <NodeSize Width="620" Height="505.12119"/>
+  </Node>
+  <Node Id="47" Class="entity:Apple" pos="1000,430,0" flags="0">
+   <Inputs entityId="0" Destroy="0"/>
+  </Node>
+  <Node Id="50" Class="entity:Apple" pos="1000,920,0" flags="0">
+   <Inputs entityId="0" Destroy="0"/>
+  </Node>
+  <Node Id="53" Class="entity:Human" pos="1000,100,0" flags="0">
+   <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Eat="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" SetTargetPos="0,0,0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+  </Node>
+  <Node Id="54" Class="AI:ActionEnd" pos="1000,980,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="56" Class="entity:Human" pos="1000,590,0" flags="0">
+   <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Eat="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" SetTargetPos="0,0,0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+  </Node>
+  <Node Id="59" Class="Entity:PropertyGet" pos="690,100,0" flags="0">
+   <Inputs entityId="0" entityProperties_Property="fValue" perArchetype="1"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="23" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="23" nodeOut="1" portIn="Get" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="47" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="50" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="53" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="56" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="59" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="24" nodeOut="23" portIn="A" portOut="State" enabled="1"/>
+  <Edge nodeIn="24" nodeOut="23" portIn="Compare" portOut="State" enabled="1"/>
+  <Edge nodeIn="50" nodeOut="24" portIn="Destroy" portOut="False" enabled="1"/>
+  <Edge nodeIn="54" nodeOut="24" portIn="end" portOut="False" enabled="1"/>
+  <Edge nodeIn="56" nodeOut="24" portIn="Kill" portOut="False" enabled="1"/>
+  <Edge nodeIn="59" nodeOut="24" portIn="Get" portOut="True" enabled="1"/>
+  <Edge nodeIn="24" nodeOut="26" portIn="B" portOut="Out" enabled="1"/>
+  <Edge nodeIn="30" nodeOut="59" portIn="end" portOut="Value" enabled="1"/>
+  <Edge nodeIn="47" nodeOut="59" portIn="Destroy" portOut="Value" enabled="1"/>
+  <Edge nodeIn="53" nodeOut="59" portIn="Eat" portOut="Value" enabled="1"/>
+ </Edges>
+ <GraphTokens />
+</Graph>
