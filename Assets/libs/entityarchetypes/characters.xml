@@ -167,7 +167,7 @@
   <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
   <Attributes />
  </EntityPrototype>
- <EntityPrototype Name="Turret.Enemy_Normal" Id="{4C72A07A-C004-4368-8402-07978036CAC9}" Library="Characters" Class="Turret" Description="">
+ <EntityPrototype Name="Turret.Camera" Id="{4C72A07A-C004-4368-8402-07978036CAC9}" Library="Characters" Class="Turret" Description="">
   <Properties esFaction="Grunts" objModel="objects/weapons/turret/turret.cdf" PrimaryWeapon="TurretGun" PrimaryWeaponFovDegrees="15" PrimaryWeaponJointName="weaponjoint" PrimaryWeaponRangeCheckOffset="2" esTurretState="Deployed" bUsable="0" bUsableOnlyOnce="1" UseMessage="">
    <AutoAimTargetParams fallbackOffset="1.2" innerRadius="0.5" outerRadius="0.6" physicsTargetBone="weaponjoint_ref" primaryTargetBone="weaponjoint_ref" secondaryTargetBone="arcjoint" snapRadius="1.5" snapRadiusTagged="3"/>
    <Behavior>
@@ -239,7 +239,7 @@
   <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
   <Attributes />
  </EntityPrototype>
- <EntityPrototype Name="Enemy.Easy_Pistol" Id="{D3F42BC1-37D3-41B7-A3B2-A0BB929E67AD}" Library="Characters" Class="Human" Description="">
+ <EntityPrototype Name="Enemy.Guard" Id="{D3F42BC1-37D3-41B7-A3B2-A0BB929E67AD}" Library="Characters" Class="Human" Description="">
   <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="GuardTree" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Grunts" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_red.cdf" nModelVariations="0" esModularBehaviorTree="GuardTree" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="">
    <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
@@ -407,13 +407,13 @@
   <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
   <Attributes />
  </EntityPrototype>
- <EntityPrototype Name="Friendly.Easy_Pistol" Id="{8D9D62C7-3616-40FF-B4C6-03ADCCF99FC5}" Library="Characters" Class="Human" Description="">
-  <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="Player_Default" esFaction="Players" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue.cdf" nModelVariations="0" esModularBehaviorTree="SDK_Grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="">
+ <EntityPrototype Name="Friendly.Player" Id="{8D9D62C7-3616-40FF-B4C6-03ADCCF99FC5}" Library="Characters" Class="Human" Description="">
+  <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="Player_Default" esFaction="Civilians" bFactionHostility="0" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue.cdf" nModelVariations="0" esModularBehaviorTree="SDK_Grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="">
    <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="250" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+   <Interest Angle="270" bInterested="0" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
    </LipSync>
@@ -491,7 +491,7 @@
   <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0"/>
   <Attributes />
  </EntityPrototype>
- <EntityPrototype Name="Friendly.Easy_RPG" Id="{0F157D5F-1491-4197-8C81-7F4D87F16FFE}" Library="Characters" Class="Human" Description="">
+ <EntityPrototype Name="Friendly.Civilian" Id="{0F157D5F-1491-4197-8C81-7F4D87F16FFE}" Library="Characters" Class="Human" Description="">
   <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="" esFaction="Civilians" bFactionHostility="0" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="">
    <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
