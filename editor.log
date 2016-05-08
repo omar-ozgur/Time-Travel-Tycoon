@@ -795,3 +795,34 @@ Loading Config file system.cfg (c:\program files (x86)\crytek\cryengine launcher
 <16:19:11> [Warning] Projectile 00000235BFDA7560 fired from 'TurretGun' owned by ?? '??' hasn't moved since launch (508.97 526.75 32.03)
 <16:19:11> AICorpseManager: Removing all corpses as requested by 'CGame::EditorResetGame'
 <16:19:11> [Warning] Invalid anim ref 'turret_idle_01' on scope 'Turret' in database 'Animations/Mannequin/ADB/turret.adb'. Skeleton 'objects/weapons/turret/turret.chr'
+<16:24:11> general.save_level
+<16:24:11> Saving to Assets/levels/CS188/CS188.cry...
+<16:24:11> Storing View settings...
+<16:24:11> Storing Fog settings...
+<16:24:11> Storing missions...<16:24:11> Done
+<16:24:11> 0 shader combination loaded for level Assets/levels/CS188
+<16:24:11> Saving pak file assets\levels\cs188\cs188.tmp
+<16:24:11> Storing surface types...
+<16:24:11> Storing layer settings...
+<16:24:11> Saving Vegetation Map...
+<16:24:11> Level successfully saved
+<16:24:11> Returned: true
+<16:24:11> general.clear_selection
+<16:24:11> Returned: 1
+<16:24:11> CDefaultSkeleton Release: objects/weapons/rifle/rifle_fp.chr
+<16:24:11> CDefaultSkeleton Release: objects/weapons/pistol/pistol_fp.chr
+<16:24:11> CDefaultSkeleton Release: objects/weapons/turret/turret.chr
+<16:24:11> [GameRules] destructing 00000235A0D792A0
+<16:24:11> CGameRulesCommonDamageHandling::~GameRulesCommonDamageHandling()
+<16:24:11> CDefaultSkeleton Release: _objects/characters/human/generic/skeleton_player_generic.chr
+<16:24:11> CSystem::Quit invoked from thread 6972 (main is 6972)
+<16:24:11> BaseInput - Shutting down all force feedback
+<16:24:11> ActionGame - Shutting down all force feedback
+<16:24:11> [Lobby] Terminate service 0 error 4
+<16:24:11> [Lobby] Terminate service 1 error 4
+<16:24:11> Ending game context...
+<16:24:11> Destroying CActionGame instance 000002358A6DF060 (level="")
+<16:24:11> [FEATURETESTER] Unloading all feature test data
+<16:24:11> Flushing pended shaders...
+<16:24:11> Finished flushing pended shaders...
+<16:24:11> System:Quit
