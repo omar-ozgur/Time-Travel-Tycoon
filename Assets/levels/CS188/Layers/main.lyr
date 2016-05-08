@@ -257,6 +257,18 @@
      </Object>
     </Objects>
    </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{3A6A121C-2352-46C0-88E1-1AF8E946B001}" Name="hud_plane_e1" Pos="499.47455,504.74377,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Assets/Objects/hud/hud_plane_e.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{549E4724-6C48-4B16-936C-3AE5EC2CEB8B}" Name="interior_plant_b_medium_lod2" Pos="506.56036,508.26413,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Assets/Objects/natural/bushes/interior_plants/interior_plant_b_medium_lod1.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
    <Object Type="Group" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{6C853C28-ED7C-472A-B5E4-4468DD5C972F}" Name="Room3" Pos="495,514,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65280" Opened="0">
     <Objects>
      <Object Type="Designer Box" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{D8928344-D96E-423F-BAE4-6D3873633B2B}" Name="Designer Box16" Parent="{6C853C28-ED7C-472A-B5E4-4468DD5C972F}" Pos="-5.000061,-5,0" FloorNumber="-1" Rotate="1,0,0,0" Scale="20,1,5" ColorRGB="16777215" Material="materials/material_default" RndFlags="1073741832" StaticObjFlags="0" ViewDistRatio="100">
@@ -381,6 +393,12 @@
      </Object>
     </Objects>
    </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{280E1F37-54DD-4132-B1F9-D3318D993E09}" Name="spider2" Pos="503.46555,506.00427,33.184826" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Assets/Objects/characters/animals/insects/spider_old/spider.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
    <Object Type="Camera" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{FAA5D645-9ED8-40C6-9C26-0DC559E6EAAC}" Name="Camera1" Pos="500,490,45" FloorNumber="-1" Rotate="0.9238795,-0.38268346,-0,0" ColorRGB="16776960" FOV="1.0472" NearZ="0.25" FarZ="1024" EntityClass="CameraSource" HasEntity="1">
     <ShakeParams AmplitudeA="1,1,1" AmplitudeAMult="0" FrequencyA="1,1,1" FrequencyAMult="0" NoiseAAmpMult="0" NoiseAFreqMult="0" TimeOffsetA="0" AmplitudeB="1,1,1" AmplitudeBMult="0" FrequencyB="1,1,1" FrequencyBMult="0" NoiseBAmpMult="0" NoiseBFreqMult="0" TimeOffsetB="0" CameraShakeSeed="0"/>
     <FlowGraph Description="" Group="Camera" enabled="1" MultiPlayer="ClientServer">
@@ -427,6 +445,18 @@
      </Edges>
      <GraphTokens />
     </FlowGraph>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{CEC26948-31A1-4936-96E4-AD3799533944}" Name="shelf_standing_b_lod1" Pos="506.38983,508.42273,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Assets/Objects/props/furniture/shelves/standing_a/shelf_standing_b_lod1.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{4685734C-D9AA-4878-BB6B-66E35667BEA6}" Name="interior_plant_b_medium_lod4" Pos="506.9942,507.42856,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Assets/Objects/natural/bushes/interior_plants/interior_plant_b_medium_lod1.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
    </Object>
    <Object Name="Friendly.Easy_RPG2" Prototype="{0F157D5F-1491-4197-8C81-7F4D87F16FFE}" PrototypeLibrary="Characters" Type="EntityArchetype" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{6B935658-1BCD-4E5A-BB6A-4DCF904CB22A}" Pos="507,504,32" FloorNumber="-1" Rotate="0.19936793,0,0,0.97992468" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="1" HasEntity="1">
     <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
@@ -488,6 +518,12 @@
      </Edges>
      <GraphTokens />
     </FlowGraph>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{3FF63E61-C79C-4917-94CF-1F5AC2AB9E94}" Name="interior_plant_d_large1" Pos="508.96368,507.61081,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Assets/Objects/natural/bushes/interior_plants/interior_plant_d_large.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
    </Object>
    <Object Type="Group" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{CE953568-FF89-4470-885D-9B02FFCD5B19}" Name="Room5" Pos="516,514,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65280" Opened="0">
     <Objects>
@@ -613,6 +649,30 @@
      </Object>
     </Objects>
    </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{42464E6B-B4B1-4257-8E8B-5107B46FD538}" Name="AdvancedDoor1" Pos="498.63467,509.05963,33.777325" FloorNumber="-1" Rotate="1,0,0,0" Scale="2.3160002,1,1.5854999" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="AdvancedDoor" HasEntity="1">
+    <Properties DestroyedSubObject="" fHealth="500" Mass="50" fileModel="Objects/architecture/buildings/fishing_houses/fishing_door_c.cgf" fileModelDestroyed="" ModelSubObject="" soclasses_SmartObjectClass="Door" bUsePortal="1">
+     <Breakage fExplodeImpulse="0" fLifeTime="10" bSurfaceEffects="1"/>
+     <Destruction Damage="0" Decal="" EffectScale="1" bExplode="1" ParticleEffect="breakable_objects.tree_break.small" Pressure="12" Radius="1">
+      <Direction x="0" y="0" z="-1"/>
+     </Destruction>
+     <Limits fAutoCloseTime="0" Damping="0" InitialAngle="0" bIsBreachable="1" MaxBend="0" MaxForce="0" bOpenFromBack="1" bOpenFromFront="1" OpeningRange="90" fSpeed="1" fUseDistance="2"/>
+     <Sound soundCloseSound="Sounds/physics:objects/doors:metal_wire_door_close" soundLockedSound="Sounds/physics:objects/doors:metal_wire_door_locked" soundOpenSound="Sounds/physics:objects/doors:metal_wire_door_open"/>
+     <Vulnerability bBullet="1" bCollision="1" fDamageTreshold="0" bExplosion="1" bMelee="1" bOther="1"/>
+    </Properties>
+    <Properties2 bLocked="0"/>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{9F0C296F-71AD-4406-B1E7-57EA82AB3129}" Name="table_a_lod1" Pos="504.40308,505.66611,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Assets/Objects/props/furniture/tables/table_a/table_a_lod1.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{7FB27877-CB34-49E8-A851-1F868CCC481F}" Name="shelf_standing_a_lod1" Pos="503.54733,508.74911,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Assets/Objects/props/furniture/shelves/standing_a/shelf_standing_a_lod1.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
    <Object Type="EnvironmentProbe" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{9D931489-97C3-4571-83F0-42A6A74BCEC2}" Name="EnvironmentProbeGlobal" Pos="500,500,33" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
     <Properties bActive="1" BoxSizeX="1000" BoxSizeY="500" BoxSizeZ="1000" _nVersion="-1">
      <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
@@ -620,6 +680,12 @@
      <OptionsAdvanced texture_deferred_cubemap=""/>
      <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
     </Properties>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{9BA8C68A-D559-44A5-8903-CB23D440203E}" Name="bank_wooden_con2" Pos="504.44479,503.80637,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Assets/Objects/props/furniture/chairs/bank_wooden_con.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
    </Object>
    <Object Name="Turret.Enemy_Normal1" Prototype="{4C72A07A-C004-4368-8402-07978036CAC9}" PrototypeLibrary="Characters" Type="EntityArchetype" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{6656CC98-5545-44E9-88A2-1CBB5EEFC9FC}" Pos="509,527,32" FloorNumber="-1" Rotate="0.38268343,0,0,0.9238795" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" HasEntity="1">
     <Properties2 fCloakDetectionDistanceMultiplier="1" groupId="-1"/>
@@ -632,6 +698,12 @@
      <Edges />
      <GraphTokens />
     </FlowGraph>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{9B942DD0-5912-452F-ABE4-59F7BD360288}" Name="interior_plant_e_large1" Pos="508.25644,506.67706,31.284088" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Assets/Objects/natural/bushes/interior_plants/interior_plant_e_large.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
    </Object>
    <Object Type="NavigationArea" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{87D112D2-DA35-4570-B72A-9C9CDF0CE8B3}" Name="NavigationArea6" Pos="466,472,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16743936" Height="16" Exclusion="0" DisplayFilled="0" HasEntity="0">
     <AffectedAgentTypes MediumSizedCharacters="1" VehicleMedium="1"/>
@@ -651,8 +723,20 @@
      <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
     </Properties2>
    </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{205990DB-5606-4A4E-9DC2-1088EB0C68F8}" Name="interior_plant_b_medium_lod3" Pos="509.22479,506.17801,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Assets/Objects/natural/bushes/interior_plants/interior_plant_b_medium_lod1.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
    <Object Type="Entity" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{1038D9E0-D9FD-48D2-93ED-5BD48ACB5C08}" Name="SpawnPoint1" Pos="464.99997,502,31.999998" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="SpawnPoint" HasEntity="1">
     <Properties bDoVisTest="1" bEnabled="1" groupName="" bInitialSpawn="0" teamName=""/>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{1F7925F8-FFFA-4FC2-81C7-9AA679A403C3}" Name="interior_plant_a_medium_lod1" Pos="507.94724,506.70169,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Assets/Objects/natural/bushes/interior_plants/interior_plant_a_medium_lod1.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
    </Object>
   </LayerObjects>
  </Layer>
