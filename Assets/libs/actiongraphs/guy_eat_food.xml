@@ -2,10 +2,10 @@
  <Nodes>
   <Node Id="1" Class="AI:ActionStart" pos="80,10,0" flags="0"/>
   <Node Id="19" Class="Entity:GetPos" pos="280,170,0" flags="0">
-   <Inputs CoordSys="1"/>
+   <Inputs entityId="0" CoordSys="1"/>
   </Node>
   <Node Id="20" Class="Movement:MoveEntityTo" pos="770,170,0" flags="0">
-   <Inputs Destination="0,0,0" DynamicDestination="1" ValueType="0" Value="5" EaseInDistance="0" EaseOutDistance="0" CoordSys="0"/>
+   <Inputs entityId="0" Destination="0,0,0" DynamicUpdate="1" ValueType="0" Speed="5" EaseDistance="0" EaseOutDistance="0" CoordSys="0"/>
   </Node>
   <Node Id="21" Name="Move to object" Class="_commentbox" pos="260,111.70903,0" flags="0">
    <Inputs TextSize="1" Color="0.577581,0.637597,0.846873" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
@@ -13,7 +13,7 @@
    <NodeSize Width="720" Height="345"/>
   </Node>
   <Node Id="23" Class="Game:GetEntityState" pos="1050,180,0" flags="0">
-   <Inputs />
+   <Inputs entityId="0"/>
   </Node>
   <Node Id="24" Class="String:Compare" pos="1220,180,0" flags="0">
    <Inputs A="" B="Edible" IgnoreCase="1"/>
@@ -40,7 +40,7 @@
    <NodeSize Width="620" Height="505"/>
   </Node>
   <Node Id="42" Class="Entity:GetPos" pos="280,320,0" flags="0">
-   <Inputs CoordSys="1"/>
+   <Inputs entityId="0" CoordSys="1"/>
   </Node>
   <Node Id="43" Class="Vec3:ToVec3" pos="630,230,0" flags="0">
    <Inputs x="0" y="0" z="0"/>
@@ -52,22 +52,22 @@
    <Inputs vec3="0,0,0"/>
   </Node>
   <Node Id="47" Class="entity:Apple" pos="1770,510,0" flags="0">
-   <Inputs Destroy="0"/>
+   <Inputs entityId="0" Destroy="0"/>
   </Node>
   <Node Id="50" Class="entity:Apple" pos="1770,1000,0" flags="0">
-   <Inputs Destroy="0"/>
+   <Inputs entityId="0" Destroy="0"/>
   </Node>
   <Node Id="53" Class="entity:Human" pos="1770,180,0" flags="0">
-   <Inputs ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Eat="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetTargetPos="0,0,0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+   <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Eat="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" SetTargetPos="0,0,0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
   </Node>
   <Node Id="54" Class="AI:ActionEnd" pos="1770,1060,0" flags="0">
    <Inputs />
   </Node>
   <Node Id="56" Class="entity:Human" pos="1770,670,0" flags="0">
-   <Inputs ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Eat="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetTargetPos="0,0,0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
+   <Inputs entityId="0" ClearForcedLookDir="0" ClearForcedLookObjectId="0" Disable="0" DisableUsable="0" Eat="0" Enable="0" EnableUsable="0" Kill="0" MakeInvulnerable="0" MakeVulnerable="0" ResetHealth="0" SetForcedLookDir="0,0,0" SetForcedLookObjectId="0" SetTargetPos="0,0,0" Sleep="0" Spawn="0" Used="0" WakeUp="0"/>
   </Node>
   <Node Id="59" Class="Entity:PropertyGet" pos="1460,180,0" flags="0">
-   <Inputs entityProperties_Property="fValue" perArchetype="1"/>
+   <Inputs entityId="0" entityProperties_Property="fValue" perArchetype="1"/>
   </Node>
  </Nodes>
  <Edges>

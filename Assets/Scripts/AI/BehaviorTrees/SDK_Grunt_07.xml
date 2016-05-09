@@ -45,7 +45,7 @@
 
 			<!-- debug tree via bubbles -->
 
-<!--
+
 			<Loop>
 
 				<Parallel successMode="any">
@@ -88,7 +88,6 @@
 				</Parallel>
 
 			</Loop>
--->
 			<Priority>
 
 				<!--

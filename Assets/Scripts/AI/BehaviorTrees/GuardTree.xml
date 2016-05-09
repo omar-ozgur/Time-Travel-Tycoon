@@ -29,41 +29,50 @@
 					<Sequence>
 						<WaitForEvent name="OnNewAttentionTarget"/>
 						<Bubble message="Standby" duration="2"/>
+						<ExecuteLua code="Human_x:CustomTestFunction()"/>
 					</Sequence>
 
 					<Sequence>
 						<WaitForEvent name="OnEnemyHeard"/>
 						<Bubble message="Suspicious" duration="2"/>
+						<ExecuteLua code="Human_x:CustomTestFunction()"/>
+
 					</Sequence>
 
 					<Sequence>
 						<WaitForEvent name="OnEnemySeen"/>
 						<Bubble message="Alerted" duration="2"/>
+						<ExecuteLua code="Human_x:CustomTestFunction()"/>
 					</Sequence>
 
 					<Sequence>
 						<WaitForEvent name="OnThreateningSoundHeard"/>
 						<Bubble message="Suspicious" duration="2"/>
+						<ExecuteLua code="Human_x:CustomTestFunction()"/>
 					</Sequence>
 
 					<Sequence>
 						<WaitForEvent name="OnInterestingSoundHeard"/>
 						<Bubble message="Suspicious" duration="2"/>
+						<ExecuteLua code="Human_x:CustomTestFunction()"/>
 					</Sequence>
 
 					<Sequence>
 						<WaitForEvent name="OnSuspectedSoundHeard"/>
 						<Bubble message="Suspicious" duration="2"/>
+						<ExecuteLua code="Human_x:CustomTestFunction()"/>
 					</Sequence>
 
 					<Sequence>
 						<WaitForEvent name="OnNoTargetVisible"/>
 						<Bubble message="Standby" duration="2"/>
+						<ExecuteLua code="Human_x:CustomTestFunction()"/>
 					</Sequence>
 
 					<Sequence>
 						<WaitForEvent name="OnDamage"/>
 						<Bubble message="Dead" duration="2"/>
+						<ExecuteLua code="Human_x:CustomTestFunction()"/>
 					</Sequence>
 
 				</Parallel>

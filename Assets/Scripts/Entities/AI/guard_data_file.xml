@@ -1,0 +1,19 @@
+<GuardExtraData version="Guard 1.0">
+
+	<guard_table>
+		
+		message="Hello Jahan"
+		
+		curiosity="1.0" 
+		
+		<alert_states>
+			
+			<state value="CURIOUS"/>
+			
+			<state value="ALERTED"/>
+		
+		</alert_states>
+	
+	</guard_table>
+
+</GuardExtraData>

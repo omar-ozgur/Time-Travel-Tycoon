@@ -132,6 +132,24 @@
      <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
      <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
     </Properties2>
+    <FlowGraph Description="" Group="Guard" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="1" Class="Game:Start" pos="-150,-180,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="4" Class="AISequence:MoveAlongPath" pos="420,-150,0" flags="1" GraphEntity="0">
+       <Inputs entityId="0" Speed="0" Stance="0" PathName="AIPath2"/>
+      </Node>
+      <Node Id="5" Class="AISequence:Start" pos="150,-130,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" Interruptible="1" ResumeAfterInterruption="1"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="5" nodeOut="1" portIn="Start" portOut="output" enabled="1"/>
+      <Edge nodeIn="4" nodeOut="5" portIn="Start" portOut="Link" enabled="1"/>
+     </Edges>
+     <GraphTokens />
+    </FlowGraph>
    </Object>
    <Object Type="Group" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{B0A9BB17-7460-4E03-B487-07CD4F773AA5}" Name="Room" Pos="495,495,32" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65280" Opened="0">
     <Objects>
@@ -428,6 +446,19 @@
      <GraphTokens />
     </FlowGraph>
    </Object>
+   <Object Type="AIPath" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{C917C348-F0F4-4327-A691-66F42D73BC0A}" Name="AIPath2" Pos="498,518,32.099998" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="11842740" Road="0" PathNavType="1" AnchorType="" ValidatePath="0" Width="0" Height="0" AreaId="0" GroupId="0" Priority="0" Closed="0" DisplayFilled="0" DisplaySoundInfo="0" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" HasEntity="0">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-2,1,0"/>
+     <Point Pos="-2,9,0"/>
+     <Point Pos="3,9,0"/>
+     <Point Pos="4,5,0"/>
+     <Point Pos="3,0,0"/>
+     <Point Pos="1,1,0"/>
+     <Point Pos="1,0,0"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Side6="0" Side7="0" Side8="0" Roof="0" Floor="0"/>
+   </Object>
    <Object Name="Friendly.Easy_RPG2" Prototype="{0F157D5F-1491-4197-8C81-7F4D87F16FFE}" PrototypeLibrary="Characters" Type="EntityArchetype" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{6B935658-1BCD-4E5A-BB6A-4DCF904CB22A}" Pos="507,504,32" FloorNumber="-1" Rotate="0.19936793,0,0,0.97992468" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="1" HasEntity="1">
     <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
      <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
@@ -625,7 +656,7 @@
     <Properties2 fCloakDetectionDistanceMultiplier="1" groupId="-1"/>
     <FlowGraph Description="" Group="Cam" enabled="1" MultiPlayer="ClientServer">
      <Nodes>
-      <Node Id="1" Class="Game:Start" pos="-190,-100,0" flags="1">
+      <Node Id="1" Class="Game:Start" pos="-190,-100,0" flags="0">
        <Inputs InGame="1" InEditor="1"/>
       </Node>
      </Nodes>
@@ -650,9 +681,6 @@
      <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
      <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
     </Properties2>
-   </Object>
-   <Object Type="Entity" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{1038D9E0-D9FD-48D2-93ED-5BD48ACB5C08}" Name="SpawnPoint1" Pos="464.99997,502,31.999998" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="SpawnPoint" HasEntity="1">
-    <Properties bDoVisTest="1" bEnabled="1" groupName="" bInitialSpawn="0" teamName=""/>
    </Object>
   </LayerObjects>
  </Layer>

@@ -1,0 +1,8 @@
+<Definition root="GuardExtraData">
+	<Property name="version" type="string"/>
+	<Table name="guard_table">
+		<Property name="message" type="string"/>
+		<Property name="curiosity" type="float"/>
+		<Array name="alert_states" type="string" elementName="state"/>
+	</Table>
+</Definition>

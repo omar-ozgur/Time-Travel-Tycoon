@@ -25,6 +25,8 @@ Human_x =
 
 	UseMannequinAGState = true,
 	UseLegacyCoverLocator = false,
+	
+	
 
 	gameParams =
 	{
@@ -246,6 +248,13 @@ Human_x =
 		esCommConfig = "Human",
 		esFaction = "Grunts",
 		commrange = 15.0,
+		
+		Guard = 
+		{
+			smessage="Hello Jahan",
+			fcuriosity=1.0,
+			stateArray = {"CURIOUS", "ALERTED", "STANDBY"},
+		},
 
 		Damage =
 		{
@@ -771,6 +780,15 @@ HumanPostures =
 mergef(Human_x, AIBase, 1)
 
 -----------------------------------------------------------------------------------------------------
+
+function Human_x:CustomTestFunction()
+	if(self.Properties.Guard.curiosity == 1.0) then
+		local entityID = System.GetEntityIdByName("Enemy.Easy_Pistol1");
+		AI.QueueBubbleMessage(entityID, "Hit the custom function. Fuck you all!");
+	end
+end
+
+
 function Human_x:OnResetCustom()
 
 	GameAI.UnregisterWithAllModules(self.id)
