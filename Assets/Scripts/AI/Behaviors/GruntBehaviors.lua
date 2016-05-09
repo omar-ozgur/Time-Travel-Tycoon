@@ -94,6 +94,11 @@ CreateAIBehavior("GruntBase", "AIBaseBehavior",
 		end
 	end,
 
+
+	--CUSTOM SIGNAL TO BE ALERTED WHEN THE PLAYER'S POSITION IS CLOSE TO A TARGET
+	OnPlayerNearTarget = function(behavior, entity, sender, position)
+
+
 	OnAttentionTargetThreatChanged = function(behavior, entity)
 		if (AI.GetAttentionTargetPosition(entity.id, g_Vectors.temp_v1)) then
 			--entity:Log("OnAttentionTargetThreatChanged - SendSuspiciousActivitySignal")

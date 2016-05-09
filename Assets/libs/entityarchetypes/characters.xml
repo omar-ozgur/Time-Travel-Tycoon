@@ -5,7 +5,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -34,7 +34,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -63,7 +63,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="250" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -92,7 +92,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="1000" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -121,7 +121,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="250" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -150,7 +150,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="1000" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -223,7 +223,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="25" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -252,7 +252,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -281,7 +281,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="1000" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -310,7 +310,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -339,7 +339,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="250" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -368,7 +368,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="1000" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -397,7 +397,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -426,7 +426,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="250" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -455,7 +455,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="1000" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -484,7 +484,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -513,7 +513,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="250" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -542,7 +542,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="1000" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -571,7 +571,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -600,7 +600,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="250" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -629,7 +629,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="1000" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -658,7 +658,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -687,7 +687,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="250" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -716,7 +716,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="1000" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
@@ -745,7 +745,7 @@
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
    <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard curiosity="1" message="Hello Jahan"/>
+   <Guard fcuriosity="1" smessage="Hello Jahan"/>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
