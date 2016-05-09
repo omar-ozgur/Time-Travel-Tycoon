@@ -253,7 +253,7 @@ Human_x =
 		{
 			smessage="Hello Jahan",
 			fcuriosity=1.0,
-			stateArray = {"CURIOUS", "ALERTED", "STANDBY"},
+			stateArray = {s1="CURIOUS", s2="ALERTED", s3="STANDBY"},
 		},
 
 		Damage =
@@ -782,10 +782,10 @@ mergef(Human_x, AIBase, 1)
 -----------------------------------------------------------------------------------------------------
 
 function Human_x:CustomTestFunction()
-	if(self.Properties.Guard.curiosity == 1.0) then
-		local entityID = System.GetEntityIdByName("Enemy.Easy_Pistol1");
-		AI.QueueBubbleMessage(entityID, "Hit the custom function. Fuck you all!");
-	end
+	--Testing stuff
+	self.Properties.Guard.fcuriosity = self.Properties.Guard.fcuriosity + 1.0;
+	System.Log(tostring(self.Properties.Guard.fcuriosity))
+	System.Log("FUCK YOU I HIT THIS SHIT");
 end
 
 
