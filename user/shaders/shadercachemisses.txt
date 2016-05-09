@@ -14,3 +14,5 @@
 [ShaderList_PC.txt]<2>Glass@GlassPS(%DIRT_MAP|%SPECULAR_MAP|%TINT_MAP)(%_RT_FOG|%_RT_QUALITY|%_RT_TILED_SHADING)(0)(0)(0)(0)(PS)
 [ShaderList_PC.txt]<2>MonoFrameworkUI@MonoFrameworkUIPS()()(0)(0)(0)(0)(PS)
 [ShaderList_PC.txt]<2>MonoFrameworkUI@MonoFrameworkUIVS()()(0)(0)(0)(0)(VS)
+[ShaderList_PC.txt]<2>Referenceimage@DebugLightVS()(%_RT_FOG|%_RT_NO_TESSELLATION)(0)(0)(0)(0)(VS)
+[ShaderList_PC.txt]<2>Illum@IlluminationPS(%BLENDLAYER|%NORMAL_MAP|%SUBSURFACE_SCATTERING|%VERTCOLORS)(%_RT_FOG|%_RT_QUALITY|%_RT_NO_TESSELLATION)(0)(0)(0)(0)(PS)
