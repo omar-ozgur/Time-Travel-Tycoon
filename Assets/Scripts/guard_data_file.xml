@@ -1,0 +1,15 @@
+
+<Data version="Blag 1.0">
+    <test
+        a="blag"
+        e="3">
+        <c>
+            <Val value="blag"/>
+        </c>
+        <d>
+           <Value da="3.0" db="2.1,2.2,2.3"/>
+           <Value da="3.1" db="2.1,2.2,2.3"/>
+           <Value da="3.2" db="3.1,3.2,2.3"/>
+        </d>
+    </test>
+</Data>

@@ -1,379 +1,329 @@
-Logged at Monday, May 09, 2016 13:34:59
+Logged at Wednesday, May 11, 2016 19:20:18
 FileVersion: 5.0.0.191
 ProductVersion: 5.0.0.191
 LogFile: Editor.log
 GameDir: Assets
 Executable: C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.0\bin\win_x64\Sandbox.exe
 
-Exception Code: FATAL_ERROR
-Exception Addr: 
-Exception Module: 
-Exception Description: FATAL_ERROR, 
-Memory in use: 1792.7MB
+Exception Code: 0xC0000005
+Exception Addr: 0x0033:0x00007FFECC418543
+Exception Module: <Unknown>
+Exception Description: EXCEPTION_ACCESS_VIOLATION, Attempt to read from address 0x00000013FFFFFFD8
+The memory could not be "read"
+Memory in use: 1663.4MB
 Debug Status: 
 Out of Memory: 0
-MainThread Id: 888
-RenderThread Id: 888
-[Crashed] Thread Id: 888
-[Crashed] ThreadName: Main
+MainThread Id: 2520
+RenderThread Id: 2520
+[Crashed] Thread Id: 2868
+[Crashed] ThreadName: 
 
-[Crashed] Call Stack: ["Main" [888]]
- 80) function=0x00007FFE2667B2E7
- 79) function=0x00007FFE269208B3
- 78) function=0x00007FFE1D72CC01
- 77) function=0x00007FFE3E254C24
- 76) function=0x00007FFE24440F7C
- 75) function=0x00007FFE240EDB59
- 74) function=0x00007FFE2695E1FF
- 73) function=0x00007FF620A8A47F
- 72) function=0x00007FF61FFD4EC7
- 71) function=0x00007FF620937E86
- 70) function=0x0000000062102CC1
- 69) function=0x00000000620FC818
- 68) function=0x0000000061A05CA6
- 67) function=0x0000000061A04685
- 66) function=0x00000000620D8C38
- 65) function=0x000000006211E231
- 64) function=0x0000000061A05CA6
- 63) function=0x0000000061A04685
- 62) function=0x00000000620D8C38
- 61) function=0x00000000620DA8E4
- 60) function=0x00007FFE3696018F
- 59) function=0x000000006211F5AC
- 58) function=0x00007FFE4A8D1169
- 57) function=0x00007FFE4A8D0C97
- 56) function=0x00007FFE4A8EC9F0
- 55) function=0x00007FFE4A8EC7E6
- 54) function=0x00007FFE4A93FC0E
- 53) function=0x00007FFE4A93EA07
- 52) function=0x00007FFE4A93E69D
- 51) function=0x00007FFE4A93E585
- 50) function=0x00007FFE4A93E1B0
- 49) function=0x00007FFE269208A1
- 48) function=0x00007FFE1D72CC01
- 47) function=0x00007FFE3E254C24
- 46) function=0x00007FFE24439783
- 45) function=0x00007FFE24427B01
- 44) function=0x00007FFE24439783
- 43) function=0x00007FFE24427A51
- 42) function=0x00007FFE24439783
- 41) function=0x00007FFE24427B01
- 40) function=0x00007FFE24439783
- 39) function=0x00007FFE24439783
- 38) function=0x00007FFE24427949
- 37) function=0x00007FFE24439783
- 36) function=0x00007FFE24427B01
- 35) function=0x00007FFE24439783
- 34) function=0x00007FFE24427E93
- 33) function=0x00007FFE24439783
- 32) function=0x00007FFE24427949
- 31) function=0x00007FFE24439783
- 30) function=0x00007FFE24427848
- 29) function=0x00007FFE24439783
- 28) function=0x00007FFE24439619
- 27) function=0x00007FFE24525F1B
- 26) function=0x00007FFE24530544
- 25) function=0x00007FFE240D97F9
- 24) function=0x00007FFE2458A9DA
- 23) function=0x00007FFE2E8ADA6F
- 22) function=0x00007FFE2054C71F
- 21) function=0x00007FFE2EDE1D1E
- 20) function=0x00007FFE2EE33874
- 19) function=0x00007FFE2EE3DF1E
- 18) function=0x00007FFE2EE33278
- 17) function=0x00007FFE2EE33A41
- 16) function=0x00007FFE2EE334AE
- 15) function=0x00007FFE2EE2DC40
- 14) function=0x00007FFE2EDA0C8C
- 13) function=0x00007FF6200F7E20
- 12) function=0x00007FF6200F804A
- 11) function=0x00007FF620126623
- 10) function=0x00007FF620735B80
-  9) function=0x00007FF6208DD9DA
-  8) function=0x00007FF6208C7850
-  7) function=0x00007FF620C3DCA6
-  6) function=0x00007FF61FFEA3FD
-  5) function=0x00007FF620C4C335
-  4) function=0x00007FF620C49759
-  3) function=0x00007FF620C4686C
-  2) function=0x00007FF620565AE4
-  1) function=0x00007FF62056C1A3
+[Crashed] Call Stack: ["ThreadNameUnknown" [2868]]
+ 16) function=0x00007FFECC418543
+ 15) function=0x00007FFECC4177DD
+ 14) function=0x00007FFECC425FF8
+ 13) function=0x00007FFECC423B99
+ 12) function=0x00007FFECC422EB5
+ 11) function=0x00007FFECC423E2C
+ 10) function=0x00007FFECC42842A
+  9) function=0x00007FFECC421D7F
+  8) function=0x00007FFECC427F24
+  7) function=0x00007FFECC3A3CAE
+  6) function=0x00007FFECC384FA6
+  5) function=0x00000000619A3A5D
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
 
 
-Call Stack: ["RemoteConsoleServer" [9644]]
-10) function=0x00007FFE4AAC5154
-  9) function=0x00007FFE4691A4A5
-  8) function=0x00007FFE46911BF1
-  7) function=0x00007FFE4A173BAE
-  6) function=0x00007FFE4A173AD2
-  5) function=0x00007FFE265AD2D1
-  4) function=0x00007FFE266FDA1B
-  3) function=0x00007FFE4624BE1D
-  2) function=0x00007FFE4A768102
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["BackgroundTask_0" [6152]]
+ 8) function=0x00007FFEF87F5154
+  7) function=0x00007FFEF4E1AADF
+  6) function=0x00007FF73A601DC1
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["NotificationNetwork" [8840]]
-10) function=0x00007FFE4AAC5154
-  9) function=0x00007FFE4691A4A5
-  8) function=0x00007FFE46916C10
-  7) function=0x00007FFE4A16E8FB
-  6) function=0x00007FFE269463CC
-  5) function=0x00007FFE26958E7A
-  4) function=0x00007FFE266FDA1B
-  3) function=0x00007FFE4624BE1D
-  2) function=0x00007FFE4A768102
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["BackgroundTask_3" [4260]]
+ 8) function=0x00007FFEF87F5154
+  7) function=0x00007FFEF4E1AADF
+  6) function=0x00007FF73A601DC1
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["JobSystem_Worker_0" [9408]]
- 8) function=0x00007FFE4AAC5154
-  7) function=0x00007FFE471EAADF
-  6) function=0x00007FFE267CD1EB
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["BackgroundTask_IO" [4744]]
+ 8) function=0x00007FFEF87F5154
+  7) function=0x00007FFEF4E1AADF
+  6) function=0x00007FF73A601DC1
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["Streaming AsyncCallback" [4624]]
- 8) function=0x00007FFE4AAC5154
-  7) function=0x00007FFE471EAADF
-  6) function=0x00007FFE266141FF
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["BackgroundTask_1" [3460]]
+ 8) function=0x00007FFEF87F5154
+  7) function=0x00007FFEF4E1AADF
+  6) function=0x00007FF73A601DC1
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["JobSystem_Worker_1" [2928]]
- 8) function=0x00007FFE4AAC5154
-  7) function=0x00007FFE471EAADF
-  6) function=0x00007FFE267CD1EB
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["BackgroundTask_2" [4576]]
+ 8) function=0x00007FFEF87F5154
+  7) function=0x00007FFEF4E1AADF
+  6) function=0x00007FF73A601DC1
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["Streaming File IO HDD" [9444]]
-10) function=0x00007FFE4AAC5154
-  9) function=0x00007FFE471EAADF
-  8) function=0x00007FFE266B17CD
-  7) function=0x00007FFE26617FC8
-  6) function=0x00007FFE26611906
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["FileChangeMonitor" [2500]]
+ 9) function=0x00007FFEF87F5C24
+  8) function=0x00007FFEF4E43B4F
+  7) function=0x00007FFEF4E43A4E
+  6) function=0x00007FF73A787CE2
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["Streaming File IO Optical" [9296]]
-10) function=0x00007FFE4AAC5154
-  9) function=0x00007FFE471EAADF
-  8) function=0x00007FFE266B17CD
-  7) function=0x00007FFE26617FC8
-  6) function=0x00007FFE26611906
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["RemoteConsoleServer" [5816]]
+10) function=0x00007FFEF87F5154
+  9) function=0x00007FFEF464A4A5
+  8) function=0x00007FFEF4641BF1
+  7) function=0x00007FFEF83C3BAE
+  6) function=0x00007FFEF83C3AD2
+  5) function=0x00007FFED6E6D2D1
+  4) function=0x00007FFED6FBDA1B
+  3) function=0x00007FFEF3F7BE1D
+  2) function=0x00007FFEF8208102
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["Streaming File IO InMemory" [9304]]
-10) function=0x00007FFE4AAC5154
-  9) function=0x00007FFE471EAADF
-  8) function=0x00007FFE266B17CD
-  7) function=0x00007FFE26617FC8
-  6) function=0x00007FFE26611906
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["NotificationNetwork" [6364]]
+10) function=0x00007FFEF87F5154
+  9) function=0x00007FFEF464A4A5
+  8) function=0x00007FFEF4646C10
+  7) function=0x00007FFEF83BE8FB
+  6) function=0x00007FFED72063CC
+  5) function=0x00007FFED7218E7A
+  4) function=0x00007FFED6FBDA1B
+  3) function=0x00007FFEF3F7BE1D
+  2) function=0x00007FFEF8208102
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["JobSystem_Worker_0 (Blocking)" [2916]]
- 8) function=0x00007FFE4AAC5154
-  7) function=0x00007FFE471EAADF
-  6) function=0x00007FFE267CBB4B
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["JobSystem_Worker_0" [1696]]
+ 8) function=0x00007FFEF87F5154
+  7) function=0x00007FFEF4E1AADF
+  6) function=0x00007FFED708D1EB
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["ShaderCompile" [2808]]
- 8) function=0x00007FFE4AAC5754
-  7) function=0x00007FFE472138C7
-  6) function=0x00007FFE24D20943
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["Streaming AsyncCallback" [6592]]
+ 8) function=0x00007FFEF87F5154
+  7) function=0x00007FFEF4E1AADF
+  6) function=0x00007FFED6ED41FF
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["GFxMeshCacheReset" [2588]]
- 8) function=0x00007FFE4AAC5154
-  7) function=0x00007FFE471EAADF
-  6) function=0x00007FFE268638D9
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["JobSystem_Worker_1" [2824]]
+ 8) function=0x00007FFEF87F5154
+  7) function=0x00007FFEF4E1AADF
+  6) function=0x00007FFED708D1EB
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["ServiceNetwork" [9020]]
- 8) function=0x00007FFE4AAC5754
-  7) function=0x00007FFE472138C7
-  6) function=0x00007FFE265AC074
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["Streaming File IO HDD" [1748]]
+10) function=0x00007FFEF87F5154
+  9) function=0x00007FFEF4E1AADF
+  8) function=0x00007FFED6F717CD
+  7) function=0x00007FFED6ED7FC8
+  6) function=0x00007FFED6ED1906
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["NetAddressSolver" [416]]
- 9) function=0x00007FFE4AAC8464
-  8) function=0x00007FFE47248F38
-  7) function=0x00007FFE29E8A8B4
-  6) function=0x00007FFE29E221FA
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["Streaming File IO Optical" [2012]]
+10) function=0x00007FFEF87F5154
+  9) function=0x00007FFEF4E1AADF
+  8) function=0x00007FFED6F717CD
+  7) function=0x00007FFED6ED7FC8
+  6) function=0x00007FFED6ED1906
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["Physics" [3804]]
- 8) function=0x00007FFE4AAC5154
-  7) function=0x00007FFE471EAADF
-  6) function=0x00007FFE269587C0
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["Streaming File IO InMemory" [340]]
+10) function=0x00007FFEF87F5154
+  9) function=0x00007FFEF4E1AADF
+  8) function=0x00007FFED6F717CD
+  7) function=0x00007FFED6ED7FC8
+  6) function=0x00007FFED6ED1906
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["ZLibCompressor" [9612]]
- 8) function=0x00007FFE4AAC5154
-  7) function=0x00007FFE471EAADF
-  6) function=0x00007FFE20967AAD
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["JobSystem_Worker_0 (Blocking)" [2076]]
+ 8) function=0x00007FFEF87F5154
+  7) function=0x00007FFEF4E1AADF
+  6) function=0x00007FFED708BB4B
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["InputWorker" [9468]]
- 8) function=0x00007FFE4AAC5754
-  7) function=0x00007FFE472138C7
-  6) function=0x00007FFE3645CF1F
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["ShaderCompile" [4296]]
+ 8) function=0x00007FFEF87F5754
+  7) function=0x00007FFEF4E438C7
+  6) function=0x00007FFED5930943
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["MainAudioThread" [8632]]
- 9) function=0x00007FFE4AAC5754
-  8) function=0x00007FFE472138C7
-  7) function=0x00007FFE363420B8
-  6) function=0x00007FFE3635D93A
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["GFxMeshCacheReset" [4552]]
+ 8) function=0x00007FFEF87F5154
+  7) function=0x00007FFEF4E1AADF
+  6) function=0x00007FFED71238D9
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["FileChangeMonitor" [9760]]
- 9) function=0x00007FFE4AAC5C24
-  8) function=0x00007FFE47213B4F
-  7) function=0x00007FFE47213A4E
-  6) function=0x00007FF620D97CE2
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["ServiceNetwork" [3868]]
+ 8) function=0x00007FFEF87F5754
+  7) function=0x00007FFEF4E438C7
+  6) function=0x00007FFED6E6C074
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["BackgroundTask_2" [9160]]
- 8) function=0x00007FFE4AAC5154
-  7) function=0x00007FFE471EAADF
-  6) function=0x00007FF620C11DC1
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["NetAddressSolver" [1960]]
+ 9) function=0x00007FFEF87F8464
+  8) function=0x00007FFEF4E78F38
+  7) function=0x00007FFED8DCA8B4
+  6) function=0x00007FFED8D621FA
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["BackgroundTask_3" [9700]]
- 8) function=0x00007FFE4AAC5154
-  7) function=0x00007FFE471EAADF
-  6) function=0x00007FF620C11DC1
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["ZLibCompressor" [6200]]
+ 8) function=0x00007FFEF87F5154
+  7) function=0x00007FFEF4E1AADF
+  6) function=0x00007FFED1177AAD
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["BackgroundTask_0" [10080]]
- 8) function=0x00007FFE4AAC5154
-  7) function=0x00007FFE471EAADF
-  6) function=0x00007FF620C11DC1
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["InputWorker" [4356]]
+ 8) function=0x00007FFEF87F5754
+  7) function=0x00007FFEF4E438C7
+  6) function=0x00007FFEDA53CF1F
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["BackgroundTask_1" [9560]]
- 8) function=0x00007FFE4AAC5154
-  7) function=0x00007FFE471EAADF
-  6) function=0x00007FF620C11DC1
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["Physics" [4972]]
+ 8) function=0x00007FFEF87F5154
+  7) function=0x00007FFEF4E1AADF
+  6) function=0x00007FFED72187C0
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["BackgroundTask_IO" [9704]]
- 8) function=0x00007FFE4AAC5154
-  7) function=0x00007FFE471EAADF
-  6) function=0x00007FF620C11DC1
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["MainAudioThread" [5060]]
+ 9) function=0x00007FFEF87F5754
+  8) function=0x00007FFEF4E438C7
+  7) function=0x00007FFEDB7020B8
+  6) function=0x00007FFEDB71D93A
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
  
 
-Call Stack: ["CaptureCrashScreenShot" [4868]]
- 9) function=0x00007FFE4AAC8464
-  8) function=0x00007FFE47248F38
-  7) function=0x00007FFE266B1714
-  6) function=0x00007FFE266AB935
-  5) function=0x00007FFE266FDA1B
-  4) function=0x00007FFE4624BE1D
-  3) function=0x00007FFE4A768102
-  2) function=0x00007FFE4AA7C5B4
-  1) function=0x00007FFE4AA7C5B4
+Call Stack: ["CaptureCrashScreenShot" [6304]]
+ 9) function=0x00007FFEF87F8464
+  8) function=0x00007FFEF4E78F38
+  7) function=0x00007FFED6F71714
+  6) function=0x00007FFED6F6B935
+  5) function=0x00007FFED6FBDA1B
+  4) function=0x00007FFEF3F7BE1D
+  3) function=0x00007FFEF8208102
+  2) function=0x00007FFEF87AC5B4
+  1) function=0x00007FFEF87AC5B4
+ 
+
+Call Stack: ["Main" [2520]]
+10) function=0x00007FFEF87F8464
+  9) function=0x00007FFEF4E78F38
+  8) function=0x00007FFED5819844
+  7) function=0x00007FFED57DF93E
+  6) function=0x00007FFED5CB3337
+  5) function=0x00007FFED57C011E
+  4) function=0x00007FFED720C503
+  3) function=0x00007FF73A0C18D5
+  2) function=0x00007FF73A0A06F5
+  1) function=0x00007FF73A95A09F
  

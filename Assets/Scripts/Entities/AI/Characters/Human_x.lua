@@ -785,7 +785,13 @@ function Human_x:CustomTestFunction()
 	--Testing stuff
 	self.Properties.Guard.fcuriosity = self.Properties.Guard.fcuriosity + 1.0;
 	System.Log(tostring(self.Properties.Guard.fcuriosity))
-	System.Log("FUCK YOU I HIT THIS SHIT");
+	System.Log("Guard Custom Function");
+end
+
+function Human_x:TargetReached()
+end
+
+function Human_x:OnWin()
 end
 
 

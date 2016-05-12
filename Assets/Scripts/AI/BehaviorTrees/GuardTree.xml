@@ -16,6 +16,7 @@
 		<Signal name="OnDamage" variable="Dead" value="true"/>
 		<Signal name="OnSquadmateDied" variable="Alerted" value="true"/>
 		<Signal name="OnNoTargetVisible" variable="Standby" value="true"/>
+		<Signal name="OnPlayerHide" variable="Standby" value="true"/>
 	</SignalVariables>
 
 	<Timestamps>
@@ -25,6 +26,20 @@
 		<Parallel successMode="any">
 			<Loop>
 				<Parallel successMode="any">
+
+					<Sequence>
+						<WaitForEvent name="OnPlayerHide"/>
+						<Bubble message="Hidden" duration="2"/>
+						<SetAlertness value="0"/>
+						<Stance name="Relaxed"/>
+						<PullDownThreatLevel/>
+						<Wait duration="10" variation="5"/>
+						<SuppressFailure>
+							<LuaGate code="return entity.PropertiesInstance.AI.bGoBackToStartOnIdle">
+								<Move to="InitialPosition" speed="Walk" stance="Relaxed" _startLog="moving back to initial position"/>
+							</LuaGate>
+						</SuppressFailure>
+					</Sequence>
 
 					<Sequence>
 						<WaitForEvent name="OnNewAttentionTarget"/>

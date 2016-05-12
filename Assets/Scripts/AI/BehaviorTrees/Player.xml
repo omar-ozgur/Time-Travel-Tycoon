@@ -24,11 +24,15 @@
 		<Variable name="InsideDefendArea"/>
 		<Variable name="HoldPosition"/>
 		<Variable name="IsAtHoldPosition"/>
+		<Variable name="reachedTarget"/>
+		<Variable name="win"/>
 	</Variables>
 
 	<SignalVariables>
 		<Signal name="OnNewAttentionTarget" variable="HasTarget" value="true"/>
 		<Signal name="OnNoTarget" variable="HasTarget" value="false"/>
+		<Signal name="OnTargetReached" variable="reachedTarget" value="true"/>
+		<Signal name="OnWin" variable="win" value="true"/>
 	</SignalVariables>
 
 	<Timestamps>
@@ -45,50 +49,26 @@
 
 			<!-- debug tree via bubbles -->
 
-<!--
 			<Loop>
 
 				<Parallel successMode="any">
 
 					<Sequence>
-						<WaitForEvent name="OnBulletRain"/>
-						<Bubble message="OnBulletRain" duration="2"/>
+						<WaitForEvent name="OnTargetReached"/>
+						<Bubble message="TARGET REACHED" duration="2"/>
+						<ExecuteLua code="Human_x:TargetReached()"/>
 					</Sequence>
 
 					<Sequence>
-						<WaitForEvent name="OnNewAttentionTarget"/>
-						<Bubble message="OnNewAttentionTarget" duration="2"/>
-					</Sequence>
-
-					<Sequence>
-						<WaitForEvent name="OnEnemyHeard"/>
-						<Bubble message="OnEnemyHeard" duration="2"/>
-					</Sequence>
-
-					<Sequence>
-						<WaitForEvent name="OnEnemySeen"/>
-						<Bubble message="OnEnemySeen" duration="2"/>
-					</Sequence>
-
-					<Sequence>
-						<WaitForEvent name="OnThreateningSoundHeard"/>
-						<Bubble message="OnThreateningSoundHeard" duration="2"/>
-					</Sequence>
-
-					<Sequence>
-						<WaitForEvent name="OnInterestingSoundHeard"/>
-						<Bubble message="OnInterestingSoundHeard" duration="2"/>
-					</Sequence>
-
-					<Sequence>
-						<WaitForEvent name="OnSuspectedSoundHeard"/>
-						<Bubble message="OnSuspectedSoundHeard" duration="2"/>
+						<WaitForEvent name="OnWin"/>
+						<Bubble message="YOU WON" duration="10000"/>
+						<ExecuteLua code="Human_x:OnWin()"/>
 					</Sequence>
 
 				</Parallel>
 
 			</Loop>
--->
+
 			<Priority>
 
 				<!--
