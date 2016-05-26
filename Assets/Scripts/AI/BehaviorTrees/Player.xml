@@ -1181,7 +1181,7 @@
 
 												<Animate name="AI_SearchLookAround" loop="0"/>
 
-												<Bubble message="Show yourself!" duration="2"/>
+												<!-- <Bubble message="Show yourself!" duration="2"/>
 
 												<Animate name="AI_SearchLookAround" loop="0"/>
 
@@ -1195,7 +1195,7 @@
 
 												<Bubble message="Spread out and find him!" duration="2"/>
 
-												<Wait duration="2"/>
+												<Wait duration="2"/> -->
 
 												<SendTransitionSignal name="GoTo_SearchBegins" filter="Group"/>
 
@@ -1284,7 +1284,7 @@
 
 										<Sequence>
 
-											<Wait duration="90"/>
+											<!-- <Wait duration="90"/> -->
 
 											<Signal name="GiveUpSearch" filter="Group"/>
 
