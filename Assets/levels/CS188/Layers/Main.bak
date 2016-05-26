@@ -706,87 +706,66 @@
       <Node Id="25" Class="Input:MouseButtonInfo" pos="520,460,0" flags="0">
        <Inputs MouseButton="1" MouseWheel="0"/>
       </Node>
-      <Node Id="31" Class="Vec3:ToVec3" pos="800,800,0" flags="0">
+      <Node Id="31" Class="Vec3:ToVec3" pos="810,1100,0" flags="0">
        <Inputs x="0" y="0" z="32"/>
       </Node>
-      <Node Id="32" Class="Vec3:FromVec3" pos="540,790,0" flags="0">
+      <Node Id="32" Class="Vec3:FromVec3" pos="550,1090,0" flags="0">
        <Inputs vec3="0,0,0"/>
       </Node>
       <Node Id="33" Class="Input:MouseRayCast" pos="840,460,0" flags="0">
        <Inputs RayType="0" EntitiesToIgnore="0"/>
       </Node>
-      <Node Id="36" Class="AISequence:Move" pos="1850,820,0" flags="0" GraphEntity="0">
+      <Node Id="36" Class="AISequence:Move" pos="2800,1110,0" flags="0" GraphEntity="0">
        <Inputs entityId="0" Speed="1" Stance="1" DestinationEntity="0" Position="0,0,0" Direction="0,0,0" EndDistance="0"/>
       </Node>
-      <Node Id="37" Class="AISequence:Start" pos="1520,820,0" flags="0" GraphEntity="0">
+      <Node Id="37" Class="AISequence:Start" pos="2470,1110,0" flags="0" GraphEntity="0">
        <Inputs entityId="0" Interruptible="0" ResumeAfterInterruption="0"/>
       </Node>
-      <Node Id="40" Class="AISequence:End" pos="2120,820,0" flags="0" GraphEntity="0">
+      <Node Id="40" Class="AISequence:End" pos="3070,1110,0" flags="0" GraphEntity="0">
        <Inputs entityId="0"/>
       </Node>
-      <Node Id="41" Class="AISequence:Shoot" pos="1670,1260,0" flags="0" GraphEntity="0">
+      <Node Id="41" Class="AISequence:Shoot" pos="1860,1180,0" flags="0" GraphEntity="0">
        <Inputs entityId="0" TargetEntity="0" TargetPosition="0,0,0" Duration="2"/>
       </Node>
-      <Node Id="52" Class="AISequence:Start" pos="1050,1250,0" flags="0" GraphEntity="0">
+      <Node Id="52" Class="AISequence:Start" pos="1240,1170,0" flags="0" GraphEntity="0">
        <Inputs entityId="0" Interruptible="1" ResumeAfterInterruption="0"/>
       </Node>
-      <Node Id="53" Class="AISequence:End" pos="1940,1260,0" flags="0" GraphEntity="0">
+      <Node Id="53" Class="AISequence:End" pos="2130,1180,0" flags="0" GraphEntity="0">
        <Inputs entityId="0"/>
       </Node>
-      <Node Id="60" Class="Math:Equal" pos="700,940,0" flags="0">
+      <Node Id="60" Class="Math:Equal" pos="710,1240,0" flags="0">
        <Inputs A="0" B="32"/>
       </Node>
-      <Node Id="61" Class="AISequence:WeaponDraw" pos="1380,1260,0" flags="0" GraphEntity="0">
+      <Node Id="61" Class="AISequence:WeaponDraw" pos="1570,1180,0" flags="0" GraphEntity="0">
        <Inputs entityId="0" SkipDrawAnimation="0"/>
       </Node>
-      <Node Id="63" Class="Weapon:Ammo" pos="560,-120,0" flags="0" GraphEntity="0">
+      <Node Id="63" Class="Weapon:Ammo" pos="560,-680,0" flags="0" GraphEntity="0">
        <Inputs entityId="0" AmmoType="PistolBullet" AmountCount="10000" Add="1"/>
       </Node>
-      <Node Id="65" Name="Set_Ammo" Class="_commentbox" pos="510,-192.52814,0" flags="0">
+      <Node Id="65" Name="Set_Ammo" Class="_commentbox" pos="510,-748.57056,0" flags="0">
        <Inputs TextSize="1" Color="1,0.138432,0.138432" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="460" Height="240"/>
-       <NodeSize Width="460" Height="274.30078"/>
+       <NodeSize Width="460" Height="274.49588"/>
       </Node>
-      <Node Id="66" Name="Check_Mouse_Click_Information" Class="_commentbox" pos="490,244.30603,0" flags="0">
+      <Node Id="66" Name="Check_Mouse_Click_Information" Class="_commentbox" pos="490,244.11102,0" flags="0">
        <Inputs TextSize="1" Color="0.417885,0.938686,0.158961" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="680" Height="340"/>
-       <NodeSize Width="680" Height="374.30078"/>
+       <NodeSize Width="680" Height="374.49588"/>
       </Node>
-      <Node Id="67" Name="Raycast_Logic" Class="_commentbox" pos="510,747.35565,0" flags="0">
+      <Node Id="67" Name="Raycast_Logic" Class="_commentbox" pos="520,1045.9028,0" flags="0">
        <Inputs TextSize="1" Color="0.973445,0.514918,0.147027" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="440" Height="280"/>
-       <NodeSize Width="440" Height="314.30078"/>
+       <NodeSize Width="440" Height="314.49588"/>
       </Node>
-      <Node Id="68" Name="Move" Class="_commentbox" pos="1460,747.24908,0" flags="0">
+      <Node Id="68" Name="Move" Class="_commentbox" pos="2410,1042.9958,0" flags="0">
        <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="850" Height="290"/>
-       <NodeSize Width="850" Height="324.30078"/>
+       <NodeSize Width="850" Height="324.49588"/>
       </Node>
-      <Node Id="69" Name="Shoot" Class="_commentbox" pos="1010,1168.8929,0" flags="0">
+      <Node Id="69" Name="Shoot" Class="_commentbox" pos="1200,1092.9961,0" flags="0">
        <Inputs TextSize="1" Color="0.177888,0.838799,0.887923" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="1110" Height="230"/>
-       <NodeSize Width="1110" Height="264.30078"/>
-      </Node>
-      <Node Id="71" Class="Xml:OpenDocument" pos="2340,830,0" flags="0">
-       <Inputs File="player.xml" Location="0"/>
-      </Node>
-      <Node Id="73" Class="Xml:GetChild" pos="2630,830,0" flags="0">
-       <Inputs Name="lol" Create="1"/>
-      </Node>
-      <Node Id="76" Class="Xml:SetValue" pos="3000,1130,0" flags="0">
-       <Inputs />
-      </Node>
-      <Node Id="77" Class="String:SetString" pos="2760,1160,0" flags="0">
-       <Inputs In="testing"/>
-      </Node>
-      <Node Id="78" Class="Xml:SaveDocument" pos="3210,1130,0" flags="0">
-       <Inputs File="player.xml" Location="0" Overwrite="1"/>
-      </Node>
-      <Node Id="79" Class="Xml:NewChild" pos="2770,1010,0" flags="0">
-       <Inputs Name="v" Active="1"/>
-      </Node>
-      <Node Id="82" Class="Xml:DeleteAllChildren" pos="2550.9106,671.56274,0" flags="0">
-       <Inputs Name="lol"/>
+       <NodeSize Width="1110" Height="264.49588"/>
       </Node>
       <Node Id="84" Class="Xml:OpenDocument" pos="520,1810,0" flags="0">
        <Inputs File="player.xml" Location="0"/>
@@ -881,78 +860,78 @@
       <Node Id="174" Class="Xml:SaveDocument" pos="1140,3080,0" flags="0">
        <Inputs File="player.xml" Location="0" Overwrite="1"/>
       </Node>
-      <Node Id="175" Name="XML_Initialization" Class="_commentbox" pos="450,1718.8728,0" flags="0">
+      <Node Id="175" Name="XML_Initialization" Class="_commentbox" pos="450,1718.6777,0" flags="0">
        <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="3080" Height="1550"/>
-       <NodeSize Width="3080" Height="1584.3008"/>
+       <NodeSize Width="3080" Height="1584.4958"/>
       </Node>
-      <Node Id="176" Class="Xml:OpenDocument" pos="220,3540,0" flags="0">
+      <Node Id="176" Class="Xml:OpenDocument" pos="430,3790,0" flags="0">
        <Inputs File="player.xml" Location="0"/>
       </Node>
-      <Node Id="177" Class="Xml:GetChild" pos="760,3540,0" flags="0">
+      <Node Id="177" Class="Xml:GetChild" pos="970,3790,0" flags="0">
        <Inputs Name="properties" Create="0"/>
       </Node>
-      <Node Id="178" Class="Xml:GetChildAt" pos="1270,3540,0" flags="0">
+      <Node Id="178" Class="Xml:GetChildAt" pos="1480,3790,0" flags="0">
        <Inputs Name="pos" Index="0"/>
       </Node>
-      <Node Id="180" Class="Xml:GetValue" pos="1470,3540,0" flags="0">
+      <Node Id="180" Class="Xml:GetValue" pos="1680,3790,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="181" Class="Xml:GetChild" pos="1020,3540,0" flags="0">
+      <Node Id="181" Class="Xml:GetChild" pos="1230,3790,0" flags="0">
        <Inputs Name="targets" Create="0"/>
       </Node>
-      <Node Id="182" Class="AISequence:Start" pos="1680,3540,0" flags="0" GraphEntity="0">
+      <Node Id="182" Class="AISequence:Start" pos="1890,3790,0" flags="0" GraphEntity="0">
        <Inputs entityId="0" Interruptible="1" ResumeAfterInterruption="1"/>
       </Node>
-      <Node Id="183" Class="AISequence:Move" pos="2000,3540,0" flags="0" GraphEntity="0">
+      <Node Id="183" Class="AISequence:Move" pos="2210,3790,0" flags="0" GraphEntity="0">
        <Inputs entityId="0" Speed="1" Stance="0" DestinationEntity="0" Position="0,0,0" Direction="0,0,0" EndDistance="0"/>
       </Node>
-      <Node Id="184" Class="AISequence:End" pos="2270,3540,0" flags="0" GraphEntity="0">
+      <Node Id="184" Class="AISequence:End" pos="2480,3790,0" flags="0" GraphEntity="0">
        <Inputs entityId="0"/>
       </Node>
-      <Node Id="185" Class="AI:Signal" pos="2440,3540,0" flags="0" GraphEntity="0">
+      <Node Id="185" Class="AI:Signal" pos="2650,3790,0" flags="0" GraphEntity="0">
        <Inputs entityId="0" signal="OnTargetReached" posValue="0,0,0" posValue2="0,0,0" iValue="0" fValue="0" sValue="" id="0" Force="0"/>
       </Node>
-      <Node Id="186" Class="Xml:GetParent" pos="2760,3540,0" flags="0">
+      <Node Id="186" Class="Xml:GetParent" pos="2970,3790,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="187" Class="Xml:DeleteChildAt" pos="2990,3540,0" flags="0">
+      <Node Id="187" Class="Xml:DeleteChildAt" pos="3200,3790,0" flags="0">
        <Inputs Name="pos" Index="0"/>
       </Node>
-      <Node Id="188" Class="Xml:SaveDocument" pos="4120,3540,0" flags="1">
+      <Node Id="188" Class="Xml:SaveDocument" pos="4330,3790,0" flags="0">
        <Inputs File="player.xml" Location="0" Overwrite="1"/>
       </Node>
-      <Node Id="189" Class="Logic:Any" pos="70,3540,0" flags="0">
+      <Node Id="189" Class="Logic:Any" pos="280,3790,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="190" Class="Xml:GetParent" pos="3170,3540,0" flags="0">
+      <Node Id="190" Class="Xml:GetParent" pos="3380,3790,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="191" Class="Xml:GetChild" pos="3360,3540,0" flags="0">
+      <Node Id="191" Class="Xml:GetChild" pos="3570,3790,0" flags="0">
        <Inputs Name="numTargets" Create="0"/>
       </Node>
-      <Node Id="192" Class="Xml:IncValue" pos="3640,3540,0" flags="0">
+      <Node Id="192" Class="Xml:IncValue" pos="3850,3790,0" flags="0">
        <Inputs Amount="1"/>
       </Node>
-      <Node Id="195" Class="Xml:GetParent" pos="1300,3740,0" flags="0">
+      <Node Id="195" Class="Xml:GetParent" pos="1510,3990,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="196" Class="Xml:GetChild" pos="1500,3740,0" flags="0">
+      <Node Id="196" Class="Xml:GetChild" pos="1710,3990,0" flags="0">
        <Inputs Name="reachedEnd" Create="0"/>
       </Node>
-      <Node Id="197" Class="Xml:IncValue" pos="1780,3740,0" flags="0">
+      <Node Id="197" Class="Xml:IncValue" pos="1990,3990,0" flags="0">
        <Inputs Amount="1"/>
       </Node>
-      <Node Id="198" Class="AI:Signal" pos="1990,3750,0" flags="0" GraphEntity="0">
+      <Node Id="198" Class="AI:Signal" pos="2200,4000,0" flags="0" GraphEntity="0">
        <Inputs entityId="0" signal="OnWin" posValue="0,0,0" posValue2="0,0,0" iValue="0" fValue="0" sValue="" id="0" Force="0"/>
       </Node>
-      <Node Id="200" Class="Xml:SaveDocument" pos="2250,3820,0" flags="0">
+      <Node Id="200" Class="Xml:SaveDocument" pos="2460,4070,0" flags="0">
        <Inputs File="player.xml" Location="0" Overwrite="1"/>
       </Node>
-      <Node Id="201" Class="Xml:GetRoot" pos="520,3540,0" flags="0">
+      <Node Id="201" Class="Xml:GetRoot" pos="730,3790,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="202" Class="Xml:GetValue" pos="3890,3540,0" flags="0">
+      <Node Id="202" Class="Xml:GetValue" pos="4100,3790,0" flags="0">
        <Inputs />
       </Node>
       <Node Id="214" Class="Entity:FindEntityByName" pos="990,2300,0" flags="0">
@@ -979,98 +958,108 @@
       <Node Id="221" Class="Entity:EntityPos" pos="3040,2300,0" flags="0">
        <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" CoordSys="1"/>
       </Node>
-      <Node Id="226" Class="AI:AlertnessState" pos="-17.931057,3896.5564,0" flags="0">
+      <Node Id="226" Class="AI:AlertnessState" pos="410,5160,0" flags="0">
        <Inputs FilterAI="1" Faction="" Enabled="1"/>
       </Node>
-      <Node Id="227" Class="Actor:GetNearestActor" pos="257.93137,3904.8323,0" flags="0">
+      <Node Id="227" Class="Actor:GetNearestActor" pos="890,5180,0" flags="0">
        <Inputs CenterPos="0,0,0" MaxDist="0" Faction="Civilians" FactionFilterType="1" DeadAliveFilter="1"/>
       </Node>
-      <Node Id="228" Class="AISequence:Start" pos="700,3910,0" flags="0" GraphEntity="0">
+      <Node Id="228" Class="AISequence:Start" pos="1330,5190,0" flags="0" GraphEntity="0">
        <Inputs entityId="0" Interruptible="0" ResumeAfterInterruption="0"/>
       </Node>
-      <Node Id="229" Class="AISequence:End" pos="1410,3920,0" flags="0" GraphEntity="0">
+      <Node Id="229" Class="AISequence:End" pos="1910,5180,0" flags="0" GraphEntity="0">
        <Inputs entityId="0"/>
       </Node>
-      <Node Id="230" Class="AISequence:Move" pos="1030,3910,0" flags="0" GraphEntity="0">
+      <Node Id="230" Class="AISequence:Move" pos="1660,5190,0" flags="0" GraphEntity="0">
        <Inputs entityId="0" Speed="2" Stance="0" DestinationEntity="0" Position="0,0,0" Direction="0,0,0" EndDistance="0"/>
       </Node>
-      <Node Id="231" Class="Logic:Any" pos="-140,3900,0" flags="0">
+      <Node Id="231" Class="Logic:Any" pos="280,5160,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="232" Class="AI:Signal" pos="1580,3930,0" flags="0" GraphEntity="0">
+      <Node Id="232" Class="AI:Signal" pos="2080,5190,0" flags="0" GraphEntity="0">
        <Inputs entityId="0" signal="OnHide" posValue="0,0,0" posValue2="0,0,0" iValue="0" fValue="0" sValue="" id="0" Force="0"/>
       </Node>
-      <Node Id="233" Class="Xml:OpenDocument" pos="1134.7021,4354.8027,0" flags="0">
+      <Node Id="233" Class="Xml:OpenDocument" pos="1630,5620,0" flags="0">
        <Inputs File="player.xml" Location="0"/>
       </Node>
-      <Node Id="234" Class="Xml:GetRoot" pos="1380,4360,0" flags="0">
+      <Node Id="234" Class="Xml:GetRoot" pos="1880,5620,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="235" Class="Xml:GetChild" pos="1570,4360,0" flags="0">
+      <Node Id="235" Class="Xml:GetChild" pos="2070,5620,0" flags="0">
        <Inputs Name="properties" Create="0"/>
       </Node>
-      <Node Id="236" Class="Xml:GetChild" pos="1830,4360,0" flags="0">
+      <Node Id="236" Class="Xml:GetChild" pos="2330,5620,0" flags="0">
        <Inputs Name="hiding" Create="0"/>
       </Node>
-      <Node Id="237" Class="Xml:SetValue" pos="2070,4360,0" flags="0">
+      <Node Id="237" Class="Xml:SetValue" pos="2570,5620,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="238" Class="String:SetString" pos="1900,4480,0" flags="0">
+      <Node Id="238" Class="String:SetString" pos="2400,5740,0" flags="0">
        <Inputs In="1"/>
       </Node>
-      <Node Id="239" Class="Xml:SaveDocument" pos="2270,4360,0" flags="0">
+      <Node Id="239" Class="Xml:SaveDocument" pos="2770,5620,0" flags="0">
        <Inputs File="player.xml" Location="0" Overwrite="1"/>
       </Node>
-      <Node Id="240" Class="Xml:OpenDocument" pos="-20,4690,0" flags="0">
+      <Node Id="240" Class="Xml:OpenDocument" pos="480,5950,0" flags="0">
        <Inputs File="player.xml" Location="0"/>
       </Node>
-      <Node Id="241" Class="Xml:GetRoot" pos="200,4700,0" flags="0">
+      <Node Id="241" Class="Xml:GetRoot" pos="760,5950,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="242" Class="Xml:GetChild" pos="410,4700,0" flags="0">
+      <Node Id="242" Class="Xml:GetChild" pos="970,5950,0" flags="0">
        <Inputs Name="properties" Create="0"/>
       </Node>
-      <Node Id="243" Class="Xml:GetChild" pos="670,4700,0" flags="0">
+      <Node Id="243" Class="Xml:GetChild" pos="1230,5950,0" flags="0">
        <Inputs Name="hiding" Create="0"/>
       </Node>
-      <Node Id="244" Class="Xml:SetValue" pos="910,4700,0" flags="0">
+      <Node Id="244" Class="Xml:SetValue" pos="1470,5950,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="245" Class="String:SetString" pos="740,4820,0" flags="0">
+      <Node Id="245" Class="String:SetString" pos="1300,6070,0" flags="0">
        <Inputs In="0"/>
       </Node>
-      <Node Id="246" Class="Xml:SaveDocument" pos="1110,4700,0" flags="0">
+      <Node Id="246" Class="Xml:SaveDocument" pos="1670,5950,0" flags="0">
        <Inputs File="player.xml" Location="0" Overwrite="1"/>
       </Node>
-      <Node Id="247" Class="Logic:Any" pos="-170,4680,0" flags="0">
+      <Node Id="247" Class="Logic:Any" pos="330,5940,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="248" Class="AI:Stance" pos="2532.189,4350.4917,0" flags="0" GraphEntity="0">
+      <Node Id="248" Class="AI:Stance" pos="3030,5610,0" flags="0" GraphEntity="0">
        <Inputs entityId="0" stance="5"/>
       </Node>
-      <Node Id="249" Class="Logic:Any" pos="220,3650,0" flags="0">
+      <Node Id="249" Class="Logic:Any" pos="720,5170,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="255" Class="AI:Signal" pos="2661.2534,4492.4731,0" flags="0" EntityGUID="{AC693610-B247-4304-B877-BF3239D61587}" EntityGUID_64="4304B247AC693610">
+      <Node Id="255" Class="AI:Signal" pos="3160,5760,0" flags="0" EntityGUID="{AC693610-B247-4304-B877-BF3239D61587}" EntityGUID_64="4304B247AC693610">
        <Inputs entityId="0" signal="OnPlayerHide" posValue="0,0,0" posValue2="0,0,0" iValue="0" fValue="0" sValue="" id="0" Force="1"/>
       </Node>
-      <Node Id="256" Class="AISequence:Start" pos="2960,4500,0" flags="0" EntityGUID="{AC693610-B247-4304-B877-BF3239D61587}" EntityGUID_64="4304B247AC693610">
+      <Node Id="256" Class="AISequence:Start" pos="3460,5760,0" flags="0" EntityGUID="{AC693610-B247-4304-B877-BF3239D61587}" EntityGUID_64="4304B247AC693610">
        <Inputs entityId="0" Interruptible="0" ResumeAfterInterruption="0"/>
       </Node>
-      <Node Id="257" Class="AISequence:Move" pos="3290,4490,0" flags="0" EntityGUID="{AC693610-B247-4304-B877-BF3239D61587}" EntityGUID_64="4304B247AC693610">
+      <Node Id="257" Class="AISequence:Move" pos="3790,5750,0" flags="0" EntityGUID="{AC693610-B247-4304-B877-BF3239D61587}" EntityGUID_64="4304B247AC693610">
        <Inputs entityId="0" Speed="0" Stance="0" DestinationEntity="0" Position="0,0,0" Direction="0,0,0" EndDistance="0"/>
       </Node>
-      <Node Id="258" Class="AISequence:End" pos="3584.9902,4507.1567,0" flags="0" EntityGUID="{AC693610-B247-4304-B877-BF3239D61587}" EntityGUID_64="4304B247AC693610">
+      <Node Id="258" Class="AISequence:End" pos="4080,5770,0" flags="0" EntityGUID="{AC693610-B247-4304-B877-BF3239D61587}" EntityGUID_64="4304B247AC693610">
        <Inputs entityId="0"/>
       </Node>
-      <Node Id="260" Class="entity:TagPoint" pos="3020,4660,0" flags="0" EntityGUID="{9E8BDA33-10CE-402C-A0A9-3D9A049C4EF2}" EntityGUID_64="402C10CE9E8BDA33">
+      <Node Id="260" Class="entity:TagPoint" pos="3520,5920,0" flags="0" EntityGUID="{9E8BDA33-10CE-402C-A0A9-3D9A049C4EF2}" EntityGUID_64="402C10CE9E8BDA33">
        <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" CoordSys="1"/>
       </Node>
-      <Node Id="261" Class="Xml:GetValue" pos="880,4920,0" flags="0">
+      <Node Id="261" Class="Xml:GetValue" pos="1440,6170,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="262" Class="Logic:AND" pos="1177.4752,4894.4995,0" flags="0">
+      <Node Id="262" Class="Logic:AND" pos="1740,6150,0" flags="0">
        <Inputs A="0" B="0" Always="0"/>
+      </Node>
+      <Node Id="264" Name="Target_Selection_and_Movement" Class="_commentbox" pos="170,3599.9463,0" flags="0">
+       <Inputs TextSize="1" Color="0.846873,0.194618,0.597202" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="4500" Height="730"/>
+       <NodeSize Width="4500" Height="764.49591"/>
+      </Node>
+      <Node Id="265" Name="Hiding_Logic_and_XML/Signal_Manipulation" Class="_commentbox" pos="140,4949.9482,0" flags="0">
+       <Inputs TextSize="1" Color="1,1,1" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="4420" Height="1440"/>
+       <NodeSize Width="4420" Height="1474.4958"/>
       </Node>
      </Nodes>
      <Edges>
@@ -1091,12 +1080,6 @@
       <Edge nodeIn="37" nodeOut="60" portIn="Start" portOut="true" enabled="1"/>
       <Edge nodeIn="52" nodeOut="60" portIn="Start" portOut="false" enabled="1"/>
       <Edge nodeIn="41" nodeOut="61" portIn="Start" portOut="Done" enabled="1"/>
-      <Edge nodeIn="82" nodeOut="71" portIn="Execute" portOut="Success" enabled="1"/>
-      <Edge nodeIn="79" nodeOut="73" portIn="Execute" portOut="Success" enabled="1"/>
-      <Edge nodeIn="78" nodeOut="76" portIn="Execute" portOut="Success" enabled="1"/>
-      <Edge nodeIn="76" nodeOut="77" portIn="Value" portOut="Out" enabled="1"/>
-      <Edge nodeIn="76" nodeOut="79" portIn="Execute" portOut="Success" enabled="1"/>
-      <Edge nodeIn="73" nodeOut="82" portIn="Execute" portOut="Success" enabled="1"/>
       <Edge nodeIn="136" nodeOut="84" portIn="Execute" portOut="Success" enabled="1"/>
       <Edge nodeIn="86" nodeOut="85" portIn="Execute" portOut="Success" enabled="1"/>
       <Edge nodeIn="91" nodeOut="85" portIn="Set" portOut="Success" enabled="1"/>

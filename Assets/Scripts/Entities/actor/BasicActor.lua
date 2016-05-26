@@ -1101,7 +1101,7 @@ function BasicActor:OnPostLoad()
 end
 
 function BasicActor:OnResetLoad()
-	self.actor:SetPhysicalizationProfile("alive");
+	--self.actor:SetPhysicalizationProfile("alive");
 end
 
 function BasicActor:OnSpawn(bIsReload)
@@ -1132,7 +1132,7 @@ end
 
 -- Call some initial code for actor spawn and respawn
 function BasicActor:InitialSetup(bIsReload)
-	BasicActor.Reset(self, bIsReload);
+	--BasicActor.Reset(self, bIsReload);
 end
 
 function BasicActor:ScriptEvent(event,value,str)

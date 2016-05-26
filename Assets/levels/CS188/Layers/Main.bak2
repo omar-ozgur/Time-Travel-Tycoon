@@ -742,27 +742,27 @@
       <Node Id="63" Class="Weapon:Ammo" pos="560,-120,0" flags="0" GraphEntity="0">
        <Inputs entityId="0" AmmoType="PistolBullet" AmountCount="10000" Add="1"/>
       </Node>
-      <Node Id="65" Name="Set_Ammo" Class="_commentbox" pos="510,-192.52783,0" flags="0">
+      <Node Id="65" Name="Set_Ammo" Class="_commentbox" pos="510,-192.52814,0" flags="0">
        <Inputs TextSize="1" Color="1,0.138432,0.138432" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="460" Height="240"/>
        <NodeSize Width="460" Height="274.30078"/>
       </Node>
-      <Node Id="66" Name="Check_Mouse_Click_Information" Class="_commentbox" pos="490,244.3063,0" flags="0">
+      <Node Id="66" Name="Check_Mouse_Click_Information" Class="_commentbox" pos="490,244.30603,0" flags="0">
        <Inputs TextSize="1" Color="0.417885,0.938686,0.158961" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="680" Height="340"/>
        <NodeSize Width="680" Height="374.30078"/>
       </Node>
-      <Node Id="67" Name="Raycast_Logic" Class="_commentbox" pos="510,747.3559,0" flags="0">
+      <Node Id="67" Name="Raycast_Logic" Class="_commentbox" pos="510,747.35565,0" flags="0">
        <Inputs TextSize="1" Color="0.973445,0.514918,0.147027" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="440" Height="280"/>
        <NodeSize Width="440" Height="314.30078"/>
       </Node>
-      <Node Id="68" Name="Move" Class="_commentbox" pos="1460,747.24933,0" flags="0">
+      <Node Id="68" Name="Move" Class="_commentbox" pos="1460,747.24908,0" flags="0">
        <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="850" Height="290"/>
        <NodeSize Width="850" Height="324.30078"/>
       </Node>
-      <Node Id="69" Name="Shoot" Class="_commentbox" pos="1010,1168.8932,0" flags="0">
+      <Node Id="69" Name="Shoot" Class="_commentbox" pos="1010,1168.8929,0" flags="0">
        <Inputs TextSize="1" Color="0.177888,0.838799,0.887923" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="1110" Height="230"/>
        <NodeSize Width="1110" Height="264.30078"/>
@@ -895,7 +895,7 @@
       <Node Id="178" Class="Xml:GetChildAt" pos="1270,3540,0" flags="0">
        <Inputs Name="pos" Index="0"/>
       </Node>
-      <Node Id="180" Class="Xml:GetValue" pos="1490,3540,0" flags="0">
+      <Node Id="180" Class="Xml:GetValue" pos="1470,3540,0" flags="0">
        <Inputs />
       </Node>
       <Node Id="181" Class="Xml:GetChild" pos="1020,3540,0" flags="0">
@@ -916,10 +916,10 @@
       <Node Id="186" Class="Xml:GetParent" pos="2760,3540,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="187" Class="Xml:DeleteChildAt" pos="2950,3540,0" flags="0">
+      <Node Id="187" Class="Xml:DeleteChildAt" pos="2990,3540,0" flags="0">
        <Inputs Name="pos" Index="0"/>
       </Node>
-      <Node Id="188" Class="Xml:SaveDocument" pos="4120,3540,0" flags="0">
+      <Node Id="188" Class="Xml:SaveDocument" pos="4120,3540,0" flags="1">
        <Inputs File="player.xml" Location="0" Overwrite="1"/>
       </Node>
       <Node Id="189" Class="Logic:Any" pos="70,3540,0" flags="0">
@@ -1021,10 +1021,10 @@
       <Node Id="239" Class="Xml:SaveDocument" pos="2270,4360,0" flags="0">
        <Inputs File="player.xml" Location="0" Overwrite="1"/>
       </Node>
-      <Node Id="240" Class="Xml:OpenDocument" pos="-30,4700,0" flags="0">
+      <Node Id="240" Class="Xml:OpenDocument" pos="-20,4690,0" flags="0">
        <Inputs File="player.xml" Location="0"/>
       </Node>
-      <Node Id="241" Class="Xml:GetRoot" pos="210,4700,0" flags="0">
+      <Node Id="241" Class="Xml:GetRoot" pos="200,4700,0" flags="0">
        <Inputs />
       </Node>
       <Node Id="242" Class="Xml:GetChild" pos="410,4700,0" flags="0">
@@ -1039,7 +1039,7 @@
       <Node Id="245" Class="String:SetString" pos="740,4820,0" flags="0">
        <Inputs In="0"/>
       </Node>
-      <Node Id="246" Class="Xml:SaveDocument" pos="1110,4700,0" flags="1">
+      <Node Id="246" Class="Xml:SaveDocument" pos="1110,4700,0" flags="0">
        <Inputs File="player.xml" Location="0" Overwrite="1"/>
       </Node>
       <Node Id="247" Class="Logic:Any" pos="-170,4680,0" flags="0">
@@ -1065,6 +1065,12 @@
       </Node>
       <Node Id="260" Class="entity:TagPoint" pos="3020,4660,0" flags="0" EntityGUID="{9E8BDA33-10CE-402C-A0A9-3D9A049C4EF2}" EntityGUID_64="402C10CE9E8BDA33">
        <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" CoordSys="1"/>
+      </Node>
+      <Node Id="261" Class="Xml:GetValue" pos="880,4920,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="262" Class="Logic:AND" pos="1177.4752,4894.4995,0" flags="0">
+       <Inputs A="0" B="0" Always="0"/>
       </Node>
      </Nodes>
      <Edges>
@@ -1141,6 +1147,7 @@
       <Edge nodeIn="186" nodeOut="185" portIn="Execute" portOut="succeed" enabled="1"/>
       <Edge nodeIn="187" nodeOut="186" portIn="Execute" portOut="Success" enabled="1"/>
       <Edge nodeIn="190" nodeOut="187" portIn="Execute" portOut="Success" enabled="1"/>
+      <Edge nodeIn="189" nodeOut="188" portIn="in3" portOut="Success" enabled="1"/>
       <Edge nodeIn="176" nodeOut="189" portIn="Execute" portOut="out" enabled="1"/>
       <Edge nodeIn="191" nodeOut="190" portIn="Execute" portOut="Success" enabled="1"/>
       <Edge nodeIn="192" nodeOut="191" portIn="Execute" portOut="Success" enabled="1"/>
@@ -1160,7 +1167,6 @@
       <Edge nodeIn="221" nodeOut="220" portIn="entityId" portOut="EntityId" enabled="1"/>
       <Edge nodeIn="126" nodeOut="221" portIn="Value" portOut="pos" enabled="1"/>
       <Edge nodeIn="231" nodeOut="226" portIn="in2" portOut="green" enabled="1"/>
-      <Edge nodeIn="247" nodeOut="226" portIn="in1" portOut="green" enabled="1"/>
       <Edge nodeIn="249" nodeOut="226" portIn="in1" portOut="orange" enabled="1"/>
       <Edge nodeIn="249" nodeOut="226" portIn="in2" portOut="red" enabled="1"/>
       <Edge nodeIn="228" nodeOut="227" portIn="Start" portOut="Pos" enabled="1"/>
@@ -1182,18 +1188,22 @@
       <Edge nodeIn="241" nodeOut="240" portIn="Execute" portOut="Success" enabled="1"/>
       <Edge nodeIn="242" nodeOut="241" portIn="Execute" portOut="Success" enabled="1"/>
       <Edge nodeIn="243" nodeOut="242" portIn="Execute" portOut="Success" enabled="1"/>
-      <Edge nodeIn="244" nodeOut="243" portIn="Execute" portOut="Success" enabled="1"/>
       <Edge nodeIn="245" nodeOut="243" portIn="Set" portOut="Success" enabled="1"/>
+      <Edge nodeIn="261" nodeOut="243" portIn="Execute" portOut="Success" enabled="1"/>
       <Edge nodeIn="246" nodeOut="244" portIn="Execute" portOut="Success" enabled="1"/>
       <Edge nodeIn="244" nodeOut="245" portIn="Value" portOut="Out" enabled="1"/>
-      <Edge nodeIn="189" nodeOut="246" portIn="in2" portOut="Success" enabled="1"/>
+      <Edge nodeIn="262" nodeOut="246" portIn="A" portOut="Success" enabled="1"/>
       <Edge nodeIn="240" nodeOut="247" portIn="Execute" portOut="out" enabled="1"/>
       <Edge nodeIn="255" nodeOut="248" portIn="sink" portOut="succeed" enabled="1"/>
       <Edge nodeIn="227" nodeOut="249" portIn="Trigger" portOut="out" enabled="1"/>
+      <Edge nodeIn="247" nodeOut="255" portIn="in2" portOut="succeed" enabled="1"/>
       <Edge nodeIn="256" nodeOut="255" portIn="Start" portOut="succeed" enabled="1"/>
       <Edge nodeIn="257" nodeOut="256" portIn="Start" portOut="Link" enabled="1"/>
       <Edge nodeIn="258" nodeOut="257" portIn="End" portOut="Done" enabled="1"/>
       <Edge nodeIn="257" nodeOut="260" portIn="Position" portOut="pos" enabled="1"/>
+      <Edge nodeIn="244" nodeOut="261" portIn="Execute" portOut="Success" enabled="1"/>
+      <Edge nodeIn="262" nodeOut="261" portIn="B" portOut="Value" enabled="1"/>
+      <Edge nodeIn="189" nodeOut="262" portIn="in2" portOut="true" enabled="1"/>
      </Edges>
      <GraphTokens />
     </FlowGraph>

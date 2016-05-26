@@ -1,8 +1,13 @@
 <Data>
  <properties>
-  <numTargets>4.000000</numTargets>
-  <targets />
-  <reachedEnd>1.000000</reachedEnd>
+  <numTargets>0</numTargets>
+  <targets>
+   <pos>523,520,32</pos>
+   <pos>520,539,32</pos>
+   <pos>501,539,32</pos>
+   <pos>521,559,32</pos>
+  </targets>
+  <reachedEnd>0</reachedEnd>
   <hiding>0</hiding>
  </properties>
 </Data>
