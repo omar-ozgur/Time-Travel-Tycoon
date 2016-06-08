@@ -121,11 +121,11 @@
      </Object>
     </Objects>
    </Object>
-   <Object Name="Enemy.Easy_Pistol1" Prototype="{D3F42BC1-37D3-41B7-A3B2-A0BB929E67AD}" PrototypeLibrary="Characters" Type="EntityArchetype" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{AC693610-B247-4304-B877-BF3239D61587}" Pos="509.16177,499.92313,32" FloorNumber="-1" Rotate="0.6691305,0,0,0.74314487" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="1" HasEntity="1">
-    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+   <Object Name="Enemy.Easy_Pistol1" Prototype="{D3F42BC1-37D3-41B7-A3B2-A0BB929E67AD}" PrototypeLibrary="Characters" Type="EntityArchetype" Layer="Main" LayerGUID="{7A89BD91-3E23-49F0-8D76-F0A2D601B9B2}" Id="{AC693610-B247-4304-B877-BF3239D61587}" Pos="500.0235,496.05121,32.202507" FloorNumber="-1" Rotate="0.12186932,0,0,0.99254614" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="1" HasEntity="1">
+    <Properties2 bAlarmed="1" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
      <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
      <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
-     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Interest Angle="360" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
      <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
     </Properties2>
     <FlowGraph Description="" Group="Guard" enabled="1" MultiPlayer="ClientServer">
@@ -765,30 +765,30 @@
       <Node Id="63" Class="Weapon:Ammo" pos="610,-180,0" flags="0" GraphEntity="0">
        <Inputs entityId="0" AmmoType="PistolBullet" AmountCount="10000" Add="1"/>
       </Node>
-      <Node Id="65" Name="Set_Ammo" Class="_commentbox" pos="560,-292.43854,0" flags="0">
+      <Node Id="65" Name="Set_Ammo" Class="_commentbox" pos="560,-246.53539,0" flags="0">
        <Inputs TextSize="1" Color="1,0.138432,0.138432" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="460" Height="240"/>
-       <NodeSize Width="460" Height="313.86887"/>
+       <NodeSize Width="460" Height="267.9657"/>
       </Node>
-      <Node Id="66" Name="Check_Mouse_Click_Information" Class="_commentbox" pos="490,204.73911,0" flags="0">
+      <Node Id="66" Name="Check_Mouse_Click_Information" Class="_commentbox" pos="490,250.64229,0" flags="0">
        <Inputs TextSize="1" Color="0.417885,0.938686,0.158961" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="1130" Height="340"/>
-       <NodeSize Width="1130" Height="413.86887"/>
+       <NodeSize Width="1130" Height="367.9657"/>
       </Node>
-      <Node Id="67" Name="Raycast_Logic" Class="_commentbox" pos="1370,822.25165,0" flags="0">
+      <Node Id="67" Name="Raycast_Logic" Class="_commentbox" pos="1370,868.15479,0" flags="0">
        <Inputs TextSize="1" Color="0.973445,0.514918,0.147027" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="490" Height="280"/>
-       <NodeSize Width="490" Height="353.86887"/>
+       <NodeSize Width="490" Height="307.9657"/>
       </Node>
-      <Node Id="68" Name="Move" Class="_commentbox" pos="3700,872.25165,0" flags="0">
+      <Node Id="68" Name="Move" Class="_commentbox" pos="3700,918.15479,0" flags="0">
        <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="850" Height="290"/>
-       <NodeSize Width="850" Height="363.86887"/>
+       <NodeSize Width="850" Height="317.9657"/>
       </Node>
-      <Node Id="69" Name="Shoot" Class="_commentbox" pos="2340,882.2514,0" flags="0">
+      <Node Id="69" Name="Shoot" Class="_commentbox" pos="2340,928.15454,0" flags="0">
        <Inputs TextSize="1" Color="0.177888,0.838799,0.887923" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="1110" Height="230"/>
-       <NodeSize Width="1110" Height="303.86887"/>
+       <NodeSize Width="1110" Height="257.9657"/>
       </Node>
       <Node Id="84" Class="Xml:OpenDocument" pos="520,1810,0" flags="0">
        <Inputs File="player.xml" Location="0"/>
@@ -883,10 +883,10 @@
       <Node Id="174" Class="Xml:SaveDocument" pos="1140,3080,0" flags="0">
        <Inputs File="player.xml" Location="0" Overwrite="1"/>
       </Node>
-      <Node Id="175" Name="XML_Initialization" Class="_commentbox" pos="450,1679.3062,0" flags="0">
+      <Node Id="175" Name="XML_Initialization" Class="_commentbox" pos="450,1725.2094,0" flags="0">
        <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="3080" Height="1550"/>
-       <NodeSize Width="3080" Height="1623.8689"/>
+       <NodeSize Width="3080" Height="1577.9657"/>
       </Node>
       <Node Id="176" Class="Xml:OpenDocument" pos="360,4100,0" flags="0">
        <Inputs File="learning.xml" Location="0"/>
@@ -1059,15 +1059,15 @@
       <Node Id="262" Class="Logic:AND" pos="1740,6150,0" flags="0">
        <Inputs A="0" B="0" Always="1"/>
       </Node>
-      <Node Id="264" Name="Target_Selection_and_Movement" Class="_commentbox" pos="170,3391.645,0" flags="0">
+      <Node Id="264" Name="Target_Selection_and_Movement" Class="_commentbox" pos="170,3437.5481,0" flags="0">
        <Inputs TextSize="1" Color="0.846873,0.194618,0.597202" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="4500" Height="900"/>
-       <NodeSize Width="4500" Height="973.8689"/>
+       <NodeSize Width="4500" Height="927.9657"/>
       </Node>
-      <Node Id="265" Name="Hiding_Logic_and_XML/Signal_Manipulation" Class="_commentbox" pos="-330,4698.9248,0" flags="0">
+      <Node Id="265" Name="Hiding_Logic_and_XML/Signal_Manipulation" Class="_commentbox" pos="-330,4744.8281,0" flags="0">
        <Inputs TextSize="1" Color="1,1,1" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="4890" Height="1650"/>
-       <NodeSize Width="4890" Height="1723.8689"/>
+       <NodeSize Width="4890" Height="1677.9657"/>
       </Node>
       <Node Id="266" Class="Xml:OpenDocument" pos="2480,370,0" flags="0">
        <Inputs File="learning.xml" Location="0"/>
@@ -1216,8 +1216,8 @@
       <Node Id="350" Class="Logic:AND" pos="400,1460,0" flags="0">
        <Inputs A="0" B="0" Always="0"/>
       </Node>
-      <Node Id="355" Class="String:SetString" pos="-1570,1070,0" flags="0">
-       <Inputs In="p"/>
+      <Node Id="355" Class="String:SetString" pos="-1570,1070,0" flags="1">
+       <Inputs In="a"/>
       </Node>
       <Node Id="359" Class="String:Compare" pos="230,290,0" flags="0">
        <Inputs A="" B="p" IgnoreCase="1"/>
@@ -1255,40 +1255,40 @@
       <Node Id="378" Class="Xml:GetRoot" pos="3400,3790,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="379" Name="Learning_XML_initialization" Class="_commentbox" pos="2420,152.03839,0" flags="0">
+      <Node Id="379" Name="Learning_XML_initialization" Class="_commentbox" pos="2420,197.94164,0" flags="0">
        <Inputs TextSize="1" Color="0.854993,0.191202,0.351533" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="2670" Height="610"/>
-       <NodeSize Width="2670" Height="683.8689"/>
+       <NodeSize Width="2670" Height="637.9657"/>
       </Node>
-      <Node Id="381" Name="Check_Enemy_Alertness" Class="_commentbox" pos="-90,757.54681,0" flags="0">
+      <Node Id="381" Name="Check_Enemy_Alertness" Class="_commentbox" pos="-90,803.44995,0" flags="0">
        <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="530" Height="310"/>
-       <NodeSize Width="585.13611" Height="383.86887"/>
+       <NodeSize Width="530" Height="337.9657"/>
       </Node>
-      <Node Id="382" Name="Record_Movement_Position" Class="_commentbox" pos="360,1329.173,0" flags="0">
+      <Node Id="382" Name="Record_Movement_Position" Class="_commentbox" pos="360,1375.0762,0" flags="0">
        <Inputs TextSize="1" Color="0.181164,0.879623,0.242281" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="2140" Height="310"/>
-       <NodeSize Width="2140" Height="383.86887"/>
+       <NodeSize Width="2140" Height="337.9657"/>
       </Node>
-      <Node Id="383" Name="Save_Shooting_Reaction_State" Class="_commentbox" pos="-930,1199.0834,0" flags="0">
+      <Node Id="383" Name="Save_Shooting_Reaction_State" Class="_commentbox" pos="-930,1244.9866,0" flags="0">
        <Inputs TextSize="1" Color="0.138432,0.822786,1" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="1260" Height="300"/>
-       <NodeSize Width="1260" Height="373.86887"/>
+       <NodeSize Width="1260" Height="327.9657"/>
       </Node>
-      <Node Id="384" Name="Save_Hiding_Reaction_State" Class="_commentbox" pos="-2120,1888.9156,0" flags="0">
+      <Node Id="384" Name="Save_Hiding_Reaction_State" Class="_commentbox" pos="-2120,1934.8188,0" flags="0">
        <Inputs TextSize="1" Color="0.982251,0.53948,0.144129" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="1820" Height="300"/>
-       <NodeSize Width="1820" Height="373.86887"/>
+       <NodeSize Width="1820" Height="327.9657"/>
       </Node>
-      <Node Id="385" Name="Game_Start" Class="_commentbox" pos="-1740,794.4809,0" flags="0">
+      <Node Id="385" Name="Game_Start" Class="_commentbox" pos="-1740,840.38403,0" flags="0">
        <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="480" Height="340"/>
-       <NodeSize Width="480" Height="413.86887"/>
+       <NodeSize Width="480" Height="367.9657"/>
       </Node>
-      <Node Id="386" Name="Move_Enemy_To_Path" Class="_commentbox" pos="-1460,2668.9119,0" flags="0">
+      <Node Id="386" Name="Move_Enemy_To_Path" Class="_commentbox" pos="-1460,2714.8147,0" flags="0">
        <Inputs TextSize="1" Color="0.665387,0.760525,0.234551" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="1080" Height="410"/>
-       <NodeSize Width="1080" Height="483.86887"/>
+       <NodeSize Width="1080" Height="437.9657"/>
       </Node>
       <Node Id="387" Class="Xml:OpenDocument" pos="750,5000,0" flags="0">
        <Inputs File="learning.xml" Location="0"/>
@@ -1716,61 +1716,61 @@
       <Node Id="651" Class="Xml:DeleteChild" pos="9420,2030,0" flags="0">
        <Inputs Name="finalA"/>
       </Node>
-      <Node Id="653" Class="Math:LessCheck" pos="9460,2290,0" flags="1">
+      <Node Id="653" Class="Math:LessCheck" pos="9460,2290,0" flags="0">
        <Inputs A="0" B="0"/>
       </Node>
-      <Node Id="654" Class="Xml:GetChildAt" pos="9100,2440,0" flags="1">
+      <Node Id="654" Class="Xml:GetChildAt" pos="9100,2440,0" flags="0">
        <Inputs Name="click" Index="0"/>
       </Node>
-      <Node Id="655" Class="Xml:GetRoot" pos="9220,2150,0" flags="1">
+      <Node Id="655" Class="Xml:GetRoot" pos="9220,2150,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="656" Class="Xml:GetChild" pos="9220,2260,0" flags="1">
+      <Node Id="656" Class="Xml:GetChild" pos="9220,2260,0" flags="0">
        <Inputs Name="clicks" Create="0"/>
       </Node>
-      <Node Id="657" Class="Xml:GetAttribute" pos="9300,2450,0" flags="1">
+      <Node Id="657" Class="Xml:GetAttribute" pos="9300,2450,0" flags="0">
        <Inputs Name="x"/>
       </Node>
-      <Node Id="658" Class="Xml:GetAttribute" pos="9300,2570,0" flags="1">
+      <Node Id="658" Class="Xml:GetAttribute" pos="9300,2570,0" flags="0">
        <Inputs Name="y"/>
       </Node>
-      <Node Id="659" Class="Xml:GetAttribute" pos="9310,2690,0" flags="1">
+      <Node Id="659" Class="Xml:GetAttribute" pos="9310,2690,0" flags="0">
        <Inputs Name="z"/>
       </Node>
-      <Node Id="660" Class="Xml:GetRoot" pos="9480,2450,0" flags="1">
+      <Node Id="660" Class="Xml:GetRoot" pos="9480,2450,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="661" Class="Xml:GetChild" pos="9690,2450,0" flags="1">
+      <Node Id="661" Class="Xml:GetChild" pos="9690,2450,0" flags="0">
        <Inputs Name="finalA" Create="1"/>
       </Node>
-      <Node Id="663" Class="Xml:NewChild" pos="9690,2560,0" flags="1">
+      <Node Id="663" Class="Xml:NewChild" pos="9690,2560,0" flags="0">
        <Inputs Name="click" Active="1"/>
       </Node>
-      <Node Id="664" Class="Xml:SetAttribute" pos="9690,2660,0" flags="1">
+      <Node Id="664" Class="Xml:SetAttribute" pos="9690,2660,0" flags="0">
        <Inputs Name="x"/>
       </Node>
-      <Node Id="665" Class="Xml:SetAttribute" pos="9690,2750,0" flags="1">
+      <Node Id="665" Class="Xml:SetAttribute" pos="9690,2750,0" flags="0">
        <Inputs Name="y"/>
       </Node>
-      <Node Id="666" Class="Xml:SetAttribute" pos="9700,2850,0" flags="1">
+      <Node Id="666" Class="Xml:SetAttribute" pos="9700,2850,0" flags="0">
        <Inputs Name="z"/>
       </Node>
-      <Node Id="667" Class="Logic:Any" pos="9680,2210,0" flags="1">
+      <Node Id="667" Class="Logic:Any" pos="9680,2210,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="669" Class="Xml:GetRoot" pos="9890,2460,0" flags="1">
+      <Node Id="669" Class="Xml:GetRoot" pos="9890,2460,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="670" Class="Xml:GetChild" pos="9910,2600,0" flags="1">
+      <Node Id="670" Class="Xml:GetChild" pos="9910,2600,0" flags="0">
        <Inputs Name="clicks" Create="0"/>
       </Node>
-      <Node Id="671" Class="Xml:DeleteChildAt" pos="9910,2730,0" flags="1">
+      <Node Id="671" Class="Xml:DeleteChildAt" pos="9910,2730,0" flags="0">
        <Inputs Name="click" Index="0"/>
       </Node>
-      <Node Id="672" Class="Math:Counter" pos="9110,2570,0" flags="1">
+      <Node Id="672" Class="Math:Counter" pos="9110,2570,0" flags="0">
        <Inputs max="10000"/>
       </Node>
-      <Node Id="673" Class="Xml:SaveDocument" pos="9710,3040,0" flags="1">
+      <Node Id="673" Class="Xml:SaveDocument" pos="9710,3040,0" flags="0">
        <Inputs File="learning.xml" Location="0" Overwrite="1"/>
       </Node>
       <Node Id="674" Class="Math:Counter" pos="2790,1480,0" flags="0">
@@ -1953,10 +1953,10 @@
       <Node Id="751" Class="Logic:Any" pos="-820,3880,0" flags="0">
        <Inputs />
       </Node>
-      <Node Id="752" Name="Failure_States" Class="_commentbox" pos="-1010,3292.509,0" flags="0">
+      <Node Id="752" Name="Failure_States" Class="_commentbox" pos="-1010,3338.4128,0" flags="0">
        <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="820" Height="1310"/>
-       <NodeSize Width="820" Height="1383.8689"/>
+       <NodeSize Width="820" Height="1337.9657"/>
       </Node>
       <Node Id="753" Class="Actor:GetNearestActor" pos="1200,4860,0" flags="0">
        <Inputs CenterPos="0,0,0" MaxDist="0" Faction="Grunts" FactionFilterType="1" DeadAliveFilter="0"/>
@@ -1970,25 +1970,25 @@
       <Node Id="756" Class="Entity:GetPos" pos="2740,5960,0" flags="0" GraphEntity="0">
        <Inputs entityId="0" CoordSys="1"/>
       </Node>
-      <Node Id="757" Name="Check_Target_Positions" Class="_commentbox" pos="4910,3373.7385,0" flags="0">
+      <Node Id="757" Name="Check_Target_Positions" Class="_commentbox" pos="4910,3419.6418,0" flags="0">
        <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="2570" Height="2180"/>
-       <NodeSize Width="2570" Height="2253.8689"/>
+       <NodeSize Width="2570" Height="2207.9656"/>
       </Node>
-      <Node Id="758" Name="Check_Target_Positions" Class="_commentbox" pos="5280,718.92651,0" flags="0">
+      <Node Id="758" Name="Check_Target_Positions" Class="_commentbox" pos="5280,764.82959,0" flags="0">
        <Inputs TextSize="1" Color="0.168269,0.913099,0.212231" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="2570" Height="2180"/>
-       <NodeSize Width="2570" Height="2253.8689"/>
+       <NodeSize Width="2570" Height="2207.9656"/>
       </Node>
-      <Node Id="759" Name="Segment-Based_Learning" Class="_commentbox" pos="8380,618.92725,0" flags="0">
+      <Node Id="759" Name="Segment-Based_Learning" Class="_commentbox" pos="8380,664.83044,0" flags="0">
        <Inputs TextSize="1" Color="0.745404,0.745404,0.242281" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="2890" Height="2610"/>
-       <NodeSize Width="2890" Height="2683.8689"/>
+       <NodeSize Width="2890" Height="2637.9656"/>
       </Node>
-      <Node Id="760" Name="Beginning_Message" Class="_commentbox" pos="-480,-398.3237,0" flags="0">
+      <Node Id="760" Name="Beginning_Message" Class="_commentbox" pos="-480,-352.42044,0" flags="0">
        <Inputs TextSize="1" Color="0.158961,0.791298,0.938686" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
        <ResizeBorder X="0" Y="0" Width="990" Height="580"/>
-       <NodeSize Width="990" Height="653.8689"/>
+       <NodeSize Width="990" Height="607.9657"/>
       </Node>
      </Nodes>
      <Edges>
