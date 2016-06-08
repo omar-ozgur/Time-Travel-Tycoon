@@ -2,12 +2,12 @@
  <properties>
   <numTargets>0</numTargets>
   <targets>
-   <pos>523,520,32</pos>
-   <pos>520,539,32</pos>
-   <pos>501,539,32</pos>
-   <pos>521,559,32</pos>
+   <pos>526.567,525.405,32.9751</pos>
+   <pos>525.132,539,33.2648</pos>
+   <pos>498.314,543.09,33.2479</pos>
+   <pos>521,559,32.1609</pos>
   </targets>
-  <reachedEnd>0</reachedEnd>
+  <reachedEnd>4.000000</reachedEnd>
   <hiding>0</hiding>
  </properties>
 </Data>

@@ -265,15 +265,15 @@
    <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
-   <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="10" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-   <Guard fcuriosity="1" smessage="Hello Jahan">
+   <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="50" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+   <Guard fcuriosity="5" smessage="Hello Jahan">
     <stateArray s1="CURIOUS" s2="ALERTED" s3="STANDBY"/>
    </Guard>
    <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
    <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
     <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
    </LipSync>
-   <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="0" collisionReactionScale="1" config="Human" FOVPrimary="40" FOVSecondary="80" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="5" persistence="0" sightrange="0" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+   <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="0" collisionReactionScale="1" config="Human" FOVPrimary="40" FOVSecondary="80" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="5" persistence="0" sightrange="10" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
     <TargetTracks classThreat="1" targetLimit="0"/>
    </Perception>
    <Physics>
@@ -540,7 +540,7 @@
   <Attributes />
  </EntityPrototype>
  <EntityPrototype Name="Friendly.Easy_RPG" Id="{0F157D5F-1491-4197-8C81-7F4D87F16FFE}" Library="Characters" Class="Human" Description="">
-  <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="Empty" esFaction="Civilians" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue.cdf" nModelVariations="0" esModularBehaviorTree="SDK_Grunt_01" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="">
+  <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="Empty" esFaction="Civilians" bFactionHostility="0" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue.cdf" nModelVariations="0" esModularBehaviorTree="SDK_Grunt_01" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="">
    <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
    <Behavior bEnableHunger="0" fHungerFull="100" fHungerRate="5" fHungerThreshold="30"/>
    <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
